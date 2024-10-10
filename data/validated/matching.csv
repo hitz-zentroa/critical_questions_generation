@@ -1,0 +1,203 @@
+arg_id,scheme,llm_cq_id,premises,thoery_cq,llm_cq,same?,type
+TRUMP_15_2,Argument from Bias,TRUMP_15_8,"
+our politicians have special interests.
+politicians with special interests are biased regarding the matter of wanting those companies to leave
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at wanting those companies to leave.
+It is less likely that our politicians has taken the evidence on both sides of the issue into account.",What evidence is there that our politicians is have special interests? Could our politicians have taken evidence on many sides even if our politicians is have special interests?,"What is the speaker's basis for claiming that politicians are beholden to special interests? Is there any evidence to support this claim, or is it simply a assumptions?",yes,evidence
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_1,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably they are not enthusiatic about having the rest of the country know what the real reasons are.","Is there a proved relation between situations in which ""don't give their tax rate in their financial disclosure"" and situations in which ""probably they are not enthusiatic about having the rest of the country know what the real reasons are""?",Is there any logical connection between the premises and conclusion? (Does providing tax returns necessarily mean revealing conflicts and debts?),yes,relation
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_11,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably they are not enthusiatic about having the rest of the country know what the real reasons are.",Is it possible for the particular case of Trump that probably they are not enthusiatic about having the rest of the country know what the real reasons are is not the case?,"Is it fair to assume that someone who is unwilling to release their tax returns is hiding something, or are there other possible reasons for not doing so?",no,exception
+TRUMP_112_1,Circumstantial Ad Hominem,TRUMP_112_7,"
+Clinton advocates for her staff taking the Fifth Amendment, which implies her team was not completely legal.
+Clinton is personally committed to the opposite of her team was not completely legal, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.",Does her staff taking the Fifth Amendment imply her team was not completely legal?,How does the fact that the man who set up the illegal server took the Fifth Amendment necessarily imply that the server was set up illegally?,yes,relation
+TRUMP_112_2,Circumstantial Ad Hominem,TRUMP_112_7,"
+Clinton advocates for the man that set up the illegal server taking the Fifth Amendment, which implies they did ilegal activities.
+Clinton is personally committed to the opposite of they did ilegal activities, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.",Does the man that set up the illegal server taking the Fifth Amendment imply they did ilegal activities?,How does the fact that the man who set up the illegal server took the Fifth Amendment necessarily imply that the server was set up illegally?,yes,relation
+TRUMP_112_2,Circumstantial Ad Hominem,TRUMP_112_2,"
+Clinton advocates for the man that set up the illegal server taking the Fifth Amendment, which implies they did ilegal activities.
+Clinton is personally committed to the opposite of they did ilegal activities, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.",Does the man that set up the illegal server taking the Fifth Amendment imply they did ilegal activities?,"Is there any concrete proof provided by Trump to back up his assertion that setting up an illegal server is equivalent to committing a serious offense, deserving of criminal charges? What implications does he draw from this alleged wrongdoing for both Clinton and her team members who invoked their constitutional right against self-incrimination?""",yes,relation
+CLINTON_136_2,Argument from Bias,CLINTON_136_4,"
+too many of us in our great country is <subejctx>.
+biased are biased regarding the matter of jumping to conclusions about each other
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at jumping to conclusions about each other.
+It is less likely that too many of us in our great country has taken the evidence on both sides of the issue into account.",What evidence is there that too many of us in our great country is biased? Could too many of us in our great country have taken evidence on many sides even if too many of us in our great country is biased?,"What evidence is there that implicit bias is a problem for everyone, not just police?",yes,evidence
+CLINTON_136_2,Argument from Bias,CLINTON_136_5,"
+too many of us in our great country is <subejctx>.
+biased are biased regarding the matter of jumping to conclusions about each other
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at jumping to conclusions about each other.
+It is less likely that too many of us in our great country has taken the evidence on both sides of the issue into account.",What evidence is there that too many of us in our great country is biased? Could too many of us in our great country have taken evidence on many sides even if too many of us in our great country is biased?,"What evidence is there to support the claim that implicit bias is a problem for everyone, not just police?",,evidence
+CLINTON_136_2,Argument from Bias,CLINTON_136_6,"
+too many of us in our great country is <subejctx>.
+biased are biased regarding the matter of jumping to conclusions about each other
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at jumping to conclusions about each other.
+It is less likely that too many of us in our great country has taken the evidence on both sides of the issue into account.",What evidence is there that too many of us in our great country is biased? Could too many of us in our great country have taken evidence on many sides even if too many of us in our great country is biased?,How do we know that too many of us in our great country jump to conclusions about each other?,,evidence
+TRUMP_129_2_1,Argument from Consequences,TRUMP_129_2_12,"
+If USA inner cities need law and order, then African-American and Hispanic people would suffer less injustices may plausibly occur.
+African-American and Hispanic people would suffer less injustices has a positive consequence.
+USA inner cities need law and order should  occur.",What other consequences should also be taken into account if  USA inner cities need law and order?,What are the potential unintended consequences of Trump's proposed policies for law and order in inner cities?,,consequences
+TRUMP_129_2_5,Argument from Consequences,TRUMP_129_2_8,"
+If we don't have order in the inner cities, then African-American and Hispanic people will be affected may plausibly occur.
+African-American and Hispanic people will be affected has a negative consequence.
+we don't have order in the inner cities should not occur.","If we don't have order in the inner cities, will African-American and Hispanic people will be affected occur? What evidence supports this claim? How likely are the consequences?",What evidence does Trump provide to support his claim that African-American and Hispanic people are most affected by the current state of affairs in inner cities?,,evidence
+TRUMP_129_2_5,Argument from Consequences,TRUMP_129_2_12,"
+If we don't have order in the inner cities, then African-American and Hispanic people will be affected may plausibly occur.
+African-American and Hispanic people will be affected has a negative consequence.
+we don't have order in the inner cities should not occur.",What other consequences should also be taken into account if not we don't have order in the inner cities?,What are the potential unintended consequences of Trump's proposed policies for law and order in inner cities?,,consequences
+TRUMP_174_1_1,Generic Ad Hominem,TRUMP_174_1_0,"
+If Clinton treated Obama with terrible disrespect, it does not make sense that Clinton defends Obama's views.
+Therefore, arguments from Clinton can't be trusted.",Is the reliability of Clinton relevant in the current dialogue?,Relevance: How relevant are Trump's criticisms of Clinton's treatment of Obama to the current election? Is there any connection between her behavior towards Obama and her qualifications as a presidential candidate?,,source
+TRUMP_174_1_2,Generic Ad Hominem,TRUMP_174_1_0,"
+If Clinton talks about how lovely everything is and how wonderful she is, it does not make sense that Clinton treated Obama with terrible disrespect in some debates against him.
+Therefore, arguments from Clinton can't be trusted.",How does the allegation made affect the reliability of Clinton?,Relevance: How relevant are Trump's criticisms of Clinton's treatment of Obama to the current election? Is there any connection between her behavior towards Obama and her qualifications as a presidential candidate?,,source
+TRUMP_174_1_2,Generic Ad Hominem,TRUMP_174_1_0,"
+If Clinton talks about how lovely everything is and how wonderful she is, it does not make sense that Clinton treated Obama with terrible disrespect in some debates against him.
+Therefore, arguments from Clinton can't be trusted.",Is the reliability of Clinton relevant in the current dialogue?,Relevance: How relevant are Trump's criticisms of Clinton's treatment of Obama to the current election? Is there any connection between her behavior towards Obama and her qualifications as a presidential candidate?,,source
+TRUMP_174_1_4,Circumstantial Ad Hominem,TRUMP_174_1_7,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","Can the practical inconsistency between Clinton's commitments and ""Obama was good"" be identified? Can it be shown by evidence? Could it be explained by further dialogue?",Is the speaker's current positive tone towards themselves a valid reason to question their past behavior towards Obama?,,relation
+TRUMP_174_1_4,Circumstantial Ad Hominem,TRUMP_174_1_0,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","Does the inconsistency between Clinton's commitments and ""Obama was good"" result in a decrease of credibility for Clinton? Does Clinton's argument depend in its credibility in this context?",Relevance: How relevant are Trump's criticisms of Clinton's treatment of Obama to the current election? Is there any connection between her behavior towards Obama and her qualifications as a presidential candidate?,,relation
+TRUMP_240_1_5,Argument from Consequences,TRUMP_240_1_15,"
+If Trump can't take anything off the table, then China should go into North Korea may plausibly occur.
+China should go into North Korea has a positive consequence.
+Trump can't take anything off the table should  occur.","If Trump can't take anything off the table, will China should go into North Korea occur? What evidence supports this claim? How likely are the consequences?",What is the basis for the assumption that China should be responsible for solving the problem in North Korea?,,evidence
+TRUMP_240_1_5,Argument from Consequences,TRUMP_240_1_10,"
+If Trump can't take anything off the table, then China should go into North Korea may plausibly occur.
+China should go into North Korea has a positive consequence.
+Trump can't take anything off the table should  occur.","If Trump can't take anything off the table, will China should go into North Korea occur? What evidence supports this claim? How likely are the consequences?",What is the basis for Trump's claim that China should solve the problem in North Korea?,,evidence
+TRUMP_240_1_5,Argument from Consequences,TRUMP_240_1_7,"
+If Trump can't take anything off the table, then China should go into North Korea may plausibly occur.
+China should go into North Korea has a positive consequence.
+Trump can't take anything off the table should  occur.","If Trump can't take anything off the table, will China should go into North Korea occur? What evidence supports this claim? How likely are the consequences?",What is the basis for the assumption that China should solve the problem in North Korea?,,evidence
+TRUMP_240_1_5,Argument from Consequences,TRUMP_240_1_9,"
+If Trump can't take anything off the table, then China should go into North Korea may plausibly occur.
+China should go into North Korea has a positive consequence.
+Trump can't take anything off the table should  occur.",What other consequences should also be taken into account if  Trump can't take anything off the table?,What are the potential consequences of taking nothing off the table in terms of military action against North Korea?,,consequences
+TRUMP_240_1_5,Argument from Consequences,TRUMP_240_1_16,"
+If Trump can't take anything off the table, then China should go into North Korea may plausibly occur.
+China should go into North Korea has a positive consequence.
+Trump can't take anything off the table should  occur.",What other consequences should also be taken into account if  Trump can't take anything off the table?,What are the potential consequences of relying on China to solve the problem in North Korea?,,consequences
+MT_45_0,Argument from Cause to Effect,MT_45_0,"
+Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.
+In this case, that form of capitalism was not making enough money in the developed world.
+In this case, the money did not flow into those industrial activities might occur.",How strong is the generalisation that if that form of capitalism was not making enough money in the developed world then the money did not flow into those industrial activities?,What evidence is there to support the claim that the form of capitalism was not generating sufficient surpluses?,,relation
+MT_45_0,Argument from Cause to Effect,MT_45_1,"
+Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.
+In this case, that form of capitalism was not making enough money in the developed world.
+In this case, the money did not flow into those industrial activities might occur.",How strong is the generalisation that if that form of capitalism was not making enough money in the developed world then the money did not flow into those industrial activities?,What evidence is there to support the claim that the form of capitalism being used in the developed world was not generating sufficient surpluses?,,relation
+MT_45_0,Argument from Cause to Effect,MT_45_8,"
+Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.
+In this case, that form of capitalism was not making enough money in the developed world.
+In this case, the money did not flow into those industrial activities might occur.",Are there other factors in this particular case that could have interfered with the event of 'the money did not flow into those industrial activities'?,Are there any alternative explanations for why the money did not flow into industrial activities?,,exception
+MT_45_0,Argument from Cause to Effect,MT_45_7,"
+Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.
+In this case, that form of capitalism was not making enough money in the developed world.
+In this case, the money did not flow into those industrial activities might occur.",Are there other factors in this particular case that could have interfered with the event of 'the money did not flow into those industrial activities'?,What alternative explanations are there for the lack of investment in industrial activities?,,exception
+MT_45_1,Argument from Cause to Effect,MT_45_0,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.",How strong is the generalisation that if that form of capitalism wasn't generating sufficient surpluses then the money did not flow into industrial activities?,What evidence is there to support the claim that the form of capitalism was not generating sufficient surpluses?,,relation
+MT_45_1,Argument from Cause to Effect,MT_45_1,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.",How strong is the generalisation that if that form of capitalism wasn't generating sufficient surpluses then the money did not flow into industrial activities?,What evidence is there to support the claim that the form of capitalism being used in the developed world was not generating sufficient surpluses?,,relation
+MT_45_1,Argument from Cause to Effect,MT_45_7,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.",Are there other factors in this particular case that could have interfered with the event of 'the money did not flow into industrial activities'?,What alternative explanations are there for the lack of investment in industrial activities?,,exception
+MT_45_1,Argument from Cause to Effect,MT_45_8,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.",Are there other factors in this particular case that could have interfered with the event of 'the money did not flow into industrial activities'?,Are there any alternative explanations for why the money did not flow into industrial activities?,,exception
+Helen _66_0,Argument from Consequences,Helen _66_14,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","If you intervene, will you can help families get back on their feet and able to parent their children occur? What evidence supports this claim? How likely are the consequences?","What is the basis for Helen's belief that intervention can help families ""get back on their feet"" and parent their children effectively?",,evidence
+Helen _66_0,Argument from Consequences,Helen _66_1,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","If you intervene, will you can help families get back on their feet and able to parent their children occur? What evidence supports this claim? How likely are the consequences?","What evidence exists to support the claim that some families require intervention due to high levels of aggression and violence? How effective is this type of intervention in addressing these issues?""",,evidence
+Helen _66_0,Argument from Consequences,Helen _66_4,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","If you intervene, will you can help families get back on their feet and able to parent their children occur? What evidence supports this claim? How likely are the consequences?","Does Helen provide evidence to support her claim that some families require intervention due to high levels of aggression and violence? If so, what type of evidence is it (anecdotal, statistical, etc.)?",,evidence
+Helen _66_0,Argument from Consequences,Helen _66_15,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.",What other consequences should also be taken into account if  you intervene?,"What are the potential consequences of intervening in families' lives, and how might they impact the families and communities involved?",,consequences
+JL_69_0,Argument from Consequences,JL_69_3,"
+If buying a washing machine on credit, then living standards would raise may plausibly occur.
+living standards would raise has a positive consequence.
+buying a washing machine on credit should  occur.","If buying a washing machine on credit, will living standards would raise occur? What evidence supports this claim? How likely are the consequences?",How does the speaker determine that buying a washing machine on credit raises living standards? What evidence does the speaker have to support this claim?,,evidence
+JL_69_0,Argument from Consequences,JL_69_4,"
+If buying a washing machine on credit, then living standards would raise may plausibly occur.
+living standards would raise has a positive consequence.
+buying a washing machine on credit should  occur.","If buying a washing machine on credit, will living standards would raise occur? What evidence supports this claim? How likely are the consequences?",What is the basis for the claim that credit raises living standards? Is there evidence to support this claim?,,evidence
+JL_69_0,Argument from Consequences,JL_69_6,"
+If buying a washing machine on credit, then living standards would raise may plausibly occur.
+living standards would raise has a positive consequence.
+buying a washing machine on credit should  occur.",What other consequences should also be taken into account if  buying a washing machine on credit?,What are the long-term implications of taking on debt to purchase a washing machine? How might this affect the individual's financial situation in the future?,,consequences
+JL_69_0,Argument from Consequences,JL_69_1,"
+If buying a washing machine on credit, then living standards would raise may plausibly occur.
+living standards would raise has a positive consequence.
+buying a washing machine on credit should  occur.",What other consequences should also be taken into account if  buying a washing machine on credit?,"What are the costs associated with buying a washing machine on credit, beyond the initial purchase price?",,consequences
+JL_69_1,Argument from Consequences,JL_69_4,"
+If people can fund today's purchases out of their future income, then people can benefit from it may plausibly occur.
+people can benefit from it has a positive consequence.
+people can fund today's purchases out of their future income should  occur.","If people can fund today's purchases out of their future income, will people can benefit from it occur? What evidence supports this claim? How likely are the consequences?",What is the basis for the claim that credit raises living standards? Is there evidence to support this claim?,,evidence
+JL_69_1,Argument from Consequences,JL_69_0,"
+If people can fund today's purchases out of their future income, then people can benefit from it may plausibly occur.
+people can benefit from it has a positive consequence.
+people can fund today's purchases out of their future income should  occur.",What other consequences should also be taken into account if  people can fund today's purchases out of their future income?,"What are some potential drawbacks or negative consequences of relying heavily on credit to raise living standards, as suggested by JL's argument? How does the historical context of moneylending restrictions based on religion challenge his perspective?""",,consequences
+CLINTON_1_1_0,Practical Reasoning,CLINTON_1_1_14,"
+There is the goal of investing in you.
+Carrying out the action of creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business is a means to realize investing in you.
+Therefore, creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business ought to occur.","Could creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business have consequences that we should take into account? Is it practically possible?",What are the potential risks or unintended consequences of your proposed policies and measures? How will you mitigate these risks?,,consequences
+CLINTON_1_1_0,Practical Reasoning,CLINTON_1_1_18,"
+There is the goal of investing in you.
+Carrying out the action of creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business is a means to realize investing in you.
+Therefore, creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business ought to occur.","Could creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business have consequences that we should take into account? Is it practically possible?",What are the potential long-term consequences of your economic policies? How will they impact future generations?,,consequences
+CLINTON_1_1_0,Practical Reasoning,CLINTON_1_1_10,"
+There is the goal of investing in you.
+Carrying out the action of creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business is a means to realize investing in you.
+Therefore, creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business ought to occur.","Could creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business have consequences that we should take into account? Is it practically possible?","How will investing in infrastructure, advanced manufacturing, innovation, and technology create jobs and improve the economy? What are the potential risks and unintended consequences of these investments?",,consequences
+CLINTON_1_1_1,Practical Reasoning,CLINTON_1_1_14,"
+There is the goal of building an economy that works for everyone.
+Carrying out the action of creating new jobs, good jobs, with rising incomes is a means to realize building an economy that works for everyone.
+Therefore, creating new jobs, good jobs, with rising incomes ought to occur.","Could creating new jobs, good jobs, with rising incomes have consequences that we should take into account? Is it practically possible?",What are the potential risks or unintended consequences of your proposed policies and measures? How will you mitigate these risks?,,consequences
+CLINTON_1_1_1,Practical Reasoning,CLINTON_1_1_18,"
+There is the goal of building an economy that works for everyone.
+Carrying out the action of creating new jobs, good jobs, with rising incomes is a means to realize building an economy that works for everyone.
+Therefore, creating new jobs, good jobs, with rising incomes ought to occur.","Could creating new jobs, good jobs, with rising incomes have consequences that we should take into account? Is it practically possible?",What are the potential long-term consequences of your economic policies? How will they impact future generations?,,consequences
+CLINTON_1_1_2,Practical Reasoning,CLINTON_1_1_14,"
+There is the goal of making the economy fairer.
+Carrying out the action of raising the national minimum wage and guaranteeing equal pay for women's work is a means to realize making the economy fairer.
+Therefore, raising the national minimum wage and guaranteeing equal pay for women's work ought to occur.",Could raising the national minimum wage and guaranteeing equal pay for women's work have consequences that we should take into account? Is it practically possible?,What are the potential risks or unintended consequences of your proposed policies and measures? How will you mitigate these risks?,,consequences
+CLINTON_1_1_2,Practical Reasoning,CLINTON_1_1_18,"
+There is the goal of making the economy fairer.
+Carrying out the action of raising the national minimum wage and guaranteeing equal pay for women's work is a means to realize making the economy fairer.
+Therefore, raising the national minimum wage and guaranteeing equal pay for women's work ought to occur.",Could raising the national minimum wage and guaranteeing equal pay for women's work have consequences that we should take into account? Is it practically possible?,What are the potential long-term consequences of your economic policies? How will they impact future generations?,,consequences
+CLINTON_1_1_3,Practical Reasoning,CLINTON_1_1_14,"
+There is the goal of new jobs, good jobs, with rising incomes.
+Carrying out the action of Clinton investing on you is a means to realize new jobs, good jobs, with rising incomes.
+Therefore, Clinton investing on you ought to occur.",Could Clinton investing on you have consequences that we should take into account? Is it practically possible?,What are the potential risks or unintended consequences of your proposed policies and measures? How will you mitigate these risks?,,consequences
+CLINTON_1_1_3,Practical Reasoning,CLINTON_1_1_18,"
+There is the goal of new jobs, good jobs, with rising incomes.
+Carrying out the action of Clinton investing on you is a means to realize new jobs, good jobs, with rising incomes.
+Therefore, Clinton investing on you ought to occur.",Could Clinton investing on you have consequences that we should take into account? Is it practically possible?,What are the potential long-term consequences of your economic policies? How will they impact future generations?,,consequences

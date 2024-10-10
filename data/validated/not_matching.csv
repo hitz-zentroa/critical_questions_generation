@@ -1,0 +1,713 @@
+arg_id,scheme,llm_cq_id,premises,llm_cq,can an answer to this question diminish the acceptability of the argument?,reading-comprehension cues,my taxonomy,burden-of-proof,explanation,BOOK TYPE,"(1) premise: premise acceptability
+(2) link: acceptability of the link, relative to some given standard of evidence
+(3) other considerations: whether there are other relevant considerations which would count against the claim at issue
+(4) specific: directed specifically towards features of particular relevance to individual argumentation scheme"
+TRUMP_15_1,Argument from Bias,TRUMP_15_2,"
+our politicians have special interests.
+politicians with special interests are biased regarding the matter of not taxing the companies coming to the US
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at not taxing the companies coming to the US.
+It is less likely that our politicians has taken the evidence on both sides of the issue into account.","How does the speaker define ""special interests""? Who are these individuals or groups, and what is their motivation for wanting companies to leave?",yes,,definition,,,,
+TRUMP_15_1,Argument from Bias,TRUMP_15_5,"
+our politicians have special interests.
+politicians with special interests are biased regarding the matter of not taxing the companies coming to the US
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at not taxing the companies coming to the US.
+It is less likely that our politicians has taken the evidence on both sides of the issue into account.","What special interests are being referred to, and how do they own the companies?",no,,definition,,,,
+TRUMP_15_2,Argument from Bias,TRUMP_15_2,"
+our politicians have special interests.
+politicians with special interests are biased regarding the matter of wanting those companies to leave
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at wanting those companies to leave.
+It is less likely that our politicians has taken the evidence on both sides of the issue into account.","How does the speaker define ""special interests""? Who are these individuals or groups, and what is their motivation for wanting companies to leave?",yes,,definition,,"if the politicians do not have special intrests, or the motivation can't be defined the argument does not hold -> YES",,
+TRUMP_15_2,Argument from Bias,TRUMP_15_5,"
+our politicians have special interests.
+politicians with special interests are biased regarding the matter of not taxing the companies coming to the US
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at not taxing the companies coming to the US.
+It is less likely that our politicians has taken the evidence on both sides of the issue into account.","What special interests are being referred to, and how do they own the companies?",yes,,definition,,"if the politicians do not have special intrests, or the motivation can't be defined the argument does not hold -> YES",,
+TRUMP_15_3,Argument from Bias,TRUMP_15_2,"
+our politicians own the companies.
+politicians that own the companies are biased regarding the matter of wanting those companies to leave
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at wanting the companies to leave.
+It is less likely that our politicians have taken the evidence on both sides of the issue into account.","How does the speaker define ""special interests""? Who are these individuals or groups, and what is their motivation for wanting companies to leave?",yes,,definition,,,,
+TRUMP_15_3,Argument from Bias,TRUMP_15_5,"
+our politicians own the companies.
+politicians that own the companies are biased regarding the matter of wanting those companies to leave
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at wanting the companies to leave.
+It is less likely that our politicians have taken the evidence on both sides of the issue into account.","What special interests are being referred to, and how do they own the companies?",yes,,definition,,"if the politicians do not have special intrests, or the motivation can't be defined the argument does not hold -> YES",,
+TRUMP_99_1,Argument from Verbal Classification,TRUMP_99_0,"
+Generally, if a person gets audited all the time, then it can be the case that it becomes a way of life.
+Trump gets audited all the time.
+Therefore, for Trump it became a way of life.","What is the significance of the speaker's statement that they have been audited ""almost every year""?",yes,,relation,,"if the politicians do not have special intrests, or the motivation can't be defined the argument does not hold -> YES",link,
+TRUMP_99_2,Argument from Example,TRUMP_99_0,"
+In this particular case, Trump is wealthy and also has been audited a lot.
+Therefore, other people that is wealthy, might also has been audited a lot.","What is the significance of the speaker's statement that they have been audited ""almost every year""?",no,,relation,,,,
+TRUMP_99_3,Argument from Example,TRUMP_99_0,"
+In this particular case, Trump gets audited every year and also should be complaining.
+Therefore, other person that gets audited every year, might also should be complaining.","What is the significance of the speaker's statement that they have been audited ""almost every year""?",no,,relation,,NO,link,
+TRUMP_99_4,Argument from Alternatives,TRUMP_99_2,"
+Either Clinton releases the 33,000 e-mails she deleted or Trump does not show his tax returns going against his lawyers advice.
+Clinton releases the 33,000 e-mails she deleted is plausibly not the case.
+Trump does not show his tax returns going against his lawyers advice, is plausably the case.",What is the legal advice that the speaker's lawyers have given them regarding the release of their tax returns?,no,,source,,NO,,here there is a position to know argument which has not been annotated
+TRUMP_99_4,Argument from Alternatives,TRUMP_99_1,"
+Either Clinton releases the 33,000 e-mails she deleted or Trump does not show his tax returns going against his lawyers advice.
+Clinton releases the 33,000 e-mails she deleted is plausibly not the case.
+Trump does not show his tax returns going against his lawyers advice, is plausably the case.",What is the connection between the speaker's tax returns and the deleted emails?,yes,,relation,,"if there is no connection between releasing the emails and tax returns, then the argument does not hold --> YES",link,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_0,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.",What specific information about Trump's finances are missing from his financial disclosure statements?,no,,definition,,NO,,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_13,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.",How would releasing tax returns provide a complete picture of a candidate's financial situation and potential conflicts of interest?,no,,consequences,,NO,,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_12,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.","How might the public benefit from seeing Trump's tax returns, and how might this information be used to evaluate his fitness for office?",yes,,consequences,,"if there is no benefit to people seeing Trump's tax returns, then the argument does not hold --> YES",,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_10,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.","What are the potential consequences of Trump's refusal to release his tax returns, and how might this impact his ability to serve as President?",yes,,consequences,,"if there is no impact to the event of people knowing the tax returns, then the argument there is no reason to believe that he does not want to show them --> YES",,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_9,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.","Is it fair to make assumptions about Trump's financial dealings based on his refusal to release his tax returns, or is this a case of ""guessing"" as Clinton suggests?",yes,,other,,"if it does not make sense to make a connect between his refusal to show the tax rate and his wrong doing, then the argument does not hold --> YES",other considerations,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_2,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.",How detailed are these statements compared to tax returns?,yes,,definition,,"if there is no information in the disclosure statements, then there is no point in saying that he is hidding them --> YES",,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_8,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.","What are the potential conflicts of interest that Clinton is referring to, and how would having access to Trump's tax returns help to identify them?",yes,,definition,,YES,,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_3,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.","Has Trump given any indication of releasing his tax returns, and why does Clinton think otherwise?",no,,,,NO,premise,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_7,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.","What specific conflicts of interest might Trump have if he were to become President, and how might his tax returns help to address these concerns?",yes,,relation,,YES,,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_4,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.",What could Trump potentially be hiding by not releasing his tax returns?,yes,,relation,,YES,,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_6,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.",What specific information is missing from the financial disclosure statements that Clinton believes the American people deserve to see?,yes,,relation,,"if there is no information in the disclosure statements, then there is no point in saying that he is hidding them --> YES",,
+CLINTON_107_0,Argument from Verbal Classification,CLINTON_107_5,"
+Generally, if people don't give their tax rate in their financial disclosure, then it can be the case that probably they are not enthusiatic about having the rest of the country know what the real reasons are.
+Trump don't give their tax rate in their financial disclosure.
+Therefore, Trump probably is not enthusiatic about having the rest of the country know what the real reasons are.","What is the purpose of financial disclosure statements, and how do they differ from tax returns?",no,,,,"the question is asking for more info, but not specifically making the connection of why having this info changes the argument",,
+CLINTON_107_1,Argument from Values,CLINTON_107_7,"
+transparency is good as judged by Clinton.
+The fact that transparency is good affects tha interpretation and therefore the evaluation of Trump should tell the audience who does he owe money to of Clinton.
+transparency is a reason for retaining (or retracting) commitment to Trump should tell the audience who does he owe money to.","What specific conflicts of interest might Trump have if he were to become President, and how might his tax returns help to address these concerns?",yes,,relation,,"if the tax returns do not uncover his conflicts of interest, there is no connect with transparency",,
+CLINTON_107_1,Argument from Values,CLINTON_107_13,"
+transparency is good as judged by Clinton.
+The fact that transparency is good affects tha interpretation and therefore the evaluation of Trump should tell the audience who does he owe money to of Clinton.
+transparency is a reason for retaining (or retracting) commitment to Trump should tell the audience who does he owe money to.",How would releasing tax returns provide a complete picture of a candidate's financial situation and potential conflicts of interest?,yes,,relation,,,,
+CLINTON_107_1,Argument from Values,CLINTON_107_12,"
+transparency is good as judged by Clinton.
+The fact that transparency is good affects tha interpretation and therefore the evaluation of Trump should tell the audience who does he owe money to of Clinton.
+transparency is a reason for retaining (or retracting) commitment to Trump should tell the audience who does he owe money to.","How might the public benefit from seeing Trump's tax returns, and how might this information be used to evaluate his fitness for office?",yes,,relation,,,,
+CLINTON_107_1,Argument from Values,CLINTON_107_10,"
+transparency is good as judged by Clinton.
+The fact that transparency is good affects tha interpretation and therefore the evaluation of Trump should tell the audience who does he owe money to of Clinton.
+transparency is a reason for retaining (or retracting) commitment to Trump should tell the audience who does he owe money to.","What are the potential consequences of Trump's refusal to release his tax returns, and how might this impact his ability to serve as President?",yes,,consequences,,,,
+CLINTON_107_2,Generic Ad Hominem,CLINTON_107_7,"
+If Trump has nothing to hide, it does not make sense that Trump is not going to release his tax returns.
+Therefore, arguments from Trump can't be trusted.","What specific conflicts of interest might Trump have if he were to become President, and how might his tax returns help to address these concerns?",yes,,relation,,,,
+CLINTON_107_2,Generic Ad Hominem,CLINTON_107_13,"
+If Trump has nothing to hide, it does not make sense that Trump is not going to release his tax returns.
+Therefore, arguments from Trump can't be trusted.",How would releasing tax returns provide a complete picture of a candidate's financial situation and potential conflicts of interest?,yes,,relation,,,,
+CLINTON_107_2,Generic Ad Hominem,CLINTON_107_10,"
+If Trump has nothing to hide, it does not make sense that Trump is not going to release his tax returns.
+Therefore, arguments from Trump can't be trusted.","What are the potential consequences of Trump's refusal to release his tax returns, and how might this impact his ability to serve as President?",yes,,consequences,,,,
+CLINTON_107_2,Generic Ad Hominem,CLINTON_107_4,"
+If Trump has nothing to hide, it does not make sense that Trump is not going to release his tax returns.
+Therefore, arguments from Trump can't be trusted.",What could Trump potentially be hiding by not releasing his tax returns?,yes,,relation,,,,
+TRUMP_112_0,Argument from Verbal Classification,TRUMP_112_0,"
+Generally, if email is sent using a private e-mail, then it can be the case that it is done on purpose.
+this email is sent using a private e-mail.
+Therefore, this email it is done on purpose.","What evidence exists to support Trump's claim that Hillary Clinton's actions during her time as Secretary of State were intentional and not accidental? How does this accusation relate to his criticism of Clinton's staff and advisors taking the Fifth Amendment?""",no,,,,these are the actual evidences --> sending a private mail,,
+TRUMP_112_0,Argument from Verbal Classification,TRUMP_112_3,"
+Generally, if email is sent using a private e-mail, then it can be the case that it is done on purpose.
+this email is sent using a private e-mail.
+Therefore, this email it is done on purpose.","Does Trump provide any specific examples of what he considers to be mistakes versus intentional actions? If not, how can we determine which allegations are true and which may be exaggerated or false?",no,,,,,,
+TRUMP_112_0,Argument from Verbal Classification,TRUMP_112_5,"
+Generally, if email is sent using a private e-mail, then it can be the case that it is done on purpose.
+this email is sent using a private e-mail.
+Therefore, this email it is done on purpose.",What evidence is there to support the claim that the staff members taking the Fifth Amendment did so intentionally?,no,,,,,,
+TRUMP_112_0,Argument from Verbal Classification,TRUMP_112_6,"
+Generally, if email is sent using a private e-mail, then it can be the case that it is done on purpose.
+this email is sent using a private e-mail.
+Therefore, this email it is done on purpose.",What evidence is there to support the claim that the staff members taking the Fifth Amendment did so purposely?,no,,,,,,
+TRUMP_112_1,Circumstantial Ad Hominem,TRUMP_112_8,"
+Clinton advocates for her staff taking the Fifth Amendment, which implies her team was not completely legal.
+Clinton is personally committed to the opposite of her team was not completely legal, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.",What specific laws or regulations were violated by the man who set up the illegal server?,yes,,definition,,"if there are no ilegal actions, the team was legal",,
+TRUMP_112_1,Circumstantial Ad Hominem,TRUMP_112_1,"
+Clinton advocates for her staff taking the Fifth Amendment, which implies her team was not completely legal.
+Clinton is personally committed to the opposite of her team was not completely legal, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","Is Trump providing sufficient context for his statements about people taking the Fifth Amendment and setting up an ""illegal server""? How might this affect the credibility of his accusations?",no,,,,"the credibility being questioned is Clinton's, not the right question",link,
+TRUMP_112_1,Circumstantial Ad Hominem,TRUMP_112_0,"
+Clinton advocates for her staff taking the Fifth Amendment, which implies her team was not completely legal.
+Clinton is personally committed to the opposite of her team was not completely legal, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","What evidence exists to support Trump's claim that Hillary Clinton's actions during her time as Secretary of State were intentional and not accidental? How does this accusation relate to his criticism of Clinton's staff and advisors taking the Fifth Amendment?""",no,,,,"the argument relates fifth amendment to illegal activities, and the question relates intentionality to the amendment, so not really the same topic",,
+TRUMP_112_2,Circumstantial Ad Hominem,TRUMP_112_8,"
+Clinton advocates for the man that set up the illegal server taking the Fifth Amendment, which implies they did ilegal activities.
+Clinton is personally committed to the opposite of they did ilegal activities, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.",What specific laws or regulations were violated by the man who set up the illegal server?,no,,,,the argument is questioning the relation between the fifth amendment and doing ilegal activities,,
+TRUMP_112_2,Circumstantial Ad Hominem,TRUMP_112_6,"
+Clinton advocates for the man that set up the illegal server taking the Fifth Amendment, which implies they did ilegal activities.
+Clinton is personally committed to the opposite of they did ilegal activities, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.",What evidence is there to support the claim that the staff members taking the Fifth Amendment did so purposely?,no,,,,not the right connection,,
+TRUMP_112_2,Circumstantial Ad Hominem,TRUMP_112_5,"
+Clinton advocates for the man that set up the illegal server taking the Fifth Amendment, which implies they did ilegal activities.
+Clinton is personally committed to the opposite of they did ilegal activities, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.",What evidence is there to support the claim that the staff members taking the Fifth Amendment did so intentionally?,no,,,,not the right connection,,
+TRUMP_112_2,Circumstantial Ad Hominem,TRUMP_112_1,"
+Clinton advocates for the man that set up the illegal server taking the Fifth Amendment, which implies they did ilegal activities.
+Clinton is personally committed to the opposite of they did ilegal activities, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","Is Trump providing sufficient context for his statements about people taking the Fifth Amendment and setting up an ""illegal server""? How might this affect the credibility of his accusations?",no,,,,,link,
+TRUMP_112_2,Circumstantial Ad Hominem,TRUMP_112_0,"
+Clinton advocates for the man that set up the illegal server taking the Fifth Amendment, which implies they did ilegal activities.
+Clinton is personally committed to the opposite of they did ilegal activities, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","What evidence exists to support Trump's claim that Hillary Clinton's actions during her time as Secretary of State were intentional and not accidental? How does this accusation relate to his criticism of Clinton's staff and advisors taking the Fifth Amendment?""",no,,,,,,
+CLINTON_136_0,Argument From Sign,CLINTON_136_9,"
+police are having to handle a lot of really difficult mental health problems is true in this situation.
+police are having to handle a lot of really difficult mental health problems is often a sign of situations in which mental health is one of the biggest concerns is true.
+mental health is one of the biggest concerns might be true in this situation.","What specific mental health concerns do police chiefs have, and how will the federal government's proposed support and training address these concerns?",no,,,,,,
+CLINTON_136_1,Argument from Position to Know,CLINTON_136_2,"
+police chiefs are in a position to know whether it is the case that the police want support, they want more training, they want more assistance.
+police chiefs asserts that it is the case that the police want support, they want more training, they want more assistance.
+the police want support, they want more training, they want more assistance is the case.","Why does Clinton believe that addressing implicit bias through retraining is necessary, and how does she propose funding this initiative?",no,,,,,,
+CLINTON_136_1,Argument from Position to Know,CLINTON_136_3,"
+police chiefs are in a position to know whether it is the case that the police want support, they want more training, they want more assistance.
+police chiefs asserts that it is the case that the police want support, they want more training, they want more assistance.
+the police want support, they want more training, they want more assistance is the case.","Who did Clinton meet with regarding implicit bias in policing, and what were their perspectives on the issue?",no,,source,,,specific,
+CLINTON_136_1,Argument from Position to Know,CLINTON_136_11,"
+police chiefs are in a position to know whether it is the case that the police want support, they want more training, they want more assistance.
+police chiefs asserts that it is the case that the police want support, they want more training, they want more assistance.
+the police want support, they want more training, they want more assistance is the case.","How does the federal government providing support, training, and assistance address the concerns of police chiefs?",yes,,relation,,,,
+CLINTON_136_1,Argument from Position to Know,CLINTON_136_9,"
+police chiefs are in a position to know whether it is the case that the police want support, they want more training, they want more assistance.
+police chiefs asserts that it is the case that the police want support, they want more training, they want more assistance.
+the police want support, they want more training, they want more assistance is the case.","What specific mental health concerns do police chiefs have, and how will the federal government's proposed support and training address these concerns?",no,,,,,,
+CLINTON_136_2,Argument from Bias,CLINTON_136_0,"
+too many of us in our great country have implicit biases.
+people with implicit bias are biased regarding the matter of jumping to conclusions about each other
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at jumping to conclusions about each other.
+It is less likely that too many of us in our great country has taken the evidence on both sides of the issue into account.",How does Clinton define 'implicit bias' and what evidence does she present to support its existence?,yes,,definition,,,,this argument is stupid
+CLINTON_136_2,Argument from Bias,CLINTON_136_12,"
+too many of us in our great country have implicit biases.
+people with implicit bias are biased regarding the matter of jumping to conclusions about each other
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at jumping to conclusions about each other.
+It is less likely that too many of us in our great country has taken the evidence on both sides of the issue into account.",What is the definition of implicit bias and how is it measured?,yes,,definition,,,,this argument is stupid
+TRUMP_129_2_0,Argument from Analogy,TRUMP_129_2_0,"
+Generally, the situation in Ferguson is similar to the situation in Chicago.
+not having good community relations is true in Chicago.
+not having good community relations is true in Ferguson.",What evidence supports the claim that 'better relationships between the communities and the police' will solve the issues in these areas? Are there any specific examples provided?,no,,,,,,
+TRUMP_129_2_0,Argument from Analogy,TRUMP_129_2_10,"
+Generally, the situation in Ferguson is similar to the situation in Chicago.
+not having good community relations is true in Chicago.
+not having good community relations is true in Ferguson.",What specific steps does Trump propose to improve relationships between law enforcement and the communities they serve in inner cities?,no,,,,,,
+TRUMP_129_2_1,Argument from Consequences,TRUMP_129_2_14,"
+If USA inner cities need law and order, then African-American and Hispanic people would suffer less injustices may plausibly occur.
+African-American and Hispanic people would suffer less injustices has a positive consequence.
+USA inner cities need law and order should  occur.",How does Trump's focus on law and order in inner cities address the root causes of social unrest and violence in these communities?,yes,,relation,,,,
+TRUMP_129_2_1,Argument from Consequences,TRUMP_129_2_13,"
+If USA inner cities need law and order, then African-American and Hispanic people would suffer less injustices may plausibly occur.
+African-American and Hispanic people would suffer less injustices has a positive consequence.
+USA inner cities need law and order should  occur.","What is the long-term goal of the argument's call for ""law and order"" in inner cities, and how will it address the underlying issues that lead to social unrest and crime?",yes,,relation,,,,
+TRUMP_129_2_1,Argument from Consequences,TRUMP_129_2_9,"
+If USA inner cities need law and order, then African-American and Hispanic people would suffer less injustices may plausibly occur.
+African-American and Hispanic people would suffer less injustices has a positive consequence.
+USA inner cities need law and order should  occur.","How does Trump's call for ""law and order"" address the systemic issues that contribute to the perceived need for it in inner cities?",yes,,relation,,,,
+TRUMP_129_2_1,Argument from Consequences,TRUMP_129_2_7,"
+If USA inner cities need law and order, then African-American and Hispanic people would suffer less injustices may plausibly occur.
+African-American and Hispanic people would suffer less injustices has a positive consequence.
+USA inner cities need law and order should  occur.","How does Trump define ""law and order"" and what specific policies does he advocate for achieving it in inner cities?",yes,,definition,,,,
+TRUMP_129_2_1,Argument from Consequences,TRUMP_129_2_1,"
+If USA inner cities need law and order, then African-American and Hispanic people would suffer less injustices may plausibly occur.
+African-American and Hispanic people would suffer less injustices has a positive consequence.
+USA inner cities need law and order should  occur.",How do Trump's statements about 'law and order' address the underlying causes of violence and inequality in these communities? Is he proposing any concrete solutions beyond simply increasing police presence?,yes,,relation,,these questions need to have an answered in order to understand the argument,,
+TRUMP_129_2_1,Argument from Consequences,TRUMP_129_2_4,"
+If USA inner cities need law and order, then African-American and Hispanic people would suffer less injustices may plausibly occur.
+African-American and Hispanic people would suffer less injustices has a positive consequence.
+USA inner cities need law and order should  occur.","What evidence is there to support the claim that there is a lack of ""law and order"" in inner cities?",yes,,evidence,,,,
+TRUMP_129_2_3,Argument from Example,TRUMP_129_2_6,"
+In this particular case, in Dallas the relations between communities and the police were a beautiful thing and also five police officers were killed one night very violently.
+Therefore, other cities that the relations between communities and the police were a beautiful thing, might also five police officers were killed one night very violently.","What specific examples or data are provided to demonstrate the supposed ""beautiful thing"" that existed between communities and police in the past?",yes,,evidence,,,,
+TRUMP_129_2_3,Argument from Example,TRUMP_129_2_10,"
+In this particular case, in Dallas the relations between communities and the police were a beautiful thing and also five police officers were killed one night very violently.
+Therefore, other cities that the relations between communities and the police were a beautiful thing, might also five police officers were killed one night very violently.",What specific steps does Trump propose to improve relationships between law enforcement and the communities they serve in inner cities?,no,,,,,,
+TRUMP_129_2_3,Argument from Example,TRUMP_129_2_0,"
+In this particular case, in Dallas the relations between communities and the police were a beautiful thing and also five police officers were killed one night very violently.
+Therefore, other cities that the relations between communities and the police were a beautiful thing, might also five police officers were killed one night very violently.",What evidence supports the claim that 'better relationships between the communities and the police' will solve the issues in these areas? Are there any specific examples provided?,yes,,evidence,,,,
+TRUMP_129_2_4,Argument from Example,TRUMP_129_2_3,"
+In this particular case, in Chicago Clinton does not have relations and also things are bad there.
+Therefore, other cities that Clinton does not have relations, might also things are bad there.","How does Trump define 'bad things' happening in these communities? Are they referring specifically to crime and violence, or something broader?""",yes,,definition,,,,
+TRUMP_129_2_4,Argument from Example,TRUMP_129_2_5,"
+In this particular case, in Chicago Clinton does not have relations and also things are bad there.
+Therefore, other cities that Clinton does not have relations, might also things are bad there.","What specific examples does Trump provide to support his claim that there are ""bad things going on"" in inner cities?",yes,,evidence,,,,
+TRUMP_129_2_5,Argument from Consequences,TRUMP_129_2_14,"
+If we don't have order in the inner cities, then African-American and Hispanic people will be affected may plausibly occur.
+African-American and Hispanic people will be affected has a negative consequence.
+we don't have order in the inner cities should not occur.",How does Trump's focus on law and order in inner cities address the root causes of social unrest and violence in these communities?,yes,,relation,,,,
+TRUMP_129_2_5,Argument from Consequences,TRUMP_129_2_13,"
+If we don't have order in the inner cities, then African-American and Hispanic people will be affected may plausibly occur.
+African-American and Hispanic people will be affected has a negative consequence.
+we don't have order in the inner cities should not occur.","What is the long-term goal of the argument's call for ""law and order"" in inner cities, and how will it address the underlying issues that lead to social unrest and crime?",yes,,relation,,,,
+TRUMP_129_2_5,Argument from Consequences,TRUMP_129_2_9,"
+If we don't have order in the inner cities, then African-American and Hispanic people will be affected may plausibly occur.
+African-American and Hispanic people will be affected has a negative consequence.
+we don't have order in the inner cities should not occur.","How does Trump's call for ""law and order"" address the systemic issues that contribute to the perceived need for it in inner cities?",yes,,relation,,,,
+TRUMP_129_2_5,Argument from Consequences,TRUMP_129_2_7,"
+If we don't have order in the inner cities, then African-American and Hispanic people will be affected may plausibly occur.
+African-American and Hispanic people will be affected has a negative consequence.
+we don't have order in the inner cities should not occur.","How does Trump define ""law and order"" and what specific policies does he advocate for achieving it in inner cities?",yes,,definition,,,,
+TRUMP_129_2_5,Argument from Consequences,TRUMP_129_2_4,"
+If we don't have order in the inner cities, then African-American and Hispanic people will be affected may plausibly occur.
+African-American and Hispanic people will be affected has a negative consequence.
+we don't have order in the inner cities should not occur.","What evidence is there to support the claim that there is a lack of ""law and order"" in inner cities?",yes,,evidence,,,,
+TRUMP_129_2_5,Argument from Consequences,TRUMP_129_2_1,"
+If we don't have order in the inner cities, then African-American and Hispanic people will be affected may plausibly occur.
+African-American and Hispanic people will be affected has a negative consequence.
+we don't have order in the inner cities should not occur.",How do Trump's statements about 'law and order' address the underlying causes of violence and inequality in these communities? Is he proposing any concrete solutions beyond simply increasing police presence?,yes,,relation,,,,
+TRUMP_174_1_0,Generic Ad Hominem,TRUMP_174_1_3,"
+If Clinton prepares debates against Obama, it does not make sense that Clinton defends Obama.
+Therefore, arguments from Clinton can't be trusted.",What specific instances of disrespect towards Barack Obama is Trump referring to?,no,,,,,,
+TRUMP_174_1_0,Generic Ad Hominem,TRUMP_174_1_6,"
+If Clinton prepares debates against Obama, it does not make sense that Clinton defends Obama.
+Therefore, arguments from Clinton can't be trusted.","Is there any evidence to support the claim that the speaker was ""after"" Obama?",yes,,evidence,,,,
+TRUMP_174_1_0,Generic Ad Hominem,TRUMP_174_1_4,"
+If Clinton prepares debates against Obama, it does not make sense that Clinton defends Obama.
+Therefore, arguments from Clinton can't be trusted.","How does the speaker's characterization of the debates as ""terrible disrespect"" align with the facts?",no,,,,,,
+TRUMP_174_1_0,Generic Ad Hominem,TRUMP_174_1_2,"
+If Clinton prepares debates against Obama, it does not make sense that Clinton defends Obama.
+Therefore, arguments from Clinton can't be trusted.",What specific instances of disrespect towards Barack Obama are being referred to?,no,,,,,,
+TRUMP_174_1_0,Generic Ad Hominem,TRUMP_174_1_1,"
+If Clinton prepares debates against Obama, it does not make sense that Clinton defends Obama.
+Therefore, arguments from Clinton can't be trusted.","Respect: Does Trump's accusation of ""terrible disrespect"" accurately reflect Clinton's actions during the debates with Obama? Can he provide examples to support his claim?",yes,,evidence,,here there is the untold premise that clinton was being disrespectful to obama,,
+TRUMP_174_1_1,Generic Ad Hominem,TRUMP_174_1_4,"
+If Clinton treated Obama with terrible disrespect, it does not make sense that Clinton defends Obama's views.
+Therefore, arguments from Clinton can't be trusted.","How does the speaker's characterization of the debates as ""terrible disrespect"" align with the facts?",yes,,evidence,,,,
+TRUMP_174_1_1,Generic Ad Hominem,TRUMP_174_1_3,"
+If Clinton treated Obama with terrible disrespect, it does not make sense that Clinton defends Obama's views.
+Therefore, arguments from Clinton can't be trusted.",What specific instances of disrespect towards Barack Obama is Trump referring to?,yes,,evidence,,,,
+TRUMP_174_1_1,Generic Ad Hominem,TRUMP_174_1_2,"
+If Clinton treated Obama with terrible disrespect, it does not make sense that Clinton defends Obama's views.
+Therefore, arguments from Clinton can't be trusted.",What specific instances of disrespect towards Barack Obama are being referred to?,yes,,evidence,,,,
+TRUMP_174_1_1,Generic Ad Hominem,TRUMP_174_1_1,"
+If Clinton treated Obama with terrible disrespect, it does not make sense that Clinton defends Obama's views.
+Therefore, arguments from Clinton can't be trusted.","Respect: Does Trump's accusation of ""terrible disrespect"" accurately reflect Clinton's actions during the debates with Obama? Can he provide examples to support his claim?",yes,,evidence,,,,
+TRUMP_174_1_2,Generic Ad Hominem,TRUMP_174_1_4,"
+If Clinton talks about how lovely everything is and how wonderful she is, it does not make sense that Clinton treated Obama with terrible disrespect in some debates against him.
+Therefore, arguments from Clinton can't be trusted.","How does the speaker's characterization of the debates as ""terrible disrespect"" align with the facts?",yes,,evidence,,,,
+TRUMP_174_1_2,Generic Ad Hominem,TRUMP_174_1_3,"
+If Clinton talks about how lovely everything is and how wonderful she is, it does not make sense that Clinton treated Obama with terrible disrespect in some debates against him.
+Therefore, arguments from Clinton can't be trusted.",What specific instances of disrespect towards Barack Obama is Trump referring to?,yes,i,evidence,,,,
+TRUMP_174_1_2,Generic Ad Hominem,TRUMP_174_1_2,"
+If Clinton talks about how lovely everything is and how wonderful she is, it does not make sense that Clinton treated Obama with terrible disrespect in some debates against him.
+Therefore, arguments from Clinton can't be trusted.",What specific instances of disrespect towards Barack Obama are being referred to?,yes,,evidence,,,,
+TRUMP_174_1_2,Generic Ad Hominem,TRUMP_174_1_1,"
+If Clinton talks about how lovely everything is and how wonderful she is, it does not make sense that Clinton treated Obama with terrible disrespect in some debates against him.
+Therefore, arguments from Clinton can't be trusted.","Respect: Does Trump's accusation of ""terrible disrespect"" accurately reflect Clinton's actions during the debates with Obama? Can he provide examples to support his claim?",yes,,evidence,,,,
+TRUMP_174_1_4,Circumstantial Ad Hominem,TRUMP_174_1_6,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","Is there any evidence to support the claim that the speaker was ""after"" Obama?",yes,,evidence,,,,
+TRUMP_240_1_3,Argument from Cause to Effect,TRUMP_240_1_8,"
+Generally, if USA have not been updating from the new standpoint, then Russia has a much newer capability than USA do might occur.
+In this case, USA have not been updating from the new standpoint.
+In this case, Russia has a much newer capability than USA do might occur.","How does Trump propose to ""keep up"" with other countries in terms of military capabilities?",no,i,,,,,
+TRUMP_240_1_3,Argument from Cause to Effect,TRUMP_240_1_6,"
+Generally, if USA have not been updating from the new standpoint, then Russia has a much newer capability than USA do might occur.
+In this case, USA have not been updating from the new standpoint.
+In this case, Russia has a much newer capability than USA do might occur.",What specific countries does Trump consider to be ahead of the United States in terms of military capabilities?,no,i,,,"this is talking about Trump's considerations, it's not critical",,
+TRUMP_240_1_3,Argument from Cause to Effect,TRUMP_240_1_5,"
+Generally, if USA have not been updating from the new standpoint, then Russia has a much newer capability than USA do might occur.
+In this case, USA have not been updating from the new standpoint.
+In this case, Russia has a much newer capability than USA do might occur.",What specific countries is the US falling behind in terms of military capabilities?,no,,,,,,
+TRUMP_240_1_3,Argument from Cause to Effect,TRUMP_240_1_4,"
+Generally, if USA have not been updating from the new standpoint, then Russia has a much newer capability than USA do might occur.
+In this case, USA have not been updating from the new standpoint.
+In this case, Russia has a much newer capability than USA do might occur.","How does Trump define ""new"" in relation to military capabilities?",yes,i,definition,,,,
+TRUMP_240_1_3,Argument from Cause to Effect,TRUMP_240_1_3,"
+Generally, if USA have not been updating from the new standpoint, then Russia has a much newer capability than USA do might occur.
+In this case, USA have not been updating from the new standpoint.
+In this case, Russia has a much newer capability than USA do might occur.",How does the age of the aircraft being used by other countries compare to the age of the aircraft being used by the US?,yes,,evidence,,this is critical because that's the evidence trump uses for this claim,,
+TRUMP_240_1_3,Argument from Cause to Effect,TRUMP_240_1_2,"
+Generally, if USA have not been updating from the new standpoint, then Russia has a much newer capability than USA do might occur.
+In this case, USA have not been updating from the new standpoint.
+In this case, Russia has a much newer capability than USA do might occur.",What evidence does Trump provide to support his claim that Russia has been expanding its military capabilities?,yes,i,evidence,,,,
+TRUMP_240_1_3,Argument from Cause to Effect,TRUMP_240_1_0,"
+Generally, if USA have not been updating from the new standpoint, then Russia has a much newer capability than USA do might occur.
+In this case, USA have not been updating from the new standpoint.
+In this case, Russia has a much newer capability than USA do might occur.","What specific examples does Trump provide to support his claim that Russia is expanding its military capabilities and surpassing the United States? How does he suggest addressing this issue while also preparing for potential threats from other countries like North Korea?""",no,i,,,"this is reading comprehension in its formulation, it asks about which one have trump already provided. If the question was ""Are there specific examples that support that Russia is expanding its military capabilities ans supporting the United States?"", then the question is right. As for the second, ""Is is practically possible to prepare for potential threats from other countries like North Korea"", the question would also be right",,
+TRUMP_240_1_3,Argument from Cause to Effect,TRUMP_240_1_1,"
+Generally, if USA have not been updating from the new standpoint, then Russia has a much newer capability than USA do might occur.
+In this case, USA have not been updating from the new standpoint.
+In this case, Russia has a much newer capability than USA do might occur.",What evidence is there to support the claim that Russia has been expanding its military capabilities?,yes,,evidence,,,,
+TRUMP_240_1_4,Argument from Example,TRUMP_240_1_8,"
+In this particular case, USA is using very old planes and also is lying behind in innovation.
+Therefore, other countries that is using very old planes, might also is lying behind in innovation.","How does Trump propose to ""keep up"" with other countries in terms of military capabilities?",no,i,,,,,
+TRUMP_240_1_4,Argument from Example,TRUMP_240_1_6,"
+In this particular case, USA is using very old planes and also is lying behind in innovation.
+Therefore, other countries that is using very old planes, might also is lying behind in innovation.",What specific countries does Trump consider to be ahead of the United States in terms of military capabilities?,yes,i,evidence,,"to lie behind, there have to be other countries ahead, but the formualtion is again ""what does trump consider?"", which is tricky",,
+TRUMP_240_1_4,Argument from Example,TRUMP_240_1_5,"
+In this particular case, USA is using very old planes and also is lying behind in innovation.
+Therefore, other countries that is using very old planes, might also is lying behind in innovation.",What specific countries is the US falling behind in terms of military capabilities?,yes,,evidence,,,,
+TRUMP_240_1_4,Argument from Example,TRUMP_240_1_3,"
+In this particular case, USA is using very old planes and also is lying behind in innovation.
+Therefore, other countries that is using very old planes, might also is lying behind in innovation.",How does the age of the aircraft being used by other countries compare to the age of the aircraft being used by the US?,yes,,evidence,,,,
+TRUMP_240_1_4,Argument from Example,TRUMP_240_1_4,"
+In this particular case, USA is using very old planes and also is lying behind in innovation.
+Therefore, other countries that is using very old planes, might also is lying behind in innovation.","How does Trump define ""new"" in relation to military capabilities?",no,i,,,,,
+TRUMP_240_1_5,Argument from Consequences,TRUMP_240_1_14,"
+If Trump can't take anything off the table, then China should go into North Korea may plausibly occur.
+China should go into North Korea has a positive consequence.
+Trump can't take anything off the table should  occur.","How does Trump's argument regarding China and North Korea relate to his broader point about the need for the United States to ""be prepared""?",no,i,,,these questions that relate to borader points are not taken into account by this system of annotation,,
+TRUMP_240_1_5,Argument from Consequences,TRUMP_240_1_12,"
+If Trump can't take anything off the table, then China should go into North Korea may plausibly occur.
+China should go into North Korea has a positive consequence.
+Trump can't take anything off the table should  occur.",What specific actions does Trump suggest China should take to address the situation in North Korea?,yes,i,definition,,,,
+TRUMP_240_1_6,Argument from Cause to Effect,TRUMP_240_1_4,"
+Generally, if Russia has been expanding, then Russia has a much newer capability than the USA do might occur.
+In this case, Russia has been expanding.
+In this case, Russia has a much newer capability than the USA do might occur.","How does Trump define ""new"" in relation to military capabilities?",yes,i,definition,,,,
+TRUMP_240_1_6,Argument from Cause to Effect,TRUMP_240_1_2,"
+Generally, if Russia has been expanding, then Russia has a much newer capability than the USA do might occur.
+In this case, Russia has been expanding.
+In this case, Russia has a much newer capability than the USA do might occur.",What evidence does Trump provide to support his claim that Russia has been expanding its military capabilities?,yes,i,evidence,,,,
+TRUMP_240_1_6,Argument from Cause to Effect,TRUMP_240_1_1,"
+Generally, if Russia has been expanding, then Russia has a much newer capability than the USA do might occur.
+In this case, Russia has been expanding.
+In this case, Russia has a much newer capability than the USA do might occur.",What evidence is there to support the claim that Russia has been expanding its military capabilities?,yes,,evidence,,,,
+TRUMP_240_1_6,Argument from Cause to Effect,TRUMP_240_1_0,"
+Generally, if Russia has been expanding, then Russia has a much newer capability than the USA do might occur.
+In this case, Russia has been expanding.
+In this case, Russia has a much newer capability than the USA do might occur.","What specific examples does Trump provide to support his claim that Russia is expanding its military capabilities and surpassing the United States? How does he suggest addressing this issue while also preparing for potential threats from other countries like North Korea?""",no,i,,,,,
+CLINTON_244_1_0,Argument from Values,CLINTON_244_1_0,"
+America's word be good is positive as judged by Clinton.
+The fact that America's word be good is positive affects tha interpretation and therefore the evaluation of honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere of Clinton.
+America's word be good is a reason for retaining (or retracting) commitment to honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere.",What are the specific mutual defense treaties that Clinton is referring to?,yes,,definition,,"if these treaties do not exist, the argument does not make sense",,
+CLINTON_244_1_0,Argument from Values,CLINTON_244_1_6,"
+America's word be good is positive as judged by Clinton.
+The fact that America's word be good is positive affects tha interpretation and therefore the evaluation of honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere of Clinton.
+America's word be good is a reason for retaining (or retracting) commitment to honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere.","How does the author define ""mutual defense treaties,"" and what are the specific obligations and commitments involved in these treaties?",no,i,,,"if it was saying ""How is 'mutual defense treaties' defined?"" it would be write, like this is confusing",,
+CLINTON_244_1_0,Argument from Values,CLINTON_244_1_1,"
+America's word be good is positive as judged by Clinton.
+The fact that America's word be good is positive affects tha interpretation and therefore the evaluation of honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere of Clinton.
+America's word be good is a reason for retaining (or retracting) commitment to honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere.","What exactly does ""America 's word be good"" mean, and how does it relate to the mutual defense treaties?",yes,,relation,,"America's word be good is an understatement, so it makes sense to ask about it",,
+CLINTON_244_1_0,Argument from Values,CLINTON_244_1_2,"
+America's word be good is positive as judged by Clinton.
+The fact that America's word be good is positive affects tha interpretation and therefore the evaluation of honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere of Clinton.
+America's word be good is a reason for retaining (or retracting) commitment to honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere.","How does the author plan to ensure that America's word is good, and what measures would be taken to address any concerns or worries of global leaders?",no,,,,,,
+CLINTON_244_1_1,Argument from Position to Know,CLINTON_244_1_5,"
+Clinton is in a position to know whether it is the case that this campaign has caused some questioning and worries on the part of many leaders across the globe.
+Clinton asserts that it is the case that this campaign has caused some questioning and worries on the part of many leaders across the globe.
+this campaign has caused some questioning and worries on the part of many leaders across the globe is the case.","What leaders has Clinton talked to, and how do their concerns relate to the mutual defense treaties?",yes,,source,,,,
+CLINTON_244_1_1,Argument from Position to Know,CLINTON_244_1_3,"
+Clinton is in a position to know whether it is the case that this campaign has caused some questioning and worries on the part of many leaders across the globe.
+Clinton asserts that it is the case that this campaign has caused some questioning and worries on the part of many leaders across the globe.
+this campaign has caused some questioning and worries on the part of many leaders across the globe is the case.","What are the specific worries and questioning that Clinton is referring to, and how do they relate to the mutual defense treaties?",yes,,relation,,,,
+CLINTON_244_1_1,Argument from Position to Know,CLINTON_244_1_4,"
+Clinton is in a position to know whether it is the case that this campaign has caused some questioning and worries on the part of many leaders across the globe.
+Clinton asserts that it is the case that this campaign has caused some questioning and worries on the part of many leaders across the globe.
+this campaign has caused some questioning and worries on the part of many leaders across the globe is the case.","Can the author provide specific examples of the concerns and worries expressed by global leaders, and how have these been addressed?",yes,i,definition,,,,
+CL_8_0,Generic Ad Hominem,CL_8_14,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.",Are there alternative solutions that could be explored instead of taking advantage of vulnerable individuals?,yes,,alternatives,,,other considerations,this is a bit like: is it practically possible to not take advantage of people?
+CL_8_0,Generic Ad Hominem,CL_8_13,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.","What alternative options are available to the individuals, and how do they compare to the terms being offered?",yes,,alternatives,,,premise,
+CL_8_0,Generic Ad Hominem,CL_8_11,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.",How does the speaker know that the people being offered the terms have absolutely no other choices?,yes,i,evidence,,,source,
+CL_8_0,Generic Ad Hominem,CL_8_10,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.",Is it necessarily the case that individuals who are in a vulnerable position are unable to negotiate?,yes,,exception,,,premise,
+CL_8_0,Generic Ad Hominem,CL_8_9,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.",Is it necessarily the case that people who are in a vulnerable position are unable to negotiate?,yes,,exception,,,premise,
+CL_8_0,Generic Ad Hominem,CL_8_8,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.",What evidence is there that the people being offered the terms are in no position to negotiate?,yes,,evidence,,,premise,
+CL_8_0,Generic Ad Hominem,CL_8_7,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.",What evidence is there that the individuals in question are not in a position to negotiate?,yes,,evidence,,,premise,
+CL_8_0,Generic Ad Hominem,CL_8_3,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.",Is there any evidence to support the claim that these individuals are being taken advantage of?,yes,,evidence,,,premise,
+CL_8_0,Generic Ad Hominem,CL_8_2,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.","Are there any instances where similar situations have been identified as exploitative or abusive, and how were these cases addressed?""",yes,,evidence,,,,
+CL_8_0,Generic Ad Hominem,CL_8_0,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.","What evidence is presented to support the claim that those being taken advantage of truly have 'absolutely very little choice' and what alternative options, if any, exist for them?""",yes,,evidence,,,premise,
+CL_8_0,Generic Ad Hominem,CL_8_1,"
+If money borrowers are giving very little choice to people who borrow money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.","Are the individuals truly unable to negotiate, or are there alternative options available to them?",yes,,alternatives,,,premise,
+MT_14_0,Argument from Cause to Effect,MT_14_1,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.",How does the credit card offer mentioned by the speaker differ between its initial presentation and fine print details?,yes,,other,,,,
+MT_14_0,Argument from Cause to Effect,MT_14_3,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.","What specific charges does the credit card company advertise as being 0% per annum, and how do these charges compare to the charges that will actually be paid?",no,,,,,,
+MT_14_0,Argument from Cause to Effect,MT_14_7,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.","What are the potential consequences of the credit card company's advertisement being misleading, and how might these consequences affect consumers?",yes,,consequences,,,,
+MT_14_0,Argument from Cause to Effect,MT_14_0,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.",Are these measures effective in preventing misleading claims by manufacturers?,no,,,,,,
+MT_14_0,Argument from Cause to Effect,MT_14_2,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.",What evidence is there to support the claim that the credit card company's advertisement is misleading?,no,,,,,,
+ND_23_0,Practical Reasoning,ND_23_0,"
+There is the goal of not putting moral blame on one side or the other.
+Carrying out the action of realizing that in the current situation, both savers and borrowers are doing extremely badly is a means to realize not putting moral blame on one side or the other.
+Therefore, realizing that in the current situation, both savers and borrowers are doing extremely badly ought to occur.",What evidence is there to support the claim that both savers and borrowers are doing extremely badly?,yes,,evidence,,,,
+ND_23_0,Practical Reasoning,ND_23_1,"
+There is the goal of not putting moral blame on one side or the other.
+Carrying out the action of realizing that in the current situation, both savers and borrowers are doing extremely badly is a means to realize not putting moral blame on one side or the other.
+Therefore, realizing that in the current situation, both savers and borrowers are doing extremely badly ought to occur.","What evidence is there to support the claim that both savers and borrowers are doing ""extremely badly""?",yes,,evidence,,,,
+MP_24_0,Argument from Consequences,MP_24_2,"
+If banks crystalise the debts, then their balance sheets will be insupportable may plausibly occur.
+their balance sheets will be insupportable has a negative consequence.
+banks crystalise the debts should not occur.",Why are banks afraid to force borrowers into default? What implications might this have for the stability of the banking system as a whole?,no,,,,,premise,
+MP_24_0,Argument from Consequences,MP_24_5,"
+If banks crystalise the debts, then their balance sheets will be insupportable may plausibly occur.
+their balance sheets will be insupportable has a negative consequence.
+banks crystalise the debts should not occur.",Why are banks terrified of crystallizing debts?,no,,,,the argument already answers the question,premise,
+MP_24_0,Argument from Consequences,MP_24_6,"
+If banks crystalise the debts, then their balance sheets will be insupportable may plausibly occur.
+their balance sheets will be insupportable has a negative consequence.
+banks crystalise the debts should not occur.","Why would banks be ""terrified"" of crystallizing debts, and what would be the consequences of doing so?",no,,,,the argument already answers the question,premise,
+JW_35_0,Argument from Popular Opinion,JW_35_8,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.","How does the author define ""too much debt""? Is this a subjective measure or is there a specific threshold that defines excessive debt?",no,,,,,,
+JW_35_0,Argument from Popular Opinion,JW_35_7,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.","What are the potential consequences of labeling debt as ""good"" or ""bad""?",yes,,consequences,,,,
+JW_35_0,Argument from Popular Opinion,JW_35_5,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.","What evidence is there to support the claim that there is too much debt, and how is this determined?",no,,,,,,
+JW_35_0,Argument from Popular Opinion,JW_35_0,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.","What is being defined as 'too much debt'? Are we talking about personal debt, national debt, corporate debt, or all three?",no,,,,,,
+JW_35_0,Argument from Popular Opinion,JW_35_2,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.","How does the concept of 'excessive debt' differ from simply having debt? In other words, at what point does debt become problematic?",no,,,,,,
+JW_35_0,Argument from Popular Opinion,JW_35_3,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.","If debt is considered 'morally neutral', then how do we determine whether someone's level of debt is acceptable or not? Are there specific circumstances under which debt becomes immoral or irresponsible?",yes,,definition,,,link,
+JW_35_0,Argument from Popular Opinion,JW_35_4,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.","What is the definition of ""good"" and ""bad"" debt, and how is it determined?",no,,,,,,
+MT_45_0,Argument from Cause to Effect,MT_45_2,"
+Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.
+In this case, that form of capitalism was not making enough money in the developed world.
+In this case, the money did not flow into those industrial activities might occur.","How is ""sufficient surpluses"" defined and measured?",yes,,definition,,,,
+MT_45_0,Argument from Cause to Effect,MT_45_3,"
+Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.
+In this case, that form of capitalism was not making enough money in the developed world.
+In this case, the money did not flow into those industrial activities might occur.","How is ""sufficient surpluses"" defined, and how would one measure it?",yes,,definition,,,,
+MT_45_0,Argument from Cause to Effect,MT_45_4,"
+Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.
+In this case, that form of capitalism was not making enough money in the developed world.
+In this case, the money did not flow into those industrial activities might occur.",What is the basis for the assumption that the money should have flowed into industrial activities in the developed world?,no,,,,i think this is bad reasoning,link,
+MT_45_1,Argument from Cause to Effect,MT_45_6,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.",What is the time frame being referred to? Does the argument apply to a specific historical period or is it a more general statement?,yes,,other,,,,
+MT_45_1,Argument from Cause to Effect,MT_45_2,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.","How is ""sufficient surpluses"" defined and measured?",yes,,definition,,,,
+MT_45_1,Argument from Cause to Effect,MT_45_3,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.","How is ""sufficient surpluses"" defined, and how would one measure it?",yes,,definition,,,,
+MT_45_1,Argument from Cause to Effect,MT_45_4,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.",What is the basis for the assumption that the money should have flowed into industrial activities in the developed world?,no,,,,,,
+MT_45_1,Argument from Cause to Effect,MT_45_5,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.",Is it possible that the money was invested in other sectors or activities?,yes,,alternatives,,,other considerations,
+CF_58_0,Argument from Consequences,CF_58_4,"
+If you get into debt, then you can never get out of it and that's slavery may plausibly occur.
+you can never get out of it and that's slavery has a negative consequence.
+you get into debt should not occur.",Is the comparison between debt and slavery an appropriate one?,yes,,relation,,,link,
+CF_58_0,Argument from Consequences,CF_58_11,"
+If you get into debt, then you can never get out of it and that's slavery may plausibly occur.
+you can never get out of it and that's slavery has a negative consequence.
+you get into debt should not occur.",What are the implications of the speaker's argument for the treatment of those who are unable to pay their debts?,yes,i,consequences,,,other considerations,
+CF_58_0,Argument from Consequences,CF_58_8,"
+If you get into debt, then you can never get out of it and that's slavery may plausibly occur.
+you can never get out of it and that's slavery has a negative consequence.
+you get into debt should not occur.","What is the author's understanding of the concept of slavery in the context of debt, and how does it relate to the argument?",yes,i,relation,,,,
+CF_58_1,Argument from Consequences,CF_58_0,"
+If there is no situation in which you can write off your debts without incurring moral hazard, then slavery may plausibly occur.
+slavery has a negative consequence.
+there is no situation in which you can write off your debts without incurring moral hazard should not occur.",How does CF justify allowing debt forgiveness without promoting moral hazard? What conditions would he impose on individuals seeking debt relief?,no,,,,,,
+CF_58_1,Argument from Consequences,CF_58_3,"
+If there is no situation in which you can write off your debts without incurring moral hazard, then slavery may plausibly occur.
+slavery has a negative consequence.
+there is no situation in which you can write off your debts without incurring moral hazard should not occur.",What is the definition of moral hazard in the context of the argument?,yes,,definition,,,,
+CF_58_1,Argument from Consequences,CF_58_8,"
+If there is no situation in which you can write off your debts without incurring moral hazard, then slavery may plausibly occur.
+slavery has a negative consequence.
+there is no situation in which you can write off your debts without incurring moral hazard should not occur.","What is the author's understanding of the concept of slavery in the context of debt, and how does it relate to the argument?",yes,i,relation,,,,
+CF_58_1,Argument from Consequences,CF_58_7,"
+If there is no situation in which you can write off your debts without incurring moral hazard, then slavery may plausibly occur.
+slavery has a negative consequence.
+there is no situation in which you can write off your debts without incurring moral hazard should not occur.","How does the speaker define ""moral hazard""?",yes,i,definition,,,,
+CF_58_1,Argument from Consequences,CF_58_4,"
+If there is no situation in which you can write off your debts without incurring moral hazard, then slavery may plausibly occur.
+slavery has a negative consequence.
+there is no situation in which you can write off your debts without incurring moral hazard should not occur.",Is the comparison between debt and slavery an appropriate one?,yes,,relation,,,link,
+CF_58_1,Argument from Consequences,CF_58_11,"
+If there is no situation in which you can write off your debts without incurring moral hazard, then slavery may plausibly occur.
+slavery has a negative consequence.
+there is no situation in which you can write off your debts without incurring moral hazard should not occur.",What are the implications of the speaker's argument for the treatment of those who are unable to pay their debts?,yes,i,consequences,,,,
+Helen _66_0,Argument from Consequences,Helen _66_16,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","What alternative solutions or approaches might be available for addressing the issues faced by families, and how might they be more effective or less invasive than the proposed interventions?",yes,,alternatives,,,,
+Helen _66_0,Argument from Consequences,Helen _66_12,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.",What is the criteria for determining which families need intervention and which do not?,yes,,definition,,,,
+Helen _66_0,Argument from Consequences,Helen _66_11,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","How does Helen determine which families need ""a great deal of help"" and how can this help be provided?",yes,i,definition,,,,
+Helen _66_0,Argument from Consequences,Helen _66_2,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.",How does Helen define 'families'? Is this definition broad enough to include all relevant types of family structures?,yes,i,definition,,,,
+Helen _66_0,Argument from Consequences,Helen _66_3,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","Are all families falling under the 'bracket' mentioned by Helen in need of intervention or just those experiencing high levels of aggression and violence? If so, what criteria determine whether an intervention is necessary for such families?""",yes,,definition,,,,
+Helen _66_0,Argument from Consequences,Helen _66_6,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.",How does Helen justify the idea that intervention is necessary for certain families but not others? Are there any specific factors she mentions that distinguish between these two groups?,yes,i,definition,,,,
+Helen _66_0,Argument from Consequences,Helen _66_10,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","What is the definition of ""very high levels of aggression and violence"" that would qualify a family for intervention?",yes,,definition,,,,
+JL_69_0,Argument from Consequences,JL_69_2,"
+If buying a washing machine on credit, then living standards would raise may plausibly occur.
+living standards would raise has a positive consequence.
+buying a washing machine on credit should  occur.",Is the comparison between the cost of using a launderette and the cost of buying a washing machine on credit accurate? Are there other factors to consider?,no,,,,,link,
+JL_69_0,Argument from Consequences,JL_69_5,"
+If buying a washing machine on credit, then living standards would raise may plausibly occur.
+living standards would raise has a positive consequence.
+buying a washing machine on credit should  occur.",What are the potential drawbacks or risks of buying a washing machine on credit? Are there any alternative options to consider?,yes,,consequences,,,other considerations,
+CLINTON_1_1_0,Practical Reasoning,CLINTON_1_1_17,"
+There is the goal of investing in you.
+Carrying out the action of creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business is a means to realize investing in you.
+Therefore, creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business ought to occur.","How will the investments in infrastructure, advanced manufacturing, innovation, and technology be funded? What specific funding mechanisms will be used, and how will they be allocated to different sectors and industries?",no,,,,,,
+CLINTON_1_1_0,Practical Reasoning,CLINTON_1_1_9,"
+There is the goal of investing in you.
+Carrying out the action of creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business is a means to realize investing in you.
+Therefore, creating jobs in infrastructure , in advanced manufacturing , innovation and technology , clean , renewable energy , and small business ought to occur.","What evidence is there that new jobs with rising incomes will be created through investments in infrastructure, advanced manufacturing, innovation, and technology? How will these investments lead to job creation and wage growth?",no,,,,,,
+CLINTON_1_1_1,Practical Reasoning,CLINTON_1_1_16,"
+There is the goal of building an economy that works for everyone.
+Carrying out the action of creating new jobs, good jobs, with rising incomes is a means to realize building an economy that works for everyone.
+Therefore, creating new jobs, good jobs, with rising incomes ought to occur.","How will you ensure that the benefits of economic growth are shared fairly among all members of society, and not just those at the top?",yes,i,relation,,,,
+CLINTON_1_1_1,Practical Reasoning,CLINTON_1_1_8,"
+There is the goal of building an economy that works for everyone.
+Carrying out the action of creating new jobs, good jobs, with rising incomes is a means to realize building an economy that works for everyone.
+Therefore, creating new jobs, good jobs, with rising incomes ought to occur.","How do you plan to create ""new jobs"" and ""good jobs"" with ""rising incomes""? What specific policies or measures will you implement to achieve this?",no,,,,,,
+CLINTON_1_1_1,Practical Reasoning,CLINTON_1_1_7,"
+There is the goal of building an economy that works for everyone.
+Carrying out the action of creating new jobs, good jobs, with rising incomes is a means to realize building an economy that works for everyone.
+Therefore, creating new jobs, good jobs, with rising incomes ought to occur.","How will building an economy that works for everyone, rather than just those at the top, be achieved? What specific policies or measures will be implemented to ensure this?",yes,,relation,,,,
+CLINTON_1_1_1,Practical Reasoning,CLINTON_1_1_6,"
+There is the goal of building an economy that works for everyone.
+Carrying out the action of creating new jobs, good jobs, with rising incomes is a means to realize building an economy that works for everyone.
+Therefore, creating new jobs, good jobs, with rising incomes ought to occur.","What do you mean by ""an economy that works for everyone""? How do you define ""everyone""?",yes,,definition,,,,
+CLINTON_1_1_1,Practical Reasoning,CLINTON_1_1_3,"
+There is the goal of building an economy that works for everyone.
+Carrying out the action of creating new jobs, good jobs, with rising incomes is a means to realize building an economy that works for everyone.
+Therefore, creating new jobs, good jobs, with rising incomes ought to occur.","Who exactly would be responsible for implementing these job creation initiatives, and how effective has their past performance been in this area?",no,,,,,,
+CLINTON_1_1_1,Practical Reasoning,CLINTON_1_1_2,"
+There is the goal of building an economy that works for everyone.
+Carrying out the action of creating new jobs, good jobs, with rising incomes is a means to realize building an economy that works for everyone.
+Therefore, creating new jobs, good jobs, with rising incomes ought to occur.",What specific measures is she proposing to create new jobs and increase income levels?,no,,,,,,
+CLINTON_1_1_1,Practical Reasoning,CLINTON_1_1_0,"
+There is the goal of building an economy that works for everyone.
+Carrying out the action of creating new jobs, good jobs, with rising incomes is a means to realize building an economy that works for everyone.
+Therefore, creating new jobs, good jobs, with rising incomes ought to occur.","What evidence supports the claim that Clinton's proposed policies will actually lead to new jobs, particularly ""good jobs""?",no,,,,,,
+CLINTON_1_1_1,Practical Reasoning,CLINTON_1_1_1,"
+There is the goal of building an economy that works for everyone.
+Carrying out the action of creating new jobs, good jobs, with rising incomes is a means to realize building an economy that works for everyone.
+Therefore, creating new jobs, good jobs, with rising incomes ought to occur.","How does Clinton plan to ensure that the proposed economic policies actually benefit all individuals, rather than just a select few?",yes,,relation,,,,
+CLINTON_1_1_2,Practical Reasoning,CLINTON_1_1_16,"
+There is the goal of making the economy fairer.
+Carrying out the action of raising the national minimum wage and guaranteeing equal pay for women's work is a means to realize making the economy fairer.
+Therefore, raising the national minimum wage and guaranteeing equal pay for women's work ought to occur.","How will you ensure that the benefits of economic growth are shared fairly among all members of society, and not just those at the top?",no,i,,,it's not talking about economic growth,,
+CLINTON_1_1_2,Practical Reasoning,CLINTON_1_1_13,"
+There is the goal of making the economy fairer.
+Carrying out the action of raising the national minimum wage and guaranteeing equal pay for women's work is a means to realize making the economy fairer.
+Therefore, raising the national minimum wage and guaranteeing equal pay for women's work ought to occur.","How will making the economy ""fairer"" benefit everyone? What specific policies or measures will you implement to achieve this goal?",no,,,,,,
+CLINTON_1_1_2,Practical Reasoning,CLINTON_1_1_7,"
+There is the goal of making the economy fairer.
+Carrying out the action of raising the national minimum wage and guaranteeing equal pay for women's work is a means to realize making the economy fairer.
+Therefore, raising the national minimum wage and guaranteeing equal pay for women's work ought to occur.","How will building an economy that works for everyone, rather than just those at the top, be achieved? What specific policies or measures will be implemented to ensure this?",no,,,,,,
+CLINTON_1_1_2,Practical Reasoning,CLINTON_1_1_3,"
+There is the goal of making the economy fairer.
+Carrying out the action of raising the national minimum wage and guaranteeing equal pay for women's work is a means to realize making the economy fairer.
+Therefore, raising the national minimum wage and guaranteeing equal pay for women's work ought to occur.","Who exactly would be responsible for implementing these job creation initiatives, and how effective has their past performance been in this area?",no,,,,"asking about how will the action be carried: who, funding, etc.",,
+CLINTON_1_1_2,Practical Reasoning,CLINTON_1_1_2,"
+There is the goal of making the economy fairer.
+Carrying out the action of raising the national minimum wage and guaranteeing equal pay for women's work is a means to realize making the economy fairer.
+Therefore, raising the national minimum wage and guaranteeing equal pay for women's work ought to occur.",What specific measures is she proposing to create new jobs and increase income levels?,no,,,,,,
+CLINTON_1_1_2,Practical Reasoning,CLINTON_1_1_1,"
+There is the goal of making the economy fairer.
+Carrying out the action of raising the national minimum wage and guaranteeing equal pay for women's work is a means to realize making the economy fairer.
+Therefore, raising the national minimum wage and guaranteeing equal pay for women's work ought to occur.","How does Clinton plan to ensure that the proposed economic policies actually benefit all individuals, rather than just a select few?",yes,,relation,,,,
+CLINTON_1_1_3,Practical Reasoning,CLINTON_1_1_8,"
+There is the goal of new jobs, good jobs, with rising incomes.
+Carrying out the action of Clinton investing on you is a means to realize new jobs, good jobs, with rising incomes.
+Therefore, Clinton investing on you ought to occur.","How do you plan to create ""new jobs"" and ""good jobs"" with ""rising incomes""? What specific policies or measures will you implement to achieve this?",no,,,,,,
+CLINTON_1_1_3,Practical Reasoning,CLINTON_1_1_3,"
+There is the goal of new jobs, good jobs, with rising incomes.
+Carrying out the action of Clinton investing on you is a means to realize new jobs, good jobs, with rising incomes.
+Therefore, Clinton investing on you ought to occur.","Who exactly would be responsible for implementing these job creation initiatives, and how effective has their past performance been in this area?",no,,,,,,
+CLINTON_1_1_3,Practical Reasoning,CLINTON_1_1_2,"
+There is the goal of new jobs, good jobs, with rising incomes.
+Carrying out the action of Clinton investing on you is a means to realize new jobs, good jobs, with rising incomes.
+Therefore, Clinton investing on you ought to occur.",What specific measures is she proposing to create new jobs and increase income levels?,yes,,definition,,"in this direction this question is valid because ""inveting in you"" is an underdefined concept",,
+CLINTON_1_1_3,Practical Reasoning,CLINTON_1_1_0,"
+There is the goal of new jobs, good jobs, with rising incomes.
+Carrying out the action of Clinton investing on you is a means to realize new jobs, good jobs, with rising incomes.
+Therefore, Clinton investing on you ought to occur.","What evidence supports the claim that Clinton's proposed policies will actually lead to new jobs, particularly ""good jobs""?",yes,,evidence,,,,

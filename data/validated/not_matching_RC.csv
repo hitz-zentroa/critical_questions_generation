@@ -1,0 +1,231 @@
+arg_id,scheme,llm_cq_id,premises,llm_cq,inferential,why RC,taxonomy,burden-of-proof,
+CF_58_0,Argument from Consequences,CF_58_5,"
+If you get into debt, then you can never get out of it and that's slavery may plausibly occur.
+you can never get out of it and that's slavery has a negative consequence.
+you get into debt should not occur.",How does the author propose to balance the need for individuals to take responsibility for their debts with the need to provide a fresh start for those who are struggling?,no,"""how does the author propose""",,,
+CF_58_0,Argument from Consequences,CF_58_16,"
+If you get into debt, then you can never get out of it and that's slavery may plausibly occur.
+you can never get out of it and that's slavery has a negative consequence.
+you get into debt should not occur.",What is the author's perspective on the potential unintended consequences of the proposed approach to addressing the issue of debt?,no,"""what's the author's perspective""",,,maybe wrong for too general
+CF_58_1,Argument from Consequences,CF_58_16,"
+If there is no situation in which you can write off your debts without incurring moral hazard, then slavery may plausibly occur.
+slavery has a negative consequence.
+there is no situation in which you can write off your debts without incurring moral hazard should not occur.",What is the author's perspective on the potential unintended consequences of the proposed approach to addressing the issue of debt?,no,"""what's the author's perspective""",,,
+CF_58_1,Argument from Consequences,CF_58_5,"
+If there is no situation in which you can write off your debts without incurring moral hazard, then slavery may plausibly occur.
+slavery has a negative consequence.
+there is no situation in which you can write off your debts without incurring moral hazard should not occur.",How does the author propose to balance the need for individuals to take responsibility for their debts with the need to provide a fresh start for those who are struggling?,no,,,,
+CF_62_0,Argument From Sign,CF_62_0,"
+we need to provide that for young people is true in this situation.
+we need to provide that for young people is often a sign of situations in which young people need to be encouraged is true.
+young people need to be encouraged might be true in this situation.",What is the goal of encouraging the young according to the speaker?,yes,"""according to the speaker""",relation,speaker,
+CL_8_0,Generic Ad Hominem,CL_8_0,"
+If money borrowers are giving very little choice except to take the terms that are being offered to them to people who borrowed money, it does not make sense that money borrowers are taking advantage of people.
+Therefore, arguments from money borrowers can't be trusted.",How can the potential negative consequences of taking advantage of vulnerable individuals be mitigated?,no,,,,
+CLINTON_136_1,Argument from Position to Know,CLINTON_136_0,"
+the police is in a position to know whether it is the case that the police want support, they want more training, they want more assistance.
+the police asserts that it is the case that the police want support, they want more training, they want more assistance.
+the police want support, they want more training, they want more assistance is the case.","What other issues do police chiefs express concern about besides implicit bias, according to Clinton?""",no,,,,wrong
+CLINTON_136_3,Argument from Position to Know,CLINTON_136_0,"
+the police is in a position to know whether it is the case that they want support, they want more training, they want more assistance.
+the police asserts that it is the case that they want support, they want more training, they want more assistance.
+they want support, they want more training, they want more assistance is the case.","What other issues do police chiefs express concern about besides implicit bias, according to Clinton?""",no,,,,wrong
+CLINTON_244_1_0,Argument from Values,CLINTON_244_1_4,"
+America's word be good is positive as judged by Clinton.
+The fact that America's word be good is positive affects tha interpretation and therefore the evaluation of honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere of Clinton.
+America's word be good is a reason for retaining (or retracting) commitment to honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere.","Have other presidential candidates made similar statements, and how do they compare to Clinton's position?""",no,,,,
+CLINTON_244_1_0,Argument from Values,CLINTON_244_1_5,"
+America's word be good is positive as judged by Clinton.
+The fact that America's word be good is positive affects tha interpretation and therefore the evaluation of honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere of Clinton.
+America's word be good is a reason for retaining (or retracting) commitment to honoring the mutual defense treaties that the USA has with its allies in Japan and South Korea and elsewhere.","What is the author's perspective on the impact of the current presidential campaign on America's reputation and credibility on the global stage, and how would they address these issues if elected?",no,"""what is the author's perspective"", if the question was ""what is the potentia impact""",,,
+CLINTON_244_1_1,Argument from Position to Know,CLINTON_244_1_1,"
+Clinton is in a position to know whether it is the case that this campaign has caused some questioning and worries on the part of many leaders across the globe.
+Clinton asserts that it is the case that this campaign has caused some questioning and worries on the part of many leaders across the globe.
+this campaign has caused some questioning and worries on the part of many leaders across the globe is the case.","Who specifically has questioned and expressed worry about this campaign, according to Clinton? Has she addressed their concerns directly?",yes,"""according to Clinton""",source,speaker,
+CLINTON_244_1_1,Argument from Position to Know,CLINTON_244_1_2,"
+Clinton is in a position to know whether it is the case that this campaign has caused some questioning and worries on the part of many leaders across the globe.
+Clinton asserts that it is the case that this campaign has caused some questioning and worries on the part of many leaders across the globe.
+this campaign has caused some questioning and worries on the part of many leaders across the globe is the case.",Are there any specific examples provided by Clinton or mentioned in the text that illustrate these concerns raised by global leaders?,yes,"""mentioned in the text""",source,speaker,
+Helen _66_0,Argument from Consequences,Helen _66_3,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","What is the goal of intervening in families who are living with aggression and violence, and how does Helen propose to achieve this goal?",yes,"""does she suggest""",relation,speaker,
+Helen _66_0,Argument from Consequences,Helen _66_2,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","How does Helen define ""help"" and what kind of interventions does she suggest would be appropriate for families in need?",yes,"""does she suggest""",definition,speaker,
+Helen _66_0,Argument from Consequences,Helen _66_1,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","Does Helen address potential counterarguments against her position, such as concerns about government overreach or the effectiveness of interventions?""",yes,"""does she address""",consequences,recevier,
+JL_69_0,Argument from Consequences,JL_69_4,"
+If buying a washing machine on credit, then living standards would raise may plausibly occur.
+living standards would raise has a positive consequence.
+buying a washing machine on credit should  occur.",How does the speaker address the potential risks and downsides of using credit to purchase consumer goods? What safeguards does the speaker recommend to ensure that individuals are not overburdened by debt?,yes,"""how does the speaker adress""",consequences,speaker,
+JL_69_1,Argument from Consequences,JL_69_4,"
+If people can fund today's purchases out of their future income, then people can benefit from it may plausibly occur.
+people can benefit from it has a positive consequence.
+people can fund today's purchases out of their future income should  occur.",How does the speaker address the potential risks and downsides of using credit to purchase consumer goods? What safeguards does the speaker recommend to ensure that individuals are not overburdened by debt?,yes,"""how does the speaker adress""",consequences,speaker,
+JW_35_0,Argument from Popular Opinion,JW_35_11,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.",How does the author's perspective on the issue of debt reflect their own values and beliefs?,yes,,other,receiver,quesiton is: is the author biased in saying this?
+JW_35_0,Argument from Popular Opinion,JW_35_5,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.",What is the author's perspective on debt? Is it morally neutral or does it have morally damaging consequences?,no,,,,
+JW_35_0,Argument from Popular Opinion,JW_35_3,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.","How might societal attitudes towards debt impact its use and potential negative consequences, as suggested by JW's comments?""",no,,,,
+JW_35_0,Argument from Popular Opinion,JW_35_1,"
+If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.
+the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.
+There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.","In what ways is debt considered morally neutral according to JW's perspective? Can you provide examples to illustrate this point?""",no,,,,
+MP_24_0,Argument from Consequences,MP_24_2,"
+If banks crystalise the debts, then their balance sheets will be insupportable may plausibly occur.
+their balance sheets will be insupportable has a negative consequence.
+banks crystalise the debts should not occur.","What are the potential long-term solutions to the issue of borrowers struggling to make payments, and how might they be implemented?",no,,,,
+MT_14_0,Argument from Cause to Effect,MT_14_8,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.","How might the credit card company's advertisement be improved to make it more responsible and less misleading, and what changes would need to be made to achieve this?",no,,,,
+MT_14_0,Argument from Cause to Effect,MT_14_7,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.","What are the potential consequences of the credit card company's practices for consumers, according to the speaker?",yes,"""according to the speaker""",consequences,speaker,
+MT_14_0,Argument from Cause to Effect,MT_14_6,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.","How does the speaker's argument relate to the idea of responsible advertising, and what specific standards or principles should be applied to determine whether an advertisement is responsible or not?",no,"""how does the speaker idea""",,,
+MT_14_0,Argument from Cause to Effect,MT_14_5,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.","Is it responsible to encourage people to misread information, according to the speaker?",no,"""according to the speaker""",,,
+MT_14_0,Argument from Cause to Effect,MT_14_0,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.","Does MT consider the credit card offer presented as irresponsible due to potential confusion or misunderstanding for consumers?""",no,,,,
+MT_14_0,Argument from Cause to Effect,MT_14_4,"
+Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.
+In this case, all sort of charges are written in small print.
+In this case, people being lured into paying a very large charge might occur.","What is the purpose of the small print in the letter from the credit card company, according to the speaker?",yes,"""according to the speaker""",other,speaker,
+MT_45_0,Argument from Cause to Effect,MT_45_1,"
+Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.
+In this case, that form of capitalism was not making enough money in the developed world.
+In this case, the money did not flow into those industrial activities might occur.","Where did the money flow instead, as mentioned by MT? Can you provide examples?",yes,"""as mentioned by""",other,speaker,
+MT_45_0,Argument from Cause to Effect,MT_45_2,"
+Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.
+In this case, that form of capitalism was not making enough money in the developed world.
+In this case, the money did not flow into those industrial activities might occur.","Is MT implying that current forms of capitalism are more successful at generating profits and surpluses than the one being discussed? If yes, why?""",yes,,other,speaker,
+MT_45_0,Argument from Cause to Effect,MT_45_0,"
+Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.
+In this case, that form of capitalism was not making enough money in the developed world.
+In this case, the money did not flow into those industrial activities might occur.","Why was there a lack of funds flowing into certain industrial activities, according to MT? Was it due to low profitability or other factors?",yes,"""according to""",alternatives,speaker,
+MT_45_1,Argument from Cause to Effect,MT_45_2,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.","Is MT implying that current forms of capitalism are more successful at generating profits and surpluses than the one being discussed? If yes, why?""",yes,,other,speaker,
+MT_45_1,Argument from Cause to Effect,MT_45_1,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.","Where did the money flow instead, as mentioned by MT? Can you provide examples?",yes,"""as mentioned by""",other,speaker,
+MT_45_1,Argument from Cause to Effect,MT_45_0,"
+Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.
+In this case, that form of capitalism wasn't generating sufficient surpluses.
+In this case, the money did not flow into industrial activities might occur.","Why was there a lack of funds flowing into certain industrial activities, according to MT? Was it due to low profitability or other factors?",yes,"""according to""",alternatives,speaker,
+ND_23_0,Practical Reasoning,ND_23_0,"
+There is the goal of not putting moral blame on one side or the other.
+Carrying out the action of realizing that in the current situation, both savers and borrowers are doing extremely badly is a means to realize not putting moral blame on one side or the other.
+Therefore, realizing that in the current situation, both savers and borrowers are doing extremely badly ought to occur.","How do these policies and decisions justify ""moral blame""?",no,,,,
+TRUMP_174_1_0,Generic Ad Hominem,TRUMP_174_1_3,"
+If Clinton prepares debates against Obama, it does not make sense that Clinton defends Obama.
+Therefore, arguments from Clinton can't be trusted.","What is the purpose of Trump's statement, and what does he hope to achieve by bringing up these past events?",yes,"""what is the purpose of""",other,receiver,
+TRUMP_174_1_0,Generic Ad Hominem,TRUMP_174_1_2,"
+If Clinton prepares debates against Obama, it does not make sense that Clinton defends Obama.
+Therefore, arguments from Clinton can't be trusted.","Is the speaker's argument that the current speaker is being overly complimentary and insincere, or is there another underlying assumption being made?",no,,,receiver,
+TRUMP_174_1_0,Generic Ad Hominem,TRUMP_174_1_1,"
+If Clinton prepares debates against Obama, it does not make sense that Clinton defends Obama.
+Therefore, arguments from Clinton can't be trusted.","What is the purpose of bringing up the past debates with Obama, and how does it relate to the current context?",yes,,other,receiver,
+TRUMP_174_1_0,Generic Ad Hominem,TRUMP_174_1_0,"
+If Clinton prepares debates against Obama, it does not make sense that Clinton defends Obama.
+Therefore, arguments from Clinton can't be trusted.","How has Clinton's demeanor changed since those debates, as described by Trump? Is there any evidence provided to support his claim?",yes,"""as described by Trump""",evidence,speaker,
+TRUMP_174_1_1,Generic Ad Hominem,TRUMP_174_1_0,"
+If Clinton treated Obama with terrible disrespect, it does not make sense that Clinton defends Obama's views.
+Therefore, arguments from Clinton can't be trusted.","How has Clinton's demeanor changed since those debates, as described by Trump? Is there any evidence provided to support his claim?",yes,"""as described by Trump""",evidence,speaker,
+TRUMP_174_1_1,Generic Ad Hominem,TRUMP_174_1_3,"
+If Clinton treated Obama with terrible disrespect, it does not make sense that Clinton defends Obama's views.
+Therefore, arguments from Clinton can't be trusted.","What is the purpose of Trump's statement, and what does he hope to achieve by bringing up these past events?",yes,"""what is the purpose of""",other,receiver,
+TRUMP_174_1_1,Generic Ad Hominem,TRUMP_174_1_2,"
+If Clinton treated Obama with terrible disrespect, it does not make sense that Clinton defends Obama's views.
+Therefore, arguments from Clinton can't be trusted.","Is the speaker's argument that the current speaker is being overly complimentary and insincere, or is there another underlying assumption being made?",yes,"""is the speaker's argument""",other,receiver,
+TRUMP_174_1_1,Generic Ad Hominem,TRUMP_174_1_1,"
+If Clinton treated Obama with terrible disrespect, it does not make sense that Clinton defends Obama's views.
+Therefore, arguments from Clinton can't be trusted.","What is the purpose of bringing up the past debates with Obama, and how does it relate to the current context?",yes,"""what is the purpose of""",other,receiver,
+TRUMP_174_1_2,Generic Ad Hominem,TRUMP_174_1_0,"
+If Clinton talks about how lovely everything is and how wonderful she is, it does not make sense that Clinton treated Obama with terrible disrespect in some debates against him.
+Therefore, arguments from Clinton can't be trusted.","How has Clinton's demeanor changed since those debates, as described by Trump? Is there any evidence provided to support his claim?",yes,"""as described by Trump""",evidence,speaker,
+TRUMP_174_1_2,Generic Ad Hominem,TRUMP_174_1_3,"
+If Clinton talks about how lovely everything is and how wonderful she is, it does not make sense that Clinton treated Obama with terrible disrespect in some debates against him.
+Therefore, arguments from Clinton can't be trusted.","What is the purpose of Trump's statement, and what does he hope to achieve by bringing up these past events?",yes,"""what is the purpose of""",other,receiver,
+TRUMP_174_1_2,Generic Ad Hominem,TRUMP_174_1_2,"
+If Clinton talks about how lovely everything is and how wonderful she is, it does not make sense that Clinton treated Obama with terrible disrespect in some debates against him.
+Therefore, arguments from Clinton can't be trusted.","Is the speaker's argument that the current speaker is being overly complimentary and insincere, or is there another underlying assumption being made?",yes,"""is the speaker's argument""",other,receiver,
+TRUMP_174_1_2,Generic Ad Hominem,TRUMP_174_1_1,"
+If Clinton talks about how lovely everything is and how wonderful she is, it does not make sense that Clinton treated Obama with terrible disrespect in some debates against him.
+Therefore, arguments from Clinton can't be trusted.","What is the purpose of bringing up the past debates with Obama, and how does it relate to the current context?",yes,"""what is the purpose of""",other,receiver,
+TRUMP_174_1_4,Circumstantial Ad Hominem,TRUMP_174_1_0,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","How has Clinton's demeanor changed since those debates, as described by Trump? Is there any evidence provided to support his claim?",yes,"""as described by Trump""",evidence,speaker,
+TRUMP_174_1_4,Circumstantial Ad Hominem,TRUMP_174_1_3,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","What is the purpose of Trump's statement, and what does he hope to achieve by bringing up these past events?",yes,"""what is the purpose of""",other,receiver,
+TRUMP_174_1_4,Circumstantial Ad Hominem,TRUMP_174_1_2,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","Is the speaker's argument that the current speaker is being overly complimentary and insincere, or is there another underlying assumption being made?",yes,,other,receiver,
+TRUMP_174_1_4,Circumstantial Ad Hominem,TRUMP_174_1_1,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","What is the purpose of bringing up the past debates with Obama, and how does it relate to the current context?",yes,"""what is the purpose of""",other,receiver,
+TRUMP_240_1_1,Circumstantial Ad Hominem,TRUMP_174_1_0,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","How has Clinton's demeanor changed since those debates, as described by Trump? Is there any evidence provided to support his claim?",yes,"""as described by Trump""",evidence,speaker,
+TRUMP_240_1_2,Circumstantial Ad Hominem,TRUMP_174_1_3,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","What is the purpose of Trump's statement, and what does he hope to achieve by bringing up these past events?",yes,"""what is the purpose of""",other,receiver,
+TRUMP_240_1_5,Circumstantial Ad Hominem,TRUMP_174_1_2,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","Is the speaker's argument that the current speaker is being overly complimentary and insincere, or is there another underlying assumption being made?",yes,,relation,,
+TRUMP_99_0,Circumstantial Ad Hominem,TRUMP_174_1_1,"
+Clinton advocates for how lovely everything is, which implies Obama was good.
+Clinton is personally committed to the opposite of Obama was good, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+Clinton',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of Clinton's argument is decreased or destroyed.","What is the purpose of bringing up the past debates with Obama, and how does it relate to the current context?",yes,,relation,,
+TRUMP_99_2,Argument from Example,TRUMP_240_1_0,"
+In this particular case, North Korea the USA is doing nothing there and also Trump can't take anything off the table.
+Therefore, other political matters that the USA is doing nothing there, might also Trump can't take anything off the table.","What are the implications of Trump's statement that ""we can't take anything off the table"" in terms of military action against North Korea?",yes,,consequences,receiver,
+TRUMP_99_3,Argument from Consequences,TRUMP_240_1_0,"
+If China can solve that problem for the USA, then Trump can't take anything of the table may plausibly occur.
+Trump can't take anything of the table has a positive consequence.
+China can solve that problem for the USA should  occur.","What are the implications of Trump's statement that ""we can't take anything off the table"" in terms of military action against North Korea?",yes,,consequences,receiver,
+TRUMP_99_4,Argument from Consequences,TRUMP_240_1_0,"
+If Trump can't take anything off the table, then China should go into North Korea may plausibly occur.
+China should go into North Korea has a positive consequence.
+Trump can't take anything off the table should  occur.","What are the implications of Trump's statement that ""we can't take anything off the table"" in terms of military action against North Korea?",yes,,consequences,receiver,
+TRUMP_99_4,Argument from Verbal Classification,TRUMP_99_1,"
+Generally, if someone is not even complaining, then it can be the case that doesn't mind it.
+Trump is not even complaining.
+Therefore, Trump doesn't mind it.","What is Hillary Clinton's reason for deleting 33,000 emails and why does Trump suggest releasing his tax returns only after she releases hers? How does Trump feel about being audited frequently by the IRS compared to other wealthy individuals?""",no,"""why""",none,none,wrong

@@ -1,0 +1,21 @@
+arg_id,scheme,llm_cq_id,premises,thoery_cq,llm_cq,comments,type
+JL_69_0,Argument from Consequences,JL_69_1,"
+If buying a washing machine on credit, then living standards would raise may plausibly occur.
+living standards would raise has a positive consequence.
+buying a washing machine on credit should  occur.","If buying a washing machine on credit, will living standards would raise occur? What evidence supports this claim? How likely are the consequences?",How does the speaker justify the idea that credit is beneficial to people? What specific benefits does the speaker believe credit provides?,good example of occasion in which the question is similar but one is framed as RC,evidence
+JL_69_0,Argument from Consequences,JL_69_3,"
+If buying a washing machine on credit, then living standards would raise may plausibly occur.
+living standards would raise has a positive consequence.
+buying a washing machine on credit should  occur.",What other consequences should also be taken into account if  buying a washing machine on credit?,How does the argument that buying a washing machine on credit allows people to fund today's purchases out of their future income address the potential drawbacks or risks of taking on debt?,,consequences
+JL_69_1,Argument from Consequences,JL_69_1,"
+If people can fund today's purchases out of their future income, then people can benefit from it may plausibly occur.
+people can benefit from it has a positive consequence.
+people can fund today's purchases out of their future income should  occur.","If people can fund today's purchases out of their future income, will people can benefit from it occur? What evidence supports this claim? How likely are the consequences?",How does the speaker justify the idea that credit is beneficial to people? What specific benefits does the speaker believe credit provides?,,evidence
+JL_69_1,Argument from Consequences,JL_69_3,"
+If people can fund today's purchases out of their future income, then people can benefit from it may plausibly occur.
+people can benefit from it has a positive consequence.
+people can fund today's purchases out of their future income should  occur.",What other consequences should also be taken into account if  people can fund today's purchases out of their future income?,How does the argument that buying a washing machine on credit allows people to fund today's purchases out of their future income address the potential drawbacks or risks of taking on debt?,,consequences
+Helen _66_0,Argument from Consequences,Helen _66_0,"
+If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.
+you can help families get back on their feet and able to parent their children has a positive consequence.
+you intervene should  occur.","If you intervene, will you can help families get back on their feet and able to parent their children occur? What evidence supports this claim? How likely are the consequences?","Does Helen suggest any specific forms of intervention for families struggling with high levels of aggression and violence? Are these interventions proven to be successful in reducing violent behavior and improving community safety?""",,evidence

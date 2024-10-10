@@ -1,0 +1,3025 @@
+{
+     "CL_0": {
+          "id": "CL_0",
+          "IDS": [
+               "30652",
+               "30655"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Aren\u2019t the people you represent, nowadays called the consumer finance industry, traditionally known as usurers?\nAnd isn\u2019t the reason Dante confined them to the lowest circle of hell because they made a big profit at the expense of very poor people, which was widely regarded, quite rightly in my view, as shameful?",
+          "SENTENCES": [
+               "Aren\u2019t the people you represent, nowadays called the consumer finance industry, traditionally known as usurers?",
+               "And isn\u2019t the reason Dante confined them to the lowest circle of hell because they made a big profit at the expense of very poor people, which was widely regarded, quite rightly in my view, as shameful?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "CL: \"Aren\u2019t the people you represent, nowadays called the consumer finance industry, traditionally known as usurers?\nAnd isn\u2019t the reason Dante confined them to the lowest circle of hell because they made a big profit at the expense of very poor people, which was widely regarded, quite rightly in my view, as shameful?\""
+     },
+     "JL_1": {
+          "id": "JL_1",
+          "IDS": [
+               "30659",
+               "30665"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "So, lending money at interest is shameful?\nWell, then that takes away most of the ability of society to use future income to fund an unaffordable product right now",
+          "SENTENCES": [
+               "So, lending money at interest is shameful?",
+               "Well, then that takes away most of the ability of society to use future income to fund an unaffordable product right now"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "JL: \"So, lending money at interest is shameful?\nWell, then that takes away most of the ability of society to use future income to fund an unaffordable product right now\""
+     },
+     "CL_2": {
+          "id": "CL_2",
+          "IDS": [
+               "30727",
+               "30730",
+               "30736"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Well, I think that\u2019s slightly disingenuous, if I may say so\nOnly a desperate person would agree to pay the sort of exorbitant interest rates that are applied by the people you represent\nSo this activity is, in fact, taking a very unfair advantage of people in a moment of great weakness",
+          "SENTENCES": [
+               "Well, I think that\u2019s slightly disingenuous, if I may say so",
+               "Only a desperate person would agree to pay the sort of exorbitant interest rates that are applied by the people you represent",
+               "So this activity is, in fact, taking a very unfair advantage of people in a moment of great weakness"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "CL: \"Well, I think that\u2019s slightly disingenuous, if I may say so\nOnly a desperate person would agree to pay the sort of exorbitant interest rates that are applied by the people you represent\nSo this activity is, in fact, taking a very unfair advantage of people in a moment of great weakness\""
+     },
+     "JL_3": {
+          "id": "JL_3",
+          "IDS": [
+               "30748",
+               "30754",
+               "30760",
+               "30766"
+          ],
+          "SCHEMES": [
+               "Example",
+               "Example"
+          ],
+          "ARGS": [
+               "30766_30754",
+               "30760_30754"
+          ],
+          "INTERVENTION": "Oh, I don\u2019t think that\u2019s true at all\nYou don\u2019t pay an interest rate\nThe interest rate varies by the amount of the charge for the credit but also the time over which you repay it\nSo if you borrow some money from me, and you pay it back very quickly, the interest rate will be much higher than if you pay it back over a long period\nBut the amount it costs you is exactly the same",
+          "SENTENCES": [
+               "You don\u2019t pay an interest rate",
+               "The interest rate varies by the amount of the charge for the credit but also the time over which you repay it",
+               "So if you borrow some money from me, and you pay it back very quickly, the interest rate will be much higher than if you pay it back over a long period",
+               "But the amount it costs you is exactly the same"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "30766_30754",
+                    "scheme": "Example",
+                    "propositions": [
+                         "the amount it costs you is exactly the same",
+                         "The interest rate varies by the amount of the charge for the credit but also the time over which you repay it"
+                    ],
+                    "premises": [
+                         "In this particular case, <subjecta> <featF> and also <featG>.",
+                         "Therefore, other <subjectx> that <featF>, might also <featG>."
+                    ],
+                    "cqs": [
+                         "Is it actually the case that <subjecta> <featF> and <featG>? Is there evidence on this claim?",
+                         "Is <subjecta> actually a typical case of other <subjectx> that <featF>? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to <subjecta> that undermine its generalisability to other <subjectx> that <featF>?"
+                    ],
+                    "instantiated_premises": [
+                         "In this particular case, the cost of a credit varies by the amount of charge for the credit but also the time over which you repay it and also the amount it ends up costing you is the same.",
+                         "Therefore, other the cost of a credit that varies by the amount of charge for the credit but also the time over which you repay it, might also the amount it ends up costing you is the same."
+                    ],
+                    "instantiated_cqs": [
+                         "Is it actually the case that the cost of a credit varies by the amount of charge for the credit but also the time over which you repay it and the amount it ends up costing you is the same? Is there evidence on this claim?",
+                         "Is the cost of a credit actually a typical case of other the cost of a credit that varies by the amount of charge for the credit but also the time over which you repay it? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to the cost of a credit that undermine its generalisability to other the cost of a credit that varies by the amount of charge for the credit but also the time over which you repay it?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "30760_30754",
+                    "scheme": "Example",
+                    "propositions": [
+                         "if you borrow some money from me, and you pay it back very quickly, the interest rate will be much higher than if you pay it back over a long period",
+                         "The interest rate varies by the amount of the charge for the credit but also the time over which you repay it"
+                    ],
+                    "premises": [
+                         "In this particular case, <subjecta> <featF> and also <featG>.",
+                         "Therefore, other <subjectx> that <featF>, might also <featG>."
+                    ],
+                    "cqs": [
+                         "Is it actually the case that <subjecta> <featF> and <featG>? Is there evidence on this claim?",
+                         "Is <subjecta> actually a typical case of other <subjectx> that <featF>? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to <subjecta> that undermine its generalisability to other <subjectx> that <featF>?"
+                    ],
+                    "instantiated_premises": [
+                         "In this particular case, borrowing money from JL has a higher interest rate if you repay very quickly and also the total amount is the same as if you had payed it over a long period of time.",
+                         "Therefore, other borrowing money that has a higher interest rate if you repay very quickly, might also the total amount is the same as if you had payed it over a long period of time."
+                    ],
+                    "instantiated_cqs": [
+                         "Is it actually the case that borrowing money from JL has a higher interest rate if you repay very quickly and the total amount is the same as if you had payed it over a long period of time? Is there evidence on this claim?",
+                         "Is borrowing money from JL actually a typical case of other borrowing money that has a higher interest rate if you repay very quickly? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to borrowing money from JL that undermine its generalisability to other borrowing money that has a higher interest rate if you repay very quickly?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "JL: \"Oh, I don\u2019t think that\u2019s true at all\nYou don\u2019t pay an interest rate\nThe interest rate varies by the amount of the charge for the credit but also the time over which you repay it\nSo if you borrow some money from me, and you pay it back very quickly, the interest rate will be much higher than if you pay it back over a long period\nBut the amount it costs you is exactly the same\""
+     },
+     "CL_4": {
+          "id": "CL_4",
+          "IDS": [
+               "30769",
+               "30772",
+               "30778"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "But we\u2019re talking about vastly enormous interest rates, aren\u2019t we?\nWe\u2019re not talking of single figures\nWe\u2019re talking hundreds, if not thousands, of per cent, aren\u2019t we?",
+          "SENTENCES": [
+               "But we\u2019re talking about vastly enormous interest rates, aren\u2019t we?",
+               "We\u2019re not talking of single figures",
+               "We\u2019re talking hundreds, if not thousands, of per cent, aren\u2019t we?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "CL: \"But we\u2019re talking about vastly enormous interest rates, aren\u2019t we?\nWe\u2019re not talking of single figures\nWe\u2019re talking hundreds, if not thousands, of per cent, aren\u2019t we?\""
+     },
+     "JL_5": {
+          "id": "JL_5",
+          "IDS": [
+               "30781",
+               "30787",
+               "30793",
+               "30802",
+               "30805"
+          ],
+          "SCHEMES": [
+               "Example",
+               "Example"
+          ],
+          "ARGS": [
+               "30787_30781",
+               "30802_30781"
+          ],
+          "INTERVENTION": "Because they\u2019re very short-term loans\nif you borrowed \u00a3200 from me, and in 30 days time you pay back \u00a3250, the interest rate on that is 1,413.01%\nIt sounds horrendous\n...\nBut if you pay me back the same amount of money in six months time the interest rate is only 57.3%.\nAnd if you take a year to pay it back it goes down",
+          "SENTENCES": [
+               "Because they\u2019re very short-term loans",
+               "if you borrowed \u00a3200 from me, and in 30 days time you pay back \u00a3250, the interest rate on that is 1,413.01%",
+               "It sounds horrendous",
+               "But if you pay me back the same amount of money in six months time the interest rate is only 57.3%.",
+               "And if you take a year to pay it back it goes down"
+          ],
+          "comment": {
+               "added": [
+                    "JL_7"
+               ]
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "30787_30781",
+                    "scheme": "Example",
+                    "propositions": [
+                         "if you borrowed \u00a3200 from me, and in 30 days time you pay back \u00a3250, the interest rate on that is 1,413.01%",
+                         "they\u2019re very short-term loans"
+                    ],
+                    "premises": [
+                         "In this particular case, <subjecta> <featF> and also <featG>.",
+                         "Therefore, other <subjectx> that <featF>, might also <featG>."
+                    ],
+                    "cqs": [
+                         "Is it actually the case that <subjecta> <featF> and <featG>? Is there evidence on this claim?",
+                         "Is <subjecta> actually a typical case of other <subjectx> that <featF>? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to <subjecta> that undermine its generalisability to other <subjectx> that <featF>?"
+                    ],
+                    "instantiated_premises": [
+                         "In this particular case, a 30 days loan is a short-term loan and also has horrendous interest rates.",
+                         "Therefore, other loans that is a short-term loan, might also has horrendous interest rates."
+                    ],
+                    "instantiated_cqs": [
+                         "Is it actually the case that a 30 days loan is a short-term loan and has horrendous interest rates? Is there evidence on this claim?",
+                         "Is a 30 days loan actually a typical case of other loans that is a short-term loan? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to a 30 days loan that undermine its generalisability to other loans that is a short-term loan?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "30802_30781",
+                    "scheme": "Example",
+                    "propositions": [
+                         "if you pay me back the same amount of money in six months time the interest rate is only 57.3%.",
+                         "they\u2019re very short-term loans"
+                    ],
+                    "premises": [
+                         "In this particular case, <subjecta> <featF> and also <featG>.",
+                         "Therefore, other <subjectx> that <featF>, might also <featG>."
+                    ],
+                    "cqs": [
+                         "Is it actually the case that <subjecta> <featF> and <featG>? Is there evidence on this claim?",
+                         "Is <subjecta> actually a typical case of other <subjectx> that <featF>? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to <subjecta> that undermine its generalisability to other <subjectx> that <featF>?"
+                    ],
+                    "instantiated_premises": [
+                         "In this particular case, paying back your debt in 6 months instead of in 1 month has a lower interest rate and also keeps getting lower with time.",
+                         "Therefore, other paying back taking longer times that has a lower interest rate, might also keeps getting lower with time."
+                    ],
+                    "instantiated_cqs": [
+                         "Is it actually the case that paying back your debt in 6 months instead of in 1 month has a lower interest rate and keeps getting lower with time? Is there evidence on this claim?",
+                         "Is paying back your debt in 6 months instead of in 1 month actually a typical case of other paying back taking longer times that has a lower interest rate? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to paying back your debt in 6 months instead of in 1 month that undermine its generalisability to other paying back taking longer times that has a lower interest rate?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "JL: \"Because they\u2019re very short-term loans\nif you borrowed \u00a3200 from me, and in 30 days time you pay back \u00a3250, the interest rate on that is 1,413.01%\nIt sounds horrendous\n...\nBut if you pay me back the same amount of money in six months time the interest rate is only 57.3%.\nAnd if you take a year to pay it back it goes down\""
+     },
+     "CL_6": {
+          "id": "CL_6",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "It does",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "CL: \"It does\""
+     },
+     "JL_7": {
+          "id": "JL_7",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "",
+          "SENTENCES": [],
+          "comment": {
+               "added": [],
+               "went_to": "JL_5"
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "JL: \"\""
+     },
+     "CL_8": {
+          "id": "CL_8",
+          "IDS": [
+               "30808",
+               "30811"
+          ],
+          "SCHEMES": [
+               "DirectAdHominem"
+          ],
+          "ARGS": [
+               "30811_30808"
+          ],
+          "INTERVENTION": "Doesn\u2019t it worry you at all that you're taking advantage of people when they are really in no position to negotiate?\nThey have absolutely very little choice except to take the terms that are being offered to them",
+          "SENTENCES": [
+               "Doesn\u2019t it worry you at all that you're taking advantage of people when they are really in no position to negotiate?",
+               "They have absolutely very little choice except to take the terms that are being offered to them"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "30811_30808",
+                    "scheme": "DirectAdHominem",
+                    "propositions": [
+                         "They have absolutely very little choice except to take the terms that are being offered to them",
+                         "you're taking advantage of people when they are really in no position to negotiate"
+                    ],
+                    "premises": [
+                         "If <subjecta> <eventA>, it does not make sense that <subjecta> <eventB>.",
+                         "Therefore, arguments from <subjecta> can't be trusted."
+                    ],
+                    "cqs": [
+                         "Is the fact that <subjecta> <eventA> inconsistent with the fact that <subjecta> <eventB>? If so, does this make <subjecta> less credible?"
+                    ],
+                    "instantiated_premises": [
+                         "If money borrowers are giving very little choice except to take the terms that are being offered to them to people who borrowed money, it does not make sense that money borrowers are taking advantage of people.",
+                         "Therefore, arguments from money borrowers can't be trusted."
+                    ],
+                    "instantiated_cqs": [
+                         "Is the fact that money borrowers are giving very little choice except to take the terms that are being offered to them to people who borrowed money inconsistent with the fact that money borrowers are taking advantage of people? If so, does this make money borrowers less credible?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "CL: \"Doesn\u2019t it worry you at all that you're taking advantage of people when they are really in no position to negotiate?\nThey have absolutely very little choice except to take the terms that are being offered to them\""
+     },
+     "JL_9": {
+          "id": "JL_9",
+          "IDS": [
+               "30817",
+               "30823",
+               "30829",
+               "30832"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "And that is totally untrue\nbecause our customers all have bank accounts, 80% of them have credit cards\nWhat is actually happening is that people are choosing to pay down their long-term debt, their credit cards and their bank loans, and they are choosing to borrow small amounts of money for short periods of time\nbecause they don\u2019t have the security of future income that they did have before the credit crisis",
+          "SENTENCES": [
+               "And that is totally untrue",
+               "because our customers all have bank accounts, 80% of them have credit cards",
+               "What is actually happening is that people are choosing to pay down their long-term debt, their credit cards and their bank loans, and they are choosing to borrow small amounts of money for short periods of time",
+               "because they don\u2019t have the security of future income that they did have before the credit crisis"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "JL: \"And that is totally untrue\nbecause our customers all have bank accounts, 80% of them have credit cards\nWhat is actually happening is that people are choosing to pay down their long-term debt, their credit cards and their bank loans, and they are choosing to borrow small amounts of money for short periods of time\nbecause they don\u2019t have the security of future income that they did have before the credit crisis\""
+     },
+     "MT_10": {
+          "id": "MT_10",
+          "IDS": [
+               "30838",
+               "30841",
+               "30847"
+          ],
+          "SCHEMES": [
+               "DirectAdHominem"
+          ],
+          "ARGS": [
+               "30847_30841"
+          ],
+          "INTERVENTION": "we know from lots and lots of research, you know this, that people aren\u2019t very good at understanding financial products\nAnd they're easily seduced into acting, in the short-term, in ways which aren\u2019t very good for them in the long-term\nDoesn\u2019t the history of the financial services industry demonstrate that this is an industry with a deep commitment to exploiting those weaknesses, in order to make a fast buck?",
+          "SENTENCES": [
+               "we know from lots and lots of research, you know this, that people aren\u2019t very good at understanding financial products",
+               "And they're easily seduced into acting, in the short-term, in ways which aren\u2019t very good for them in the long-term",
+               "Doesn\u2019t the history of the financial services industry demonstrate that this is an industry with a deep commitment to exploiting those weaknesses, in order to make a fast buck?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "30847_30841",
+                    "scheme": "DirectAdHominem",
+                    "propositions": [
+                         "the history of the financial services industry demonstrates that this is an industry with a deep commitment to exploiting those weaknesses, in order to make a fast buck",
+                         "they're easily seduced into acting, in the short-term, in ways which aren\u2019t very good for them in the long-term"
+                    ],
+                    "premises": [
+                         "If <subjecta> <eventA>, it does not make sense that <subjecta> <eventB>.",
+                         "Therefore, arguments from <subjecta> can't be trusted."
+                    ],
+                    "cqs": [
+                         "Is the fact that <subjecta> <eventA> inconsistent with the fact that <subjecta> <eventB>? If so, does this make <subjecta> less credible?"
+                    ],
+                    "instantiated_premises": "",
+                    "instantiated_cqs": "",
+                    "comment": "does not fit"
+               }
+          ],
+          "VISUAL_INTERVENTION": "MT: \"we know from lots and lots of research, you know this, that people aren\u2019t very good at understanding financial products\nAnd they're easily seduced into acting, in the short-term, in ways which aren\u2019t very good for them in the long-term\nDoesn\u2019t the history of the financial services industry demonstrate that this is an industry with a deep commitment to exploiting those weaknesses, in order to make a fast buck?\""
+     },
+     "JL_11": {
+          "id": "JL_11",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Well, I don\u2019t really agree with that at all",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "JL: \"Well, I don\u2019t really agree with that at all\""
+     },
+     "MT_12": {
+          "id": "MT_12",
+          "IDS": [
+               "30859",
+               "30862",
+               "30868"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Pensions mis-selling for example, hidden credit card charges?\nThe constant need for government to regulate your industry\nbecause every few years you find a new way of preying on people\u2019s inability really to understand complex financial products?",
+          "SENTENCES": [
+               "Pensions mis-selling for example, hidden credit card charges?",
+               "The constant need for government to regulate your industry",
+               "because every few years you find a new way of preying on people\u2019s inability really to understand complex financial products?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MT: \"Pensions mis-selling for example, hidden credit card charges?\nThe constant need for government to regulate your industry\nbecause every few years you find a new way of preying on people\u2019s inability really to understand complex financial products?\""
+     },
+     "JL_13": {
+          "id": "JL_13",
+          "IDS": [
+               "30871"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Well, I don\u2019t think you\u2019d use that argument to explain the reason, for example, why we have an increase in obesity, and claim that the supermarkets are exploiting people\u2019s desire for food",
+          "SENTENCES": [
+               "Well, I don\u2019t think you\u2019d use that argument to explain the reason, for example, why we have an increase in obesity, and claim that the supermarkets are exploiting people\u2019s desire for food"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "JL: \"Well, I don\u2019t think you\u2019d use that argument to explain the reason, for example, why we have an increase in obesity, and claim that the supermarkets are exploiting people\u2019s desire for food\""
+     },
+     "MT_14": {
+          "id": "MT_14",
+          "IDS": [
+               "30874",
+               "30883",
+               "30886",
+               "30892",
+               "30895",
+               "30899",
+               "30903",
+               "30909",
+               "30913",
+               "30918"
+          ],
+          "SCHEMES": [
+               "Example",
+               "CauseToEffect",
+               "ExpertOpinion"
+          ],
+          "ARGS": [
+               "30886_30883",
+               "30899_30903",
+               "30895_30892"
+          ],
+          "INTERVENTION": "We have indeed required those products to have very large warnings on them, telling people about their salt and fat content\nAnd we don\u2019t allow them to say things which are misleading\nWe don\u2019t allow fatty products to say they're healthy\nI've got in front of me a letter from a credit card company\nThere are two figures on this letter which really stand out: 0% per annum new balance transfers, 0% per annum new money transfers\nNow, underneath that, in small print, it becomes absolutely clear that you\u2019ll be paying all sorts of charges\nAnd then very, very quickly you\u2019ll be lured into paying a very large charge\nDo you think it\u2019s responsible to encourage people to mis-read something like that?\nI\u2019ve got all the information there in front of me\nWhy is that irresponsible?",
+          "SENTENCES": [
+               "We have indeed required those products to have very large warnings on them, telling people about their salt and fat content",
+               "And we don\u2019t allow them to say things which are misleading",
+               "We don\u2019t allow fatty products to say they're healthy",
+               "I've got in front of me a letter from a credit card company",
+               "There are two figures on this letter which really stand out: 0% per annum new balance transfers, 0% per annum new money transfers",
+               "Now, underneath that, in small print, it becomes absolutely clear that you\u2019ll be paying all sorts of charges",
+               "And then very, very quickly you\u2019ll be lured into paying a very large charge",
+               "Do you think it\u2019s responsible to encourage people to mis-read something like that?",
+               "I\u2019ve got all the information there in front of me",
+               "Why is that irresponsible?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "30886_30883",
+                    "scheme": "Example",
+                    "propositions": [
+                         "We don\u2019t allow fatty products to say they're healthy",
+                         "we don\u2019t allow them to say things which are misleading"
+                    ],
+                    "premises": [
+                         "In this particular case, <subjecta> <featF> and also <featG>.",
+                         "Therefore, other <subjectx> that <featF>, might also <featG>."
+                    ],
+                    "cqs": [
+                         "Is it actually the case that <subjecta> <featF> and <featG>? Is there evidence on this claim?",
+                         "Is <subjecta> actually a typical case of other <subjectx> that <featF>? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to <subjecta> that undermine its generalisability to other <subjectx> that <featF>?"
+                    ],
+                    "instantiated_premises": [
+                         "In this particular case, fatty products have potential bad consequences and also not be allowed to be described in misleading ways.",
+                         "Therefore, other products, such as morgages, that have potential bad consequences, might also not be allowed to be described in misleading ways."
+                    ],
+                    "instantiated_cqs": [
+                         "Is it actually the case that fatty products have potential bad consequences and not be allowed to be described in misleading ways? Is there evidence on this claim?",
+                         "Is fatty products actually a typical case of other products, such as morgages, that have potential bad consequences? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to fatty products that undermine its generalisability to other products, such as morgages, that have potential bad consequences?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "30899_30903",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "underneath that, in small print, it becomes absolutely clear that you\u2019ll be paying all sorts of charges",
+                         "then very, very quickly you\u2019ll be lured into paying a very large charge"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if all sort of charges are written in small print, then people being lured into paying a very large charge might occur.",
+                         "In this case, all sort of charges are written in small print.",
+                         "In this case, people being lured into paying a very large charge might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if all sort of charges are written in small print then people being lured into paying a very large charge?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'people being lured into paying a very large charge'?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "30895_30892",
+                    "scheme": "ExpertOpinion",
+                    "propositions": [
+                         "There are two figures on this letter which really stand out: 0% per annum new balance transfers, 0% per annum new money transfers",
+                         "I've got in front of me a letter from a credit card company"
+                    ],
+                    "premises": [
+                         "<expertE> is an expert in domain <domainD>.",
+                         "<expertE> asserts that <eventA> is known to be true.",
+                         "<eventA> is within <domainD>.",
+                         "<eventA> may plausibly be taken to be true."
+                    ],
+                    "cqs": [
+                         "Is <expertE> a genuine expert in <domainD>? Is the claim that \"<eventA>\" relevant to domain <domainD>?",
+                         "Did <expertE> really assert that <eventA>?",
+                         "Is <expertE>'s pronouncement directly quoted? If not, is a reference to the original source given? Can it be checked?",
+                         "If <expertE>'s advice is not quoted, does it look like important information or qualifications may have been left out?",
+                         "Is what <expertE> said clear? Are there technical terms used that are not explained clearly?",
+                         "",
+                         "Is the claim that \"<eventA>\" consistent with what other experts in <domainD> say? Is it consistent with known evidence in <domainD>?"
+                    ],
+                    "instantiated_premises": "",
+                    "instantiated_cqs": "",
+                    "comment": "lack of context"
+               }
+          ],
+          "VISUAL_INTERVENTION": "MT: \"We have indeed required those products to have very large warnings on them, telling people about their salt and fat content\nAnd we don\u2019t allow them to say things which are misleading\nWe don\u2019t allow fatty products to say they're healthy\nI've got in front of me a letter from a credit card company\nThere are two figures on this letter which really stand out: 0% per annum new balance transfers, 0% per annum new money transfers\nNow, underneath that, in small print, it becomes absolutely clear that you\u2019ll be paying all sorts of charges\nAnd then very, very quickly you\u2019ll be lured into paying a very large charge\nDo you think it\u2019s responsible to encourage people to mis-read something like that?\nI\u2019ve got all the information there in front of me\nWhy is that irresponsible?\""
+     },
+     "JL_15": {
+          "id": "JL_15",
+          "IDS": [
+               "30927",
+               "30933"
+          ],
+          "SCHEMES": [
+               "CauseToEffect"
+          ],
+          "ARGS": [
+               "30933_30927"
+          ],
+          "INTERVENTION": "The consumer credit industry is very highly regulated\nThe regulations have been over-hauled three times in the last decade",
+          "SENTENCES": [
+               "The consumer credit industry is very highly regulated",
+               "The regulations have been over-hauled three times in the last decade"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "30933_30927",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "The regulations have been over-hauled three times in the last decade",
+                         "The consumer credit industry is very highly regulated"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": "",
+                    "instantiated_cqs": "",
+                    "comment": "does not fit"
+               }
+          ],
+          "VISUAL_INTERVENTION": "JL: \"The consumer credit industry is very highly regulated\nThe regulations have been over-hauled three times in the last decade\""
+     },
+     "MT_16": {
+          "id": "MT_16",
+          "IDS": [
+               "30939"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Why have they had to be over-hauled?",
+          "SENTENCES": [
+               "Why have they had to be over-hauled?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MT: \"Why have they had to be over-hauled?\""
+     },
+     "JL_17": {
+          "id": "JL_17",
+          "IDS": [
+               "30942",
+               "30948",
+               "30954",
+               "30957",
+               "30963",
+               "30967"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "because the government, in 2001, announced a review of the Consumer Credit Act 1974\nbecause it was quite old legislation\nThat led to new regulations in 2004, new regulations in 2006,\nand then the regulations throughout the European Union were harmonised in 2008\nSo these aspects have been looked at in huge detail in the last 10 years by government, by consumer groups, by the industry, by academics\nSo what have you missed?",
+          "SENTENCES": [
+               "because the government, in 2001, announced a review of the Consumer Credit Act 1974",
+               "because it was quite old legislation",
+               "That led to new regulations in 2004, new regulations in 2006,",
+               "and then the regulations throughout the European Union were harmonised in 2008",
+               "So these aspects have been looked at in huge detail in the last 10 years by government, by consumer groups, by the industry, by academics",
+               "So what have you missed?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "JL: \"because the government, in 2001, announced a review of the Consumer Credit Act 1974\nbecause it was quite old legislation\nThat led to new regulations in 2004, new regulations in 2006,\nand then the regulations throughout the European Union were harmonised in 2008\nSo these aspects have been looked at in huge detail in the last 10 years by government, by consumer groups, by the industry, by academics\nSo what have you missed?\""
+     },
+     "MP_18": {
+          "id": "MP_18",
+          "IDS": [
+               "32932",
+               "32481"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "\tI daresay they do\nBut if you were a Martian, and you descended and looked at what\u2019s going on at the moment, I would have thought the first thing you would say is that the lenders are being under-rewarded, not that the borrowers are being fleeced.\nHave you looked at what interest rates are at in this country and indeed across the Eurozone?",
+          "SENTENCES": [
+               "But if you were a Martian, and you descended and looked at what\u2019s going on at the moment, I would have thought the first thing you would say is that the lenders are being under-rewarded, not that the borrowers are being fleeced.",
+               "Have you looked at what interest rates are at in this country and indeed across the Eurozone?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MP: \"\tI daresay they do\nBut if you were a Martian, and you descended and looked at what\u2019s going on at the moment, I would have thought the first thing you would say is that the lenders are being under-rewarded, not that the borrowers are being fleeced.\nHave you looked at what interest rates are at in this country and indeed across the Eurozone?\""
+     },
+     "ND_19": {
+          "id": "ND_19",
+          "IDS": [
+               "32500",
+               "32503",
+               "32938",
+               "32489",
+               "32949"
+          ],
+          "SCHEMES": [
+               "CircumstantialAdHominem"
+          ],
+          "ARGS": [
+               "32500_32949"
+          ],
+          "INTERVENTION": "But how can you say that\nwhen the lenders are actually the banks, that are at the pinnacle of our society?\nAnd indeed the debts that are owed now, by us as a country, even if not individually, are a result of the fact that the banks have got off Scot free\nThere is absolute impunity for lenders at that level.\n...\nBut how can you say that?\nthe lenders are actually the banks, that are at the pinnacle of our society\nThere is absolute impunity for lenders at that level",
+          "SENTENCES": [
+               "And indeed the debts that are owed now, by us as a country, even if not individually, are a result of the fact that the banks have got off Scot free",
+               "There is absolute impunity for lenders at that level.",
+               "But how can you say that?",
+               "the lenders are actually the banks, that are at the pinnacle of our society",
+               "There is absolute impunity for lenders at that level"
+          ],
+          "comment": {
+               "added": [
+                    "ND_21"
+               ]
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "32500_32949",
+                    "scheme": "CircumstantialAdHominem",
+                    "propositions": [
+                         "the debts that are owed now, by us as a country, even if not individually, are a result of the fact that the banks have got off Scot free",
+                         "There is absolute impunity for lenders at that level"
+                    ],
+                    "premises": [
+                         "<subjecta> advocates for <argument1>, which implies <eventA>.",
+                         "<subjecta> is personally committed to the opposite of <eventA>, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.",
+                         "<subjecta>',s credibility as a sincere person who believes in their own argument has been put into question.",
+                         "The plausibility of <subjecta>'s argument is decreased or destroyed."
+                    ],
+                    "cqs": [
+                         "Does <argument1> imply <eventA>?",
+                         "Is <eventA> not consistent with other matters <subjecta> stands for? If so, does this inconsistency decrease <subjecta>'s credibility?"
+                    ],
+                    "instantiated_premises": [
+                         "ND advocates for lenders are being under-rewarded, which implies banks not being punished for their wrong-doing.",
+                         "ND is personally committed to the opposite of banks not being punished for their wrong-doing, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.",
+                         "ND',s credibility as a sincere person who believes in their own argument has been put into question.",
+                         "The plausibility of ND's argument is decreased or destroyed."
+                    ],
+                    "instantiated_cqs": [
+                         "Does lenders are being under-rewarded imply banks not being punished for their wrong-doing?",
+                         "Is banks not being punished for their wrong-doing not consistent with other matters ND stands for? If so, does this inconsistency decrease ND's credibility?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "ND: \"But how can you say that\nwhen the lenders are actually the banks, that are at the pinnacle of our society?\nAnd indeed the debts that are owed now, by us as a country, even if not individually, are a result of the fact that the banks have got off Scot free\nThere is absolute impunity for lenders at that level.\n...\nBut how can you say that?\nthe lenders are actually the banks, that are at the pinnacle of our society\nThere is absolute impunity for lenders at that level\""
+     },
+     "MP_20": {
+          "id": "MP_20",
+          "IDS": [
+               "32529",
+               "32530",
+               "32531"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Well, you say the banks are the lenders\nbut there are lots of other people who are lenders too.\n I mean everyone who puts money into a bank, or a building society, is putting it there so that the bank can lend it on.\nI mean you just heard Simon Rose say that there\u2019s been 100 billion pounds transfer from savers to borrowers.\nI dare say they do.",
+          "SENTENCES": [
+               "Well, you say the banks are the lenders",
+               " I mean everyone who puts money into a bank, or a building society, is putting it there so that the bank can lend it on.",
+               "I mean you just heard Simon Rose say that there\u2019s been 100 billion pounds transfer from savers to borrowers."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MP: \"Well, you say the banks are the lenders\nbut there are lots of other people who are lenders too.\n I mean everyone who puts money into a bank, or a building society, is putting it there so that the bank can lend it on.\nI mean you just heard Simon Rose say that there\u2019s been 100 billion pounds transfer from savers to borrowers.\nI dare say they do.\""
+     },
+     "ND_21": {
+          "id": "ND_21",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "",
+          "SENTENCES": [],
+          "comment": {
+               "added": [],
+               "went_to": "ND_19"
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "ND: \"\""
+     },
+     "MP_22": {
+          "id": "MP_22",
+          "IDS": [
+               "32528",
+               "32957",
+               "32966",
+               "32969",
+               "32970",
+               "32981"
+          ],
+          "SCHEMES": [
+               "ExpertOpinion"
+          ],
+          "ARGS": [
+               "32969_32970"
+          ],
+          "INTERVENTION": "Well, you say the banks are the lenders\nthere are lots of other people who are lenders too\nI mean everyone who puts money into a bank, or a building society, is putting it there so that the bank can lend it on\nI mean you just heard Simon Rose say\nthere\u2019s been 100 billion pounds transfer from savers to borrowers\nSo if you're going to raise your banner for anybody who\u2019s doing badly in this situation, I would have thought you might have raised it for savers, in the first instance",
+          "SENTENCES": [
+               "Well, you say the banks are the lenders",
+               "there are lots of other people who are lenders too",
+               "I mean everyone who puts money into a bank, or a building society, is putting it there so that the bank can lend it on",
+               "I mean you just heard Simon Rose say",
+               "there\u2019s been 100 billion pounds transfer from savers to borrowers",
+               "So if you're going to raise your banner for anybody who\u2019s doing badly in this situation, I would have thought you might have raised it for savers, in the first instance"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "32969_32970",
+                    "scheme": "ExpertOpinion",
+                    "propositions": [
+                         "you just heard Simon Rose say",
+                         "there\u2019s been 100 billion pounds transfer from savers to borrowers"
+                    ],
+                    "premises": [
+                         "<expertE> is an expert in domain <domainD>.",
+                         "<expertE> asserts that <eventA> is known to be true.",
+                         "<eventA> is within <domainD>.",
+                         "<eventA> may plausibly be taken to be true."
+                    ],
+                    "cqs": [
+                         "Is <expertE> a genuine expert in <domainD>? Is the claim that \"<eventA>\" relevant to domain <domainD>?",
+                         "Did <expertE> really assert that <eventA>?",
+                         "Is <expertE>'s pronouncement directly quoted? If not, is a reference to the original source given? Can it be checked?",
+                         "If <expertE>'s advice is not quoted, does it look like important information or qualifications may have been left out?",
+                         "Is what <expertE> said clear? Are there technical terms used that are not explained clearly?",
+                         "",
+                         "Is the claim that \"<eventA>\" consistent with what other experts in <domainD> say? Is it consistent with known evidence in <domainD>?"
+                    ],
+                    "instantiated_premises": [
+                         "Simon Rose is an expert in domain economy.",
+                         "Simon Rose asserts that there\u2019s been 100 billion pounds transfer from savers to borrowers is known to be true.",
+                         "there\u2019s been 100 billion pounds transfer from savers to borrowers is within economy.",
+                         "there\u2019s been 100 billion pounds transfer from savers to borrowers may plausibly be taken to be true."
+                    ],
+                    "instantiated_cqs": [
+                         "Is Simon Rose a genuine expert in economy? Is the claim that \"there\u2019s been 100 billion pounds transfer from savers to borrowers\" relevant to domain economy?",
+                         "Did Simon Rose really assert that there\u2019s been 100 billion pounds transfer from savers to borrowers?",
+                         "Is Simon Rose's pronouncement directly quoted? If not, is a reference to the original source given? Can it be checked?",
+                         "If Simon Rose's advice is not quoted, does it look like important information or qualifications may have been left out?",
+                         "Is what Simon Rose said clear? Are there technical terms used that are not explained clearly?",
+                         "",
+                         "Is the claim that \"there\u2019s been 100 billion pounds transfer from savers to borrowers\" consistent with what other experts in economy say? Is it consistent with known evidence in economy?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "MP: \"Well, you say the banks are the lenders\nthere are lots of other people who are lenders too\nI mean everyone who puts money into a bank, or a building society, is putting it there so that the bank can lend it on\nI mean you just heard Simon Rose say\nthere\u2019s been 100 billion pounds transfer from savers to borrowers\nSo if you're going to raise your banner for anybody who\u2019s doing badly in this situation, I would have thought you might have raised it for savers, in the first instance\""
+     },
+     "ND_23": {
+          "id": "ND_23",
+          "IDS": [
+               "33026",
+               "33027",
+               "33028",
+               "33029",
+               "33030"
+          ],
+          "SCHEMES": [
+               "PracticalReasoning"
+          ],
+          "ARGS": [
+               "33026_33029"
+          ],
+          "INTERVENTION": "\u00a0I think in the current situation that both savers and borrowers, if you're talking about individual people, are doing extremely badly\nmany people are unable to make ends meet and are having to take debt out at huge levels of interest\nOn the other hand, savers are earning nothing in interest\nAnd what this needs is not simply us putting moral blame on one side or the other\nbut actually putting moral blame on a set of economic policies and political decisions that have led to credit liberalisation.",
+          "SENTENCES": [
+               "\u00a0I think in the current situation that both savers and borrowers, if you're talking about individual people, are doing extremely badly",
+               "many people are unable to make ends meet and are having to take debt out at huge levels of interest",
+               "On the other hand, savers are earning nothing in interest",
+               "And what this needs is not simply us putting moral blame on one side or the other",
+               "but actually putting moral blame on a set of economic policies and political decisions that have led to credit liberalisation."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33026_33029",
+                    "scheme": "PracticalReasoning",
+                    "propositions": [
+                         "\u00a0in the current situation that both savers and borrowers, if you're talking about individual people, are doing extremely badly",
+                         "And what this needs is not simply us putting moral blame on one side or the other"
+                    ],
+                    "premises": [
+                         "There is the goal of <goalG>.",
+                         "Carrying out the action of <eventA> is a means to realize <goalG>.",
+                         "Therefore, <eventA> ought to occur."
+                    ],
+                    "cqs": [
+                         "Are there other relevant goals that conflict with <goalG>?",
+                         "Are there alternative actions to <eventA> to achieve <goalG>? If so, which is the most efficient action?",
+                         "Could <eventA> have consequences that we should take into account? Is it practically possible?"
+                    ],
+                    "instantiated_premises": [
+                         "There is the goal of not putting moral blame on one side or the other.",
+                         "Carrying out the action of realizing that in the current situation, both savers and borrowers are doing extremely badly is a means to realize not putting moral blame on one side or the other.",
+                         "Therefore, realizing that in the current situation, both savers and borrowers are doing extremely badly ought to occur."
+                    ],
+                    "instantiated_cqs": [
+                         "Are there other relevant goals that conflict with not putting moral blame on one side or the other?",
+                         "Are there alternative actions to realizing that in the current situation, both savers and borrowers are doing extremely badly to achieve not putting moral blame on one side or the other? If so, which is the most efficient action?",
+                         "Could realizing that in the current situation, both savers and borrowers are doing extremely badly have consequences that we should take into account? Is it practically possible?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "ND: \"\u00a0I think in the current situation that both savers and borrowers, if you're talking about individual people, are doing extremely badly\nmany people are unable to make ends meet and are having to take debt out at huge levels of interest\nOn the other hand, savers are earning nothing in interest\nAnd what this needs is not simply us putting moral blame on one side or the other\nbut actually putting moral blame on a set of economic policies and political decisions that have led to credit liberalisation.\""
+     },
+     "MP_24": {
+          "id": "MP_24",
+          "IDS": [
+               "32633",
+               "33050",
+               "33051",
+               "33052",
+               "33053"
+          ],
+          "SCHEMES": [
+               "NegativeConsequences"
+          ],
+          "ARGS": [
+               "33052_33051"
+          ],
+          "INTERVENTION": "But why are borrowers doing badly?\nI mean on the one hand interest rates are being kept really low, in order that borrowers won\u2019t bear the consequences of their foolish borrowing\nAnd then again, not many people have been driven out of the houses on which they can\u2019t afford to maintain their payments\nthe banks are so terrified that if they crystallise the debts their balance sheets will be insupportable\nactually, people have run up lots of debt, are paying very low rates of interest, and they\u2019re able to continue to live in houses that they can\u2019t afford to pay for",
+          "SENTENCES": [
+               "But why are borrowers doing badly?",
+               "I mean on the one hand interest rates are being kept really low, in order that borrowers won\u2019t bear the consequences of their foolish borrowing",
+               "And then again, not many people have been driven out of the houses on which they can\u2019t afford to maintain their payments",
+               "the banks are so terrified that if they crystallise the debts their balance sheets will be insupportable",
+               "actually, people have run up lots of debt, are paying very low rates of interest, and they\u2019re able to continue to live in houses that they can\u2019t afford to pay for"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33052_33051",
+                    "scheme": "NegativeConsequences",
+                    "propositions": [
+                         "the banks are so terrified that if they crystallise the debts their balance sheets will be insupportable",
+                         "not many people have been driven out of the houses on which they can\u2019t afford to maintain their payments"
+                    ],
+                    "premises": [
+                         "If <eventA>, then <eventB> may plausibly occur.",
+                         "<eventB> has a <direction> consequence.",
+                         "<eventA> should <neg> occur."
+                    ],
+                    "cqs": [
+                         "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if <neg> <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "If banks crystalise the debts, then their balance sheets will be insupportable may plausibly occur.",
+                         "their balance sheets will be insupportable has a negative consequence.",
+                         "banks crystalise the debts should not occur."
+                    ],
+                    "instantiated_cqs": [
+                         "If banks crystalise the debts, will their balance sheets will be insupportable occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if not banks crystalise the debts?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "MP: \"But why are borrowers doing badly?\nI mean on the one hand interest rates are being kept really low, in order that borrowers won\u2019t bear the consequences of their foolish borrowing\nAnd then again, not many people have been driven out of the houses on which they can\u2019t afford to maintain their payments\nthe banks are so terrified that if they crystallise the debts their balance sheets will be insupportable\nactually, people have run up lots of debt, are paying very low rates of interest, and they\u2019re able to continue to live in houses that they can\u2019t afford to pay for\""
+     },
+     "ND_25": {
+          "id": "ND_25",
+          "IDS": [
+               "33138",
+               "33139",
+               "33140",
+               "33141"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "\u00a0Well, at the moment the government has decided that has to be the case\nBecause the economy is in such a terrible state that in order to expand the economy, and get us out of this crisis, we have to encourage people to borrow.\nNow, fair enough, in a crisis\nBut the problem is that\u2019s been the policy for the last three decades, to encourage huge amounts of borrowing to keep the economy going\nbecause the underlying state of our society is highly, highly unequal.",
+          "SENTENCES": [
+               "\u00a0Well, at the moment the government has decided that has to be the case",
+               "Because the economy is in such a terrible state that in order to expand the economy, and get us out of this crisis, we have to encourage people to borrow.",
+               "But the problem is that\u2019s been the policy for the last three decades, to encourage huge amounts of borrowing to keep the economy going",
+               "because the underlying state of our society is highly, highly unequal."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "ND: \"\u00a0Well, at the moment the government has decided that has to be the case\nBecause the economy is in such a terrible state that in order to expand the economy, and get us out of this crisis, we have to encourage people to borrow.\nNow, fair enough, in a crisis\nBut the problem is that\u2019s been the policy for the last three decades, to encourage huge amounts of borrowing to keep the economy going\nbecause the underlying state of our society is highly, highly unequal.\""
+     },
+     "MB_26": {
+          "id": "MB_26",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Claire Fox?",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"Claire Fox?\""
+     },
+     "CF_27": {
+          "id": "CF_27",
+          "IDS": [
+               "33171",
+               "33172",
+               "33173",
+               "33174",
+               "33313",
+               "33314",
+               "33315",
+               "33316",
+               "33317"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Well, whatever about papering over the cracks of inequality\nI\u2019d agree with you\nIt was a state mechanism to compensate for that, that we have this\nBut, I suppose your concern about the impunity to bankers, looking at it the other way round\nand I think there is a real problem in terms of the banks feeling that they can give money out and never have to suffer the consequences, if people don\u2019t pay it back\nBut from our side, as it were, ordinary people, how do we deal with the fact that so many people now do seem to assume that they can have something for nothing?\nI understand that\nI suppose my concern is just this: I want the freedom to be able to write off debts\nND recognises this \u2013 there is this sort of sense amongst a lot of young people, who just think, \u201cI want that, so I\u2019ll have that now. Thank you.\u201d\n if you want the moral hazard, instead of kind of just going on about the bankers, is there not a danger that if we just said we\u2019d write off debt, that it actually isn\u2019t very helpful for our side, for ordinary people, to actually have that?\nThere\u2019s no discipline there\nIn some ways you need that discipline, don\u2019t you, to be a saver, to think, \u201cI won\u2019t get into debt\u201d?",
+          "SENTENCES": [
+               "citation",
+               "It was a state mechanism to compensate for that, that we have this",
+               "and I think there is a real problem in terms of the banks feeling that they can give money out and never have to suffer the consequences, if people don\u2019t pay it back",
+               "But from our side, as it were, ordinary people, how do we deal with the fact that so many people now do seem to assume that they can have something for nothing?",
+               "I suppose my concern is just this: I want the freedom to be able to write off debts",
+               "ND recognises this \u2013 there is this sort of sense amongst a lot of young people, who just think, \u201cI want that, so I\u2019ll have that now. Thank you.\u201d",
+               " if you want the moral hazard, instead of kind of just going on about the bankers, is there not a danger that if we just said we\u2019d write off debt, that it actually isn\u2019t very helpful for our side, for ordinary people, to actually have that?",
+               "There\u2019s no discipline there",
+               "In some ways you need that discipline, don\u2019t you, to be a saver, to think, \u201cI won\u2019t get into debt\u201d?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "CF: \"Well, whatever about papering over the cracks of inequality\nI\u2019d agree with you\nIt was a state mechanism to compensate for that, that we have this\nBut, I suppose your concern about the impunity to bankers, looking at it the other way round\nand I think there is a real problem in terms of the banks feeling that they can give money out and never have to suffer the consequences, if people don\u2019t pay it back\nBut from our side, as it were, ordinary people, how do we deal with the fact that so many people now do seem to assume that they can have something for nothing?\nI understand that\nI suppose my concern is just this: I want the freedom to be able to write off debts\nND recognises this \u2013 there is this sort of sense amongst a lot of young people, who just think, \u201cI want that, so I\u2019ll have that now. Thank you.\u201d\n if you want the moral hazard, instead of kind of just going on about the bankers, is there not a danger that if we just said we\u2019d write off debt, that it actually isn\u2019t very helpful for our side, for ordinary people, to actually have that?\nThere\u2019s no discipline there\nIn some ways you need that discipline, don\u2019t you, to be a saver, to think, \u201cI won\u2019t get into debt\u201d?\""
+     },
+     "ND_28": {
+          "id": "ND_28",
+          "IDS": [
+               "33318",
+               "33341",
+               "33342",
+               "33343"
+          ],
+          "SCHEMES": [
+               "Example"
+          ],
+          "ARGS": [
+               "33341_33318"
+          ],
+          "INTERVENTION": "In some ways I agree with you\nIf you want the economy to run smoothly, you have to incentivise certain types of behaviour.\nSo, for example in South Korea, in terms of how South Korean grew, it did incentivise saving, at certain times, by certain economic policies\nOn the other hand, I think what people don\u2019t realise, or only half realise, is the fact that we have actually written off massive amounts of debt\nBut it certainly isn\u2019t the debts of the people who most need it in society\nFor productive investments. I agree with you.",
+          "SENTENCES": [
+               "If you want the economy to run smoothly, you have to incentivise certain types of behaviour.",
+               "So, for example in South Korea, in terms of how South Korean grew, it did incentivise saving, at certain times, by certain economic policies",
+               "On the other hand, I think what people don\u2019t realise, or only half realise, is the fact that we have actually written off massive amounts of debt",
+               "But it certainly isn\u2019t the debts of the people who most need it in society"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33341_33318",
+                    "scheme": "Example",
+                    "propositions": [
+                         "in South Korea, in terms of how South Korean grew, it did incentivise saving, at certain times, by certain economic policies",
+                         "If you want the economy to run smoothly, you have to incentivise certain types of behaviour."
+                    ],
+                    "premises": [
+                         "In this particular case, <subjecta> <featF> and also <featG>.",
+                         "Therefore, other <subjectx> that <featF>, might also <featG>."
+                    ],
+                    "cqs": [
+                         "Is it actually the case that <subjecta> <featF> and <featG>? Is there evidence on this claim?",
+                         "Is <subjecta> actually a typical case of other <subjectx> that <featF>? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to <subjecta> that undermine its generalisability to other <subjectx> that <featF>?"
+                    ],
+                    "instantiated_premises": [
+                         "In this particular case, South Korea incentivised saving and also has an economy that runs smoothly.",
+                         "Therefore, other countries that incentivised saving, might also has an economy that runs smoothly."
+                    ],
+                    "instantiated_cqs": [
+                         "Is it actually the case that South Korea incentivised saving and has an economy that runs smoothly? Is there evidence on this claim?",
+                         "Is South Korea actually a typical case of other countries that incentivised saving? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to South Korea that undermine its generalisability to other countries that incentivised saving?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "ND: \"In some ways I agree with you\nIf you want the economy to run smoothly, you have to incentivise certain types of behaviour.\nSo, for example in South Korea, in terms of how South Korean grew, it did incentivise saving, at certain times, by certain economic policies\nOn the other hand, I think what people don\u2019t realise, or only half realise, is the fact that we have actually written off massive amounts of debt\nBut it certainly isn\u2019t the debts of the people who most need it in society\nFor productive investments. I agree with you.\""
+     },
+     "CF_29": {
+          "id": "CF_29",
+          "IDS": [
+               "33361",
+               "33362",
+               "33363",
+               "33364",
+               "33365",
+               "33366"
+          ],
+          "SCHEMES": [
+               "Example",
+               "PracticalReasoning",
+               "PopularOpinion"
+          ],
+          "ARGS": [
+               "33363_33362",
+               "33364_33366",
+               "33365_33364"
+          ],
+          "INTERVENTION": "Yes, but what I'm saying is we shouldn\u2019t encourage it for ourselves either\nThat\u2019s my point.\nAnd then finally, if I could just ask you, there\u2019s a danger I think when you kind of say, \u201cThe poor are the ones who suffer. The rich are the bad guys.\u201d\nIt is the case that some of the greatest examples of social progress over the years have come from well-off rich people, banks and so on, investing productively\nIsn\u2019t the problem that the only thing the banks have done is kind of consumer credit?\nWhat they should have been doing, what they could be doing, and what they haven\u2019t got the nerve to do, is not loaning enough\nThey should actually be taking more risk and giving more money out",
+          "SENTENCES": [
+               "Yes, but what I'm saying is we shouldn\u2019t encourage it for ourselves either",
+               "And then finally, if I could just ask you, there\u2019s a danger I think when you kind of say, \u201cThe poor are the ones who suffer. The rich are the bad guys.\u201d",
+               "It is the case that some of the greatest examples of social progress over the years have come from well-off rich people, banks and so on, investing productively",
+               "Isn\u2019t the problem that the only thing the banks have done is kind of consumer credit?",
+               "What they should have been doing, what they could be doing, and what they haven\u2019t got the nerve to do, is not loaning enough",
+               "They should actually be taking more risk and giving more money out"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33363_33362",
+                    "scheme": "Example",
+                    "propositions": [
+                         "It is the case that some of the greatest examples of social progress over the years have come from well-off rich people, banks and so on, investing productively",
+                         "there\u2019s a danger when you kind of say, \u201cThe poor are the ones who suffer. The rich are the bad guys.\u201d"
+                    ],
+                    "premises": [
+                         "In this particular case, <subjecta> <featF> and also <featG>.",
+                         "Therefore, other <subjectx> that <featF>, might also <featG>."
+                    ],
+                    "cqs": [
+                         "Is it actually the case that <subjecta> <featF> and <featG>? Is there evidence on this claim?",
+                         "Is <subjecta> actually a typical case of other <subjectx> that <featF>? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to <subjecta> that undermine its generalisability to other <subjectx> that <featF>?"
+                    ],
+                    "instantiated_premises": [
+                         "In this particular case, people in the past are well-off rich people and banks investing productively and also create some of the greatest examples of social progress.",
+                         "Therefore, other people in the future that are well-off rich people and banks investing productively, might also create some of the greatest examples of social progress."
+                    ],
+                    "instantiated_cqs": [
+                         "Is it actually the case that people in the past are well-off rich people and banks investing productively and create some of the greatest examples of social progress? Is there evidence on this claim?",
+                         "Is people in the past actually a typical case of other people in the future that are well-off rich people and banks investing productively? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to people in the past that undermine its generalisability to other people in the future that are well-off rich people and banks investing productively?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "33364_33366",
+                    "scheme": "PracticalReasoning",
+                    "propositions": [
+                         "Isn\u2019t the problem that the only thing the banks have done is kind of consumer credit?",
+                         "They should actually be taking more risk and giving more money out"
+                    ],
+                    "premises": [
+                         "There is the goal of <goalG>.",
+                         "Carrying out the action of <eventA> is a means to realize <goalG>.",
+                         "Therefore, <eventA> ought to occur."
+                    ],
+                    "cqs": [
+                         "Are there other relevant goals that conflict with <goalG>?",
+                         "Are there alternative actions to <eventA> to achieve <goalG>? If so, which is the most efficient action?",
+                         "Could <eventA> have consequences that we should take into account? Is it practically possible?"
+                    ],
+                    "instantiated_premises": [
+                         "There is the goal of making banks invest productively.",
+                         "Carrying out the action of making banks take more risk and give more money out is a means to realize making banks invest productively.",
+                         "Therefore, making banks take more risk and give more money out ought to occur."
+                    ],
+                    "instantiated_cqs": [
+                         "Are there other relevant goals that conflict with making banks invest productively?",
+                         "Are there alternative actions to making banks take more risk and give more money out to achieve making banks invest productively? If so, which is the most efficient action?",
+                         "Could making banks take more risk and give more money out have consequences that we should take into account? Is it practically possible?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "33365_33364",
+                    "scheme": "PopularOpinion",
+                    "propositions": [
+                         "What they should have been doing, what they could be doing, and what they haven\u2019t got the nerve to do, is not loaning enough",
+                         "Isn\u2019t the problem that the only thing the banks have done is kind of consumer credit?"
+                    ],
+                    "premises": [
+                         "If <large_majority> accept <eventA> as true, then there exists a presumption in favour of <eventA>.",
+                         "<large_majority> accept <eventA> as true.",
+                         "There exists a presumption in favour of <eventA>."
+                    ],
+                    "cqs": [
+                         "What evidence supports that <eventA> is generally accepted as true?",
+                         "Even if <eventA> is generally accepted as true, are there any good reasons for doubting that it is true?"
+                    ],
+                    "instantiated_premises": "",
+                    "instantiated_cqs": "",
+                    "comment": "does not fit"
+               }
+          ],
+          "VISUAL_INTERVENTION": "CF: \"Yes, but what I'm saying is we shouldn\u2019t encourage it for ourselves either\nThat\u2019s my point.\nAnd then finally, if I could just ask you, there\u2019s a danger I think when you kind of say, \u201cThe poor are the ones who suffer. The rich are the bad guys.\u201d\nIt is the case that some of the greatest examples of social progress over the years have come from well-off rich people, banks and so on, investing productively\nIsn\u2019t the problem that the only thing the banks have done is kind of consumer credit?\nWhat they should have been doing, what they could be doing, and what they haven\u2019t got the nerve to do, is not loaning enough\nThey should actually be taking more risk and giving more money out\""
+     },
+     "ND_30": {
+          "id": "ND_30",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Thank you.",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "ND: \"Thank you.\""
+     },
+     "MB_31": {
+          "id": "MB_31",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Nick Dearden, thanks very much indeed",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"Nick Dearden, thanks very much indeed\""
+     },
+     "CF_32": {
+          "id": "CF_32",
+          "IDS": [
+               "33445",
+               "33446"
+          ],
+          "SCHEMES": [
+               "PracticalReasoning"
+          ],
+          "ARGS": [
+               "33445_33446"
+          ],
+          "INTERVENTION": "For productive investments\nSo therefore stop attacking them and actually suggest that we want the rich to do something productive",
+          "SENTENCES": [
+               "For productive investments",
+               "So therefore stop attacking them and actually suggest that we want the rich to do something productive"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33445_33446",
+                    "scheme": "PracticalReasoning",
+                    "propositions": [
+                         "ND said: For productive investments",
+                         "stop attacking them and actually suggest that we want the rich to do something productive"
+                    ],
+                    "premises": [
+                         "There is the goal of <goalG>.",
+                         "Carrying out the action of <eventA> is a means to realize <goalG>.",
+                         "Therefore, <eventA> ought to occur."
+                    ],
+                    "cqs": [
+                         "Are there other relevant goals that conflict with <goalG>?",
+                         "Are there alternative actions to <eventA> to achieve <goalG>? If so, which is the most efficient action?",
+                         "Could <eventA> have consequences that we should take into account? Is it practically possible?"
+                    ],
+                    "instantiated_premises": [
+                         "There is the goal of the rich doing something productive.",
+                         "Carrying out the action of stop attacking them is a means to realize the rich doing something productive.",
+                         "Therefore, stop attacking them ought to occur."
+                    ],
+                    "instantiated_cqs": [
+                         "Are there other relevant goals that conflict with the rich doing something productive?",
+                         "Are there alternative actions to stop attacking them to achieve the rich doing something productive? If so, which is the most efficient action?",
+                         "Could stop attacking them have consequences that we should take into account? Is it practically possible?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "CF: \"For productive investments\nSo therefore stop attacking them and actually suggest that we want the rich to do something productive\""
+     },
+     "ND_33": {
+          "id": "ND_33",
+          "IDS": [
+               "33447",
+               "33448"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Because I don\u2019t think they\u2019re going to do it on their own\nSo I think they will only do it if they are regulated and it\u2019s part of an industrial strategy for them to do that",
+          "SENTENCES": [
+               "Because I don\u2019t think they\u2019re going to do it on their own",
+               "So I think they will only do it if they are regulated and it\u2019s part of an industrial strategy for them to do that"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "ND: \"Because I don\u2019t think they\u2019re going to do it on their own\nSo I think they will only do it if they are regulated and it\u2019s part of an industrial strategy for them to do that\""
+     },
+     "MB_34": {
+          "id": "MB_34",
+          "IDS": [
+               "33486"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Our last witness is Jamie Whyte, a former Cambridge philosopher, now senior fellow at the Cobden Centre think tank.\nAs I understand it, you\u2019ve got a rather nuanced view, that both money and debt are essentially morally neutral",
+          "SENTENCES": [
+               "As I understand it, you\u2019ve got a rather nuanced view, that both money and debt are essentially morally neutral"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"Our last witness is Jamie Whyte, a former Cambridge philosopher, now senior fellow at the Cobden Centre think tank.\nAs I understand it, you\u2019ve got a rather nuanced view, that both money and debt are essentially morally neutral\""
+     },
+     "JW_35": {
+          "id": "JW_35",
+          "IDS": [
+               "33487",
+               "33495",
+               "33496",
+               "33497",
+               "33498",
+               "33499",
+               "33500",
+               "33501",
+               "33502"
+          ],
+          "SCHEMES": [
+               "PopularOpinion"
+          ],
+          "ARGS": [
+               "33497_33495"
+          ],
+          "INTERVENTION": "JW has got a rather nuanced view, that the way they're mis-used can have morally damaging consequences\nWell, debt is morally neutral in the sense that it can be good to be in debt\n Sometimes it\u2019s a good idea, and sometimes it\u2019s a bad idea\nAnd so I think there\u2019s been broad agreement about that in the discussion so far\nThe question is why is there too much debt?\n Why are people taking on too much debt?\n this one is the elaboration of the previous question Now,\na lot of people come up with rather glib moral answers: somehow bankers want them to get into excessive debt\n which is a very peculiar idea, when you think that it\u2019s the bankers who aren\u2019t going to get repaid. So it\u2019s a very odd idea\nthere\u2019s too much debt for the same reason that there are too many unmarried mothers, and for the same reason that you get an overproduction of sheep.",
+          "SENTENCES": [
+               "JW has got a rather nuanced view, that the way they're mis-used can have morally damaging consequences",
+               "Well, debt is morally neutral in the sense that it can be good to be in debt",
+               " Sometimes it\u2019s a good idea, and sometimes it\u2019s a bad idea",
+               "And so I think there\u2019s been broad agreement about that in the discussion so far",
+               "The question is why is there too much debt?",
+               " Why are people taking on too much debt?",
+               "a lot of people come up with rather glib moral answers: somehow bankers want them to get into excessive debt",
+               " which is a very peculiar idea, when you think that it\u2019s the bankers who aren\u2019t going to get repaid. So it\u2019s a very odd idea",
+               "there\u2019s too much debt for the same reason that there are too many unmarried mothers, and for the same reason that you get an overproduction of sheep."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33497_33495",
+                    "scheme": "PopularOpinion",
+                    "propositions": [
+                         "there\u2019s been broad agreement about that in the discussion so far",
+                         "Well, debt is morally neutral in the sense that it can be good to be in debt"
+                    ],
+                    "premises": [
+                         "If <large_majority> accept <eventA> as true, then there exists a presumption in favour of <eventA>.",
+                         "<large_majority> accept <eventA> as true.",
+                         "There exists a presumption in favour of <eventA>."
+                    ],
+                    "cqs": [
+                         "What evidence supports that <eventA> is generally accepted as true?",
+                         "Even if <eventA> is generally accepted as true, are there any good reasons for doubting that it is true?"
+                    ],
+                    "instantiated_premises": [
+                         "If the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true, then there exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt.",
+                         "the majority of people accept debt is morally neutral in the sense that it can be good to be in debt as true.",
+                         "There exists a presumption in favour of debt is morally neutral in the sense that it can be good to be in debt."
+                    ],
+                    "instantiated_cqs": [
+                         "What evidence supports that debt is morally neutral in the sense that it can be good to be in debt is generally accepted as true?",
+                         "Even if debt is morally neutral in the sense that it can be good to be in debt is generally accepted as true, are there any good reasons for doubting that it is true?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "JW: \"JW has got a rather nuanced view, that the way they're mis-used can have morally damaging consequences\nWell, debt is morally neutral in the sense that it can be good to be in debt\n Sometimes it\u2019s a good idea, and sometimes it\u2019s a bad idea\nAnd so I think there\u2019s been broad agreement about that in the discussion so far\nThe question is why is there too much debt?\n Why are people taking on too much debt?\n this one is the elaboration of the previous question Now,\na lot of people come up with rather glib moral answers: somehow bankers want them to get into excessive debt\n which is a very peculiar idea, when you think that it\u2019s the bankers who aren\u2019t going to get repaid. So it\u2019s a very odd idea\nthere\u2019s too much debt for the same reason that there are too many unmarried mothers, and for the same reason that you get an overproduction of sheep.\""
+     },
+     "MB_36": {
+          "id": "MB_36",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Matthew Taylor?\nPut it in one sentence, because I want-",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"Matthew Taylor?\nPut it in one sentence, because I want-\""
+     },
+     "JW_37": {
+          "id": "JW_37",
+          "IDS": [
+               "33562",
+               "33568"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Which is that it\u2019s subsidised; there are systematic subsidies for taking debt\ndebt is morally neutral",
+          "SENTENCES": [
+               "Which is that it\u2019s subsidised; there are systematic subsidies for taking debt",
+               "debt is morally neutral"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "JW: \"Which is that it\u2019s subsidised; there are systematic subsidies for taking debt\ndebt is morally neutral\""
+     },
+     "MT_38": {
+          "id": "MT_38",
+          "IDS": [
+               "33569"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "why do you think everyone, from the ancients to kind of most world religions, see thrift and prudence as virtues\nIf debt is morally neutral",
+          "SENTENCES": [
+               "why do you think everyone, from the ancients to kind of most world religions, see thrift and prudence as virtues"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MT: \"why do you think everyone, from the ancients to kind of most world religions, see thrift and prudence as virtues\nIf debt is morally neutral\""
+     },
+     "JW_39": {
+          "id": "JW_39",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Well, thrift and prudence are virtues",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "JW: \"Well, thrift and prudence are virtues\""
+     },
+     "MT_40": {
+          "id": "MT_40",
+          "IDS": [
+               "33582",
+               "33583",
+               "33819",
+               "33820",
+               "33827"
+          ],
+          "SCHEMES": [
+               "PracticalReasoning",
+               "PracticalReasoning"
+          ],
+          "ARGS": [
+               "33827_33820",
+               "33819_33820"
+          ],
+          "INTERVENTION": "I don\u2019t think you just said the opposite of them was neutral\nSo if they're virtues, doesn\u2019t that imply that the opposite of thrift and prudence is immoral?\nBut, hold on\nIsn\u2019t it simply the case that buying a cup of coffee is something which is substantially less demanding than working up a long-term interest rate?\nTherefore isn\u2019t it a reasonable thing for the state to intervene in those cases\nbecause the knowledge is bounded?",
+          "SENTENCES": [
+               "I don\u2019t think you just said the opposite of them was neutral",
+               "So if they're virtues, doesn\u2019t that imply that the opposite of thrift and prudence is immoral?",
+               "Isn\u2019t it simply the case that buying a cup of coffee is something which is substantially less demanding than working up a long-term interest rate?",
+               "Therefore isn\u2019t it a reasonable thing for the state to intervene in those cases",
+               "because the knowledge is bounded?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33827_33820",
+                    "scheme": "PracticalReasoning",
+                    "propositions": [
+                         "the knowledge is bounded",
+                         "isn\u2019t it a reasonable thing for the state to intervene in those cases"
+                    ],
+                    "premises": [
+                         "There is the goal of <goalG>.",
+                         "Carrying out the action of <eventA> is a means to realize <goalG>.",
+                         "Therefore, <eventA> ought to occur."
+                    ],
+                    "cqs": [
+                         "Are there other relevant goals that conflict with <goalG>?",
+                         "Are there alternative actions to <eventA> to achieve <goalG>? If so, which is the most efficient action?",
+                         "Could <eventA> have consequences that we should take into account? Is it practically possible?"
+                    ],
+                    "instantiated_premises": [
+                         "There is the goal of protecting people who does not have enough knowledge to work up how their loan should be.",
+                         "Carrying out the action of the state intervening is a means to realize protecting people who does not have enough knowledge to work up how their loan should be.",
+                         "Therefore, the state intervening ought to occur."
+                    ],
+                    "instantiated_cqs": [
+                         "Are there other relevant goals that conflict with protecting people who does not have enough knowledge to work up how their loan should be?",
+                         "Are there alternative actions to the state intervening to achieve protecting people who does not have enough knowledge to work up how their loan should be? If so, which is the most efficient action?",
+                         "Could the state intervening have consequences that we should take into account? Is it practically possible?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "33819_33820",
+                    "scheme": "PracticalReasoning",
+                    "propositions": [
+                         "Isn\u2019t it simply the case that buying a cup of coffee is something which is substantially less demanding than working up a long-term interest rate?",
+                         "isn\u2019t it a reasonable thing for the state to intervene in those cases"
+                    ],
+                    "premises": [
+                         "There is the goal of <goalG>.",
+                         "Carrying out the action of <eventA> is a means to realize <goalG>.",
+                         "Therefore, <eventA> ought to occur."
+                    ],
+                    "cqs": [
+                         "Are there other relevant goals that conflict with <goalG>?",
+                         "Are there alternative actions to <eventA> to achieve <goalG>? If so, which is the most efficient action?",
+                         "Could <eventA> have consequences that we should take into account? Is it practically possible?"
+                    ],
+                    "instantiated_premises": [
+                         "There is the goal of preventing people to mess up when working up a long-term interest rate.",
+                         "Carrying out the action of the state intervene in those cases is a means to realize preventing people to mess up when working up a long-term interest rate.",
+                         "Therefore, the state intervene in those cases ought to occur."
+                    ],
+                    "instantiated_cqs": [
+                         "Are there other relevant goals that conflict with preventing people to mess up when working up a long-term interest rate?",
+                         "Are there alternative actions to the state intervene in those cases to achieve preventing people to mess up when working up a long-term interest rate? If so, which is the most efficient action?",
+                         "Could the state intervene in those cases have consequences that we should take into account? Is it practically possible?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "MT: \"I don\u2019t think you just said the opposite of them was neutral\nSo if they're virtues, doesn\u2019t that imply that the opposite of thrift and prudence is immoral?\nBut, hold on\nIsn\u2019t it simply the case that buying a cup of coffee is something which is substantially less demanding than working up a long-term interest rate?\nTherefore isn\u2019t it a reasonable thing for the state to intervene in those cases\nbecause the knowledge is bounded?\""
+     },
+     "JW_41": {
+          "id": "JW_41",
+          "IDS": [
+               "33836",
+               "33837",
+               "33838",
+               "33839"
+          ],
+          "SCHEMES": [
+               "Analogy",
+               "Analogy",
+               "Analogy"
+          ],
+          "ARGS": [
+               "33838_33836",
+               "33839_33836",
+               "33837_33836"
+          ],
+          "INTERVENTION": "It\u2019s only since the state intervened that people have been uninterested in which bank they put their money in\nIn the old days of early capitalism, bankers were famously prudent people. And they went to great lengths to advertise how prudent they were.\nThis stopped not because of the big bang, which liberalised banking, which is what everybody thinks.\nIt stopped because of government guarantees to depositors.",
+          "SENTENCES": [
+               "It\u2019s only since the state intervened that people have been uninterested in which bank they put their money in",
+               "In the old days of early capitalism, bankers were famously prudent people. And they went to great lengths to advertise how prudent they were.",
+               "This stopped not because of the big bang, which liberalised banking, which is what everybody thinks.",
+               "It stopped because of government guarantees to depositors."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33838_33836",
+                    "scheme": "Analogy",
+                    "propositions": [
+                         "This stopped not because of the big bang, which liberalised banking, which is what everybody thinks.",
+                         "It\u2019s only since the state intervened that people have been uninterested in which bank they put their money in"
+                    ],
+                    "premises": [
+                         "Generally, the situation in <C2> is similar to the situation in <C1>.",
+                         "<eventA> is true in <C1>.",
+                         "<eventA> is true in <C2>."
+                    ],
+                    "cqs": [
+                         "Are <C1> and <C2> similar in the respect cited?",
+                         "Is <eventA> true in <C1>?",
+                         "Are there differences between <C1> and <C2> that would tend to undermine the force of the similarity cited?",
+                         "Is there some other case that is also similar to <C1>, but in which <eventA> is false?"
+                    ],
+                    "instantiated_premises": "",
+                    "instantiated_cqs": "",
+                    "comment": "does not fit"
+               },
+               {
+                    "id": "33839_33836",
+                    "scheme": "Analogy",
+                    "propositions": [
+                         "It stopped because of government guarantees to depositors.",
+                         "It\u2019s only since the state intervened that people have been uninterested in which bank they put their money in"
+                    ],
+                    "premises": [
+                         "Generally, the situation in <C2> is similar to the situation in <C1>.",
+                         "<eventA> is true in <C1>.",
+                         "<eventA> is true in <C2>."
+                    ],
+                    "cqs": [
+                         "Are <C1> and <C2> similar in the respect cited?",
+                         "Is <eventA> true in <C1>?",
+                         "Are there differences between <C1> and <C2> that would tend to undermine the force of the similarity cited?",
+                         "Is there some other case that is also similar to <C1>, but in which <eventA> is false?"
+                    ],
+                    "instantiated_premises": "",
+                    "instantiated_cqs": "",
+                    "comment": "does not fit"
+               },
+               {
+                    "id": "33837_33836",
+                    "scheme": "Analogy",
+                    "propositions": [
+                         "In the old days of early capitalism, bankers were famously prudent people. And they went to great lengths to advertise how prudent they were.",
+                         "It\u2019s only since the state intervened that people have been uninterested in which bank they put their money in"
+                    ],
+                    "premises": [
+                         "Generally, the situation in <C2> is similar to the situation in <C1>.",
+                         "<eventA> is true in <C1>.",
+                         "<eventA> is true in <C2>."
+                    ],
+                    "cqs": [
+                         "Are <C1> and <C2> similar in the respect cited?",
+                         "Is <eventA> true in <C1>?",
+                         "Are there differences between <C1> and <C2> that would tend to undermine the force of the similarity cited?",
+                         "Is there some other case that is also similar to <C1>, but in which <eventA> is false?"
+                    ],
+                    "instantiated_premises": "",
+                    "instantiated_cqs": "",
+                    "comment": "does not fit"
+               }
+          ],
+          "VISUAL_INTERVENTION": "JW: \"It\u2019s only since the state intervened that people have been uninterested in which bank they put their money in\nIn the old days of early capitalism, bankers were famously prudent people. And they went to great lengths to advertise how prudent they were.\nThis stopped not because of the big bang, which liberalised banking, which is what everybody thinks.\nIt stopped because of government guarantees to depositors.\""
+     },
+     "MB_42": {
+          "id": "MB_42",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "\tClaire?",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"\tClaire?\""
+     },
+     "CF_43": {
+          "id": "CF_43",
+          "IDS": [
+               "33874",
+               "33875",
+               "33876",
+               "33877"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "\tIt\u2019s not that I want to let people off the hook\nBut I have to say that I went to a lot of conferences, with a lot of policy people, who said, \u201cWe are living in a new era, the knowledge economy. We don\u2019t have to produce anything anymore. Guess what? I mean, we can...\u201d\nAnd it was like living on thin air. And every intellectual, left and right, everybody went along with it.\nAnd this was compensation for the fact that actually there was sluggish, slow, productive growth, that was then sold somehow as, \u201cWell yes, but everything\u2019s okay because we\u2019ll fuel a consumer cross talking [0:38:41].\u201d",
+          "SENTENCES": [
+               "\tIt\u2019s not that I want to let people off the hook",
+               "But I have to say that I went to a lot of conferences, with a lot of policy people, who said, \u201cWe are living in a new era, the knowledge economy. We don\u2019t have to produce anything anymore. Guess what? I mean, we can...\u201d",
+               "And it was like living on thin air. And every intellectual, left and right, everybody went along with it.",
+               "And this was compensation for the fact that actually there was sluggish, slow, productive growth, that was then sold somehow as, \u201cWell yes, but everything\u2019s okay because we\u2019ll fuel a consumer cross talking [0:38:41].\u201d"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "CF: \"\tIt\u2019s not that I want to let people off the hook\nBut I have to say that I went to a lot of conferences, with a lot of policy people, who said, \u201cWe are living in a new era, the knowledge economy. We don\u2019t have to produce anything anymore. Guess what? I mean, we can...\u201d\nAnd it was like living on thin air. And every intellectual, left and right, everybody went along with it.\nAnd this was compensation for the fact that actually there was sluggish, slow, productive growth, that was then sold somehow as, \u201cWell yes, but everything\u2019s okay because we\u2019ll fuel a consumer cross talking [0:38:41].\u201d\""
+     },
+     "MB_44": {
+          "id": "MB_44",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "One at a time, please",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"One at a time, please\""
+     },
+     "MT_45": {
+          "id": "MT_45",
+          "IDS": [
+               "33893",
+               "33894",
+               "33895",
+               "33896",
+               "33897"
+          ],
+          "SCHEMES": [
+               "CauseToEffect",
+               "CauseToEffect"
+          ],
+          "ARGS": [
+               "33897_33896",
+               "33894_33896"
+          ],
+          "INTERVENTION": "Claire\u2019s absolutely right about that\nBut then the problem is that that form of capitalism wasn\u2019t generating sufficient surpluses\nAnd so therefore where did the money flow\nIt didn\u2019t flow into those industrial activities\n because in the developed world that wasn\u2019t making enough money",
+          "SENTENCES": [
+               "Claire\u2019s absolutely right about that",
+               "But then the problem is that that form of capitalism wasn\u2019t generating sufficient surpluses",
+               "And so therefore where did the money flow",
+               "It didn\u2019t flow into those industrial activities",
+               " because in the developed world that wasn\u2019t making enough money"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33897_33896",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "in the developed world that wasn\u2019t making enough money",
+                         "It didn\u2019t flow into those industrial activities"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if that form of capitalism was not making enough money in the developed world, then the money did not flow into those industrial activities might occur.",
+                         "In this case, that form of capitalism was not making enough money in the developed world.",
+                         "In this case, the money did not flow into those industrial activities might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if that form of capitalism was not making enough money in the developed world then the money did not flow into those industrial activities?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'the money did not flow into those industrial activities'?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "33894_33896",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "that form of capitalism wasn\u2019t generating sufficient surpluses",
+                         "It didn\u2019t flow into those industrial activities"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if that form of capitalism wasn't generating sufficient surpluses, then the money did not flow into industrial activities might occur.",
+                         "In this case, that form of capitalism wasn't generating sufficient surpluses.",
+                         "In this case, the money did not flow into industrial activities might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if that form of capitalism wasn't generating sufficient surpluses then the money did not flow into industrial activities?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'the money did not flow into industrial activities'?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "MT: \"Claire\u2019s absolutely right about that\nBut then the problem is that that form of capitalism wasn\u2019t generating sufficient surpluses\nAnd so therefore where did the money flow\nIt didn\u2019t flow into those industrial activities\n because in the developed world that wasn\u2019t making enough money\""
+     },
+     "CF_46": {
+          "id": "CF_46",
+          "IDS": [
+               "33942",
+               "33943",
+               "33944",
+               "33945",
+               "33946",
+               "33947"
+          ],
+          "SCHEMES": [
+               "CauseToEffect"
+          ],
+          "ARGS": [
+               "33943_33947"
+          ],
+          "INTERVENTION": "Yes, but I'm suggesting that that was a political strategy, a way of covering things up\nAll I'm saying is that I think the people who took the sub-prime mortgages were the beneficiaries \u2013 and now the sufferers \u2013 of what I was saying is a policy\nWhen you think about it now, I actually find it frustrating when I'm trying to talk to people about the real state the economy is in\nAnd people sort of assume like everything can just carry on, and all that you need is a kind of credit based consumer thing\n\u201cWell, do we have to have cuts? Do we have to have this? Do we have to have that?\u201d\nAnd you do actually want to say, \u201cMoney doesn\u2019t grow on trees.\u201d",
+          "SENTENCES": [
+               "Yes, but I'm suggesting that that was a political strategy, a way of covering things up",
+               "All I'm saying is that I think the people who took the sub-prime mortgages were the beneficiaries \u2013 and now the sufferers \u2013 of what I was saying is a policy",
+               "When you think about it now, I actually find it frustrating when I'm trying to talk to people about the real state the economy is in",
+               "And people sort of assume like everything can just carry on, and all that you need is a kind of credit based consumer thing",
+               "\u201cWell, do we have to have cuts? Do we have to have this? Do we have to have that?\u201d",
+               "And you do actually want to say, \u201cMoney doesn\u2019t grow on trees.\u201d"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33943_33947",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "people who took the sub-prime mortgages were the beneficiaries \u2013 and now the sufferers \u2013 of what I was saying is a policy",
+                         "And you do actually want to say, \u201cMoney doesn\u2019t grow on trees.\u201d"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if people took the sub-primer mortgages, then they were the beneficiaries (and now the sufferers) of a policy might occur.",
+                         "In this case, people took the sub-primer mortgages.",
+                         "In this case, they were the beneficiaries (and now the sufferers) of a policy might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if people took the sub-primer mortgages then they were the beneficiaries (and now the sufferers) of a policy?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'they were the beneficiaries (and now the sufferers) of a policy'?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "CF: \"Yes, but I'm suggesting that that was a political strategy, a way of covering things up\nAll I'm saying is that I think the people who took the sub-prime mortgages were the beneficiaries \u2013 and now the sufferers \u2013 of what I was saying is a policy\nWhen you think about it now, I actually find it frustrating when I'm trying to talk to people about the real state the economy is in\nAnd people sort of assume like everything can just carry on, and all that you need is a kind of credit based consumer thing\n\u201cWell, do we have to have cuts? Do we have to have this? Do we have to have that?\u201d\nAnd you do actually want to say, \u201cMoney doesn\u2019t grow on trees.\u201d\""
+     },
+     "MB_47": {
+          "id": "MB_47",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Michael Portillo?",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"Michael Portillo?\""
+     },
+     "MP_48": {
+          "id": "MP_48",
+          "IDS": [
+               "33981",
+               "33982",
+               "33983",
+               "33984",
+               "33985",
+               "33986",
+               "33987"
+          ],
+          "SCHEMES": [
+               "CauseToEffect",
+               "CauseToEffect",
+               "CauseToEffect"
+          ],
+          "ARGS": [
+               "33986_33984",
+               "33987_33986",
+               "33985_33984"
+          ],
+          "INTERVENTION": "\tI think it\u2019s very interesting that capitalism is coming under such a lot of attack here\nAnd I don\u2019t say that\u2019s inappropriate\nBut we haven\u2019t yet attacked democracy\nI mean one of the things that strikes me about this is that when you have incumbent governments, and they see that consumer credit boom mushrooming and mushrooming, what do they do?\nThey don\u2019t want to stop it\nThey don\u2019t want to stop it, because they want voters.\nThey want voters who feel artificially rich\nbecause voters who feel artificially rich will probably vote for the incumbent",
+          "SENTENCES": [
+               "\tI think it\u2019s very interesting that capitalism is coming under such a lot of attack here",
+               "But we haven\u2019t yet attacked democracy",
+               "I mean one of the things that strikes me about this is that when you have incumbent governments, and they see that consumer credit boom mushrooming and mushrooming, what do they do?",
+               "They don\u2019t want to stop it",
+               "They don\u2019t want to stop it, because they want voters.",
+               "They want voters who feel artificially rich",
+               "because voters who feel artificially rich will probably vote for the incumbent"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "33986_33984",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "They want voters who feel artificially rich",
+                         "They don\u2019t want to stop it"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if they don't want to stop the incumbent, then they want voters who feel artificially rich might occur.",
+                         "In this case, they don't want to stop the incumbent.",
+                         "In this case, they want voters who feel artificially rich might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if they don't want to stop the incumbent then they want voters who feel artificially rich?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'they want voters who feel artificially rich'?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "33987_33986",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "voters who feel artificially rich will probably vote for the incumbent",
+                         "They want voters who feel artificially rich"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if voters feel artificially rich, then voters will probably vote for the incumbent might occur.",
+                         "In this case, voters feel artificially rich.",
+                         "In this case, voters will probably vote for the incumbent might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if voters feel artificially rich then voters will probably vote for the incumbent?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'voters will probably vote for the incumbent'?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "33985_33984",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "they want voters.",
+                         "They don\u2019t want to stop it"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if they want voters, then they don't want to stop the consumer credit might occur.",
+                         "In this case, they want voters.",
+                         "In this case, they don't want to stop the consumer credit might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if they want voters then they don't want to stop the consumer credit?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'they don't want to stop the consumer credit'?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "MP: \"\tI think it\u2019s very interesting that capitalism is coming under such a lot of attack here\nAnd I don\u2019t say that\u2019s inappropriate\nBut we haven\u2019t yet attacked democracy\nI mean one of the things that strikes me about this is that when you have incumbent governments, and they see that consumer credit boom mushrooming and mushrooming, what do they do?\nThey don\u2019t want to stop it\nThey don\u2019t want to stop it, because they want voters.\nThey want voters who feel artificially rich\nbecause voters who feel artificially rich will probably vote for the incumbent\""
+     },
+     "CF_49": {
+          "id": "CF_49",
+          "IDS": [
+               "34014",
+               "34015",
+               "34016"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "\tBut it\u2019s so insulting\nBecause they think that the only way they can win the hearts and minds of the demos [0:40:06], which has not been true economically, is to buy us off with a sub-prime mortgage and a cheap sofa.\n I mean actually what you need to do is to take people seriously.",
+          "SENTENCES": [
+               "\tBut it\u2019s so insulting",
+               "Because they think that the only way they can win the hearts and minds of the demos [0:40:06], which has not been true economically, is to buy us off with a sub-prime mortgage and a cheap sofa.",
+               " I mean actually what you need to do is to take people seriously."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "CF: \"\tBut it\u2019s so insulting\nBecause they think that the only way they can win the hearts and minds of the demos [0:40:06], which has not been true economically, is to buy us off with a sub-prime mortgage and a cheap sofa.\n I mean actually what you need to do is to take people seriously.\""
+     },
+     "MP_50": {
+          "id": "MP_50",
+          "IDS": [
+               "34030"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "All I'm saying is if we\u2019re going to discuss morality, we have to discuss the immorality of political leaders.",
+          "SENTENCES": [
+               "All I'm saying is if we\u2019re going to discuss morality, we have to discuss the immorality of political leaders."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MP: \"All I'm saying is if we\u2019re going to discuss morality, we have to discuss the immorality of political leaders.\""
+     },
+     "CF_51": {
+          "id": "CF_51",
+          "IDS": [
+               "34034"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "It was their avoidance of being democrats and trying to win us politically",
+          "SENTENCES": [
+               "It was their avoidance of being democrats and trying to win us politically"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "CF: \"It was their avoidance of being democrats and trying to win us politically\""
+     },
+     "MB_52": {
+          "id": "MB_52",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Matthew?",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"Matthew?\""
+     },
+     "MT_53": {
+          "id": "MT_53",
+          "IDS": [
+               "34071",
+               "34072",
+               "34073",
+               "34074",
+               "34075",
+               "34076",
+               "34077",
+               "34078"
+          ],
+          "SCHEMES": [
+               "CauseToEffect",
+               "CauseToEffect",
+               "CauseToEffect",
+               "CauseToEffect",
+               "CauseToEffect"
+          ],
+          "ARGS": [
+               "34075_34077",
+               "34076_34077",
+               "34073_34072",
+               "34074_34073",
+               "34072_34071"
+          ],
+          "INTERVENTION": "And I think that also though goes back to the state of the economy\nBecause the fact is, if living standards aren\u2019t going up what you do is you let people borrow money\nbecause it keeps them happy\nBecause the fundamentals of the economy aren\u2019t generating what you want. But going back to a personal level\nI do believe that as a society we had created a set of social norms and values which protected us from our innate short-termism\nHuman beings are not very good at the long-term\nAnd I think the dismantling of those social norms, and those laws, have made us vulnerable\nAnd I think this is a classic case for moral paternalism",
+          "SENTENCES": [
+               "And I think that also though goes back to the state of the economy",
+               "Because the fact is, if living standards aren\u2019t going up what you do is you let people borrow money",
+               "because it keeps them happy",
+               "Because the fundamentals of the economy aren\u2019t generating what you want. But going back to a personal level",
+               "I do believe that as a society we had created a set of social norms and values which protected us from our innate short-termism",
+               "Human beings are not very good at the long-term",
+               "And I think the dismantling of those social norms, and those laws, have made us vulnerable",
+               "And I think this is a classic case for moral paternalism"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "34075_34077",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "as a society we had created a set of social norms and values which protected us from our innate short-termism",
+                         "the dismantling of those social norms, and those laws, have made us vulnerable"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if we dismantle the social norms and values which protected us from our innate short-termism, then we become vulnerable might occur.",
+                         "In this case, we dismantle the social norms and values which protected us from our innate short-termism.",
+                         "In this case, we become vulnerable might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if we dismantle the social norms and values which protected us from our innate short-termism then we become vulnerable?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'we become vulnerable'?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "34076_34077",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "Human beings are not very good at the long-term",
+                         "the dismantling of those social norms, and those laws, have made us vulnerable"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if the social norms that prevent people from their innate short-termism are dismantled, then humans become vulnerable towards long-termism might occur.",
+                         "In this case, the social norms that prevent people from their innate short-termism are dismantled.",
+                         "In this case, humans become vulnerable towards long-termism might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if the social norms that prevent people from their innate short-termism are dismantled then humans become vulnerable towards long-termism?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'humans become vulnerable towards long-termism'?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "34073_34072",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "it keeps them happy",
+                         "the fact is, if living standards aren\u2019t going up what you do is you let people borrow money"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if living standards aren't going up, then you need to let people borrow money might occur.",
+                         "In this case, living standards aren't going up.",
+                         "In this case, you need to let people borrow money might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if living standards aren't going up then you need to let people borrow money?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'you need to let people borrow money'?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "34074_34073",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "the fundamentals of the economy aren\u2019t generating what you want. But going back to a personal level",
+                         "it keeps them happy"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if the fundamentals of the economy are generating what you want, then borrowing money keeps people happy in the short-term might occur.",
+                         "In this case, the fundamentals of the economy are generating what you want.",
+                         "In this case, borrowing money keeps people happy in the short-term might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if the fundamentals of the economy are generating what you want then borrowing money keeps people happy in the short-term?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'borrowing money keeps people happy in the short-term'?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "34072_34071",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "the fact is, if living standards aren\u2019t going up what you do is you let people borrow money",
+                         "that also though goes back to the state of the economy"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if people are borrowing money, then living standards are not going up might occur.",
+                         "In this case, people are borrowing money.",
+                         "In this case, living standards are not going up might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if people are borrowing money then living standards are not going up?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'living standards are not going up'?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "MT: \"And I think that also though goes back to the state of the economy\nBecause the fact is, if living standards aren\u2019t going up what you do is you let people borrow money\nbecause it keeps them happy\nBecause the fundamentals of the economy aren\u2019t generating what you want. But going back to a personal level\nI do believe that as a society we had created a set of social norms and values which protected us from our innate short-termism\nHuman beings are not very good at the long-term\nAnd I think the dismantling of those social norms, and those laws, have made us vulnerable\nAnd I think this is a classic case for moral paternalism\""
+     },
+     "MB_54": {
+          "id": "MB_54",
+          "IDS": [
+               "34133",
+               "34134",
+               "34135"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "We\u2019re running out of time here, but moral hazard came more and more strongly through towards the end of the witnesses\u2019 evidence\nWho benefits most from the lack of moral hazard?\nAnd who suffers most from the lack of moral hazard, the perceived lack of moral hazard?\nClifford?",
+          "SENTENCES": [
+               "We\u2019re running out of time here, but moral hazard came more and more strongly through towards the end of the witnesses\u2019 evidence",
+               "Who benefits most from the lack of moral hazard?",
+               "And who suffers most from the lack of moral hazard, the perceived lack of moral hazard?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"We\u2019re running out of time here, but moral hazard came more and more strongly through towards the end of the witnesses\u2019 evidence\nWho benefits most from the lack of moral hazard?\nAnd who suffers most from the lack of moral hazard, the perceived lack of moral hazard?\nClifford?\""
+     },
+     "CF_55": {
+          "id": "CF_55",
+          "IDS": [
+               "34146"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "In general, society does\nbecause both sides-",
+          "SENTENCES": [
+               "In general, society does"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "CF: \"In general, society does\nbecause both sides-\""
+     },
+     "MB_56": {
+          "id": "MB_56",
+          "IDS": [
+               "34152"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Sorry, benefit or...?",
+          "SENTENCES": [
+               "Sorry, benefit or...?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"Sorry, benefit or...?\""
+     },
+     "CL_57": {
+          "id": "CL_57",
+          "IDS": [
+               "34156",
+               "34157",
+               "34158"
+          ],
+          "SCHEMES": [
+               "CauseToEffect",
+               "CauseToEffect"
+          ],
+          "ARGS": [
+               "34158_34156",
+               "34157_34156"
+          ],
+          "INTERVENTION": "Well, both sides of the transaction suffer as a result of ignoring moral hazard\nbecause moral hazard is a natural part of the process of lending and borrowing\nAnd if you suppress it, then in fact you're in a situation where the wealth that you look like you're generating is fool\u2019s gold, not real wealth at all.",
+          "SENTENCES": [
+               "Well, both sides of the transaction suffer as a result of ignoring moral hazard",
+               "because moral hazard is a natural part of the process of lending and borrowing",
+               "And if you suppress it, then in fact you're in a situation where the wealth that you look like you're generating is fool\u2019s gold, not real wealth at all."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "34158_34156",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "And if you suppress it, then in fact you're in a situation where the wealth that you look like you're generating is fool\u2019s gold, not real wealth at all.",
+                         "both sides of the transaction suffer as a result of ignoring moral hazard"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if the moral hazard of borrowing and lending money is ignored, then both sides of the transaction suffer might occur.",
+                         "In this case, the moral hazard of borrowing and lending money is ignored.",
+                         "In this case, both sides of the transaction suffer might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if the moral hazard of borrowing and lending money is ignored then both sides of the transaction suffer?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'both sides of the transaction suffer'?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "34157_34156",
+                    "scheme": "CauseToEffect",
+                    "propositions": [
+                         "moral hazard is a natural part of the process of lending and borrowing",
+                         "both sides of the transaction suffer as a result of ignoring moral hazard"
+                    ],
+                    "premises": [
+                         "Generally, if <eventA>, then <eventB> might occur.",
+                         "In this case, <eventA>.",
+                         "In this case, <eventB> might occur."
+                    ],
+                    "cqs": [
+                         "How strong is the generalisation that if <eventA> then <eventB>?",
+                         "Are there other factors in this particular case that could have interfered with the event of '<eventB>'?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, if moral hazard is ignored, then both sides of the transaction suffer might occur.",
+                         "In this case, moral hazard is ignored.",
+                         "In this case, both sides of the transaction suffer might occur."
+                    ],
+                    "instantiated_cqs": [
+                         "How strong is the generalisation that if moral hazard is ignored then both sides of the transaction suffer?",
+                         "Are there other factors in this particular case that could have interfered with the event of 'both sides of the transaction suffer'?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "CL: \"Well, both sides of the transaction suffer as a result of ignoring moral hazard\nbecause moral hazard is a natural part of the process of lending and borrowing\nAnd if you suppress it, then in fact you're in a situation where the wealth that you look like you're generating is fool\u2019s gold, not real wealth at all.\""
+     },
+     "CF_58": {
+          "id": "CF_58",
+          "IDS": [
+               "34169",
+               "34178",
+               "34179",
+               "34180",
+               "34181",
+               "34182",
+               "34183",
+               "34184",
+               "35526",
+               "35527",
+               "35528"
+          ],
+          "SCHEMES": [
+               "NegativeConsequences"
+          ],
+          "ARGS": [
+               "34179_34169"
+          ],
+          "INTERVENTION": "But I think you can be in a situation where you say, \u201cWe will let you write off your debts, without incurring moral hazard. But you have to have-\u201d\n...\nBecause bankruptcy used to be shameful. And I do think there is something in it\nOtherwise you\u2019ve got slavery.\nI mean, if you get into debt, and you can never get out of it, that\u2019s slavery\nYou\u2019ve got to be able to start again.\n But you start again with some very strict rules and a stigma.\nAnd being bankrupt wasn\u2019t something \u2013 now, kind of, it\u2019s almost as though people won\u2019t take account of the fact they\u2019ve got absolutely no money, and they're in debt, and they don\u2019t want to pay it\nWhereas I do feel a country can even say, \u201cWe\u2019re going to go bankrupt. It\u2019s humiliating. We\u2019ll do it. We\u2019ll start again. We\u2019ll grow\nOne of my concerns is this demoralisation question\nIn this debate it seems to me, and actually the way Mr Cameron posed it, was you got a choice of being mollycoddled at home by your mum and dad, or you demand that you\u2019re sustained by the State.\nDon\u2019t you think that we need to encourage young people to see a third way, an alternative to that?",
+          "SENTENCES": [
+               "But I think you can be in a situation where you say, \u201cWe will let you write off your debts, without incurring moral hazard. But you have to have-\u201d",
+               "Because bankruptcy used to be shameful. And I do think there is something in it",
+               "Otherwise you\u2019ve got slavery.",
+               "I mean, if you get into debt, and you can never get out of it, that\u2019s slavery",
+               "You\u2019ve got to be able to start again.",
+               " But you start again with some very strict rules and a stigma.",
+               "And being bankrupt wasn\u2019t something \u2013 now, kind of, it\u2019s almost as though people won\u2019t take account of the fact they\u2019ve got absolutely no money, and they're in debt, and they don\u2019t want to pay it",
+               "Whereas I do feel a country can even say, \u201cWe\u2019re going to go bankrupt. It\u2019s humiliating. We\u2019ll do it. We\u2019ll start again. We\u2019ll grow",
+               "One of my concerns is this demoralisation question",
+               "In this debate it seems to me, and actually the way Mr Cameron posed it, was you got a choice of being mollycoddled at home by your mum and dad, or you demand that you\u2019re sustained by the State.",
+               "Don\u2019t you think that we need to encourage young people to see a third way, an alternative to that?"
+          ],
+          "comment": {
+               "added": [
+                    "CF_60"
+               ]
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "34179_34169",
+                    "scheme": "NegativeConsequences",
+                    "propositions": [
+                         "Otherwise you\u2019ve got slavery.",
+                         "you can be in a situation where you say, \u201cWe will let you write off your debts, without incurring moral hazard.\u201d"
+                    ],
+                    "premises": [
+                         "If <eventA>, then <eventB> may plausibly occur.",
+                         "<eventB> has a <direction> consequence.",
+                         "<eventA> should <neg> occur."
+                    ],
+                    "cqs": [
+                         "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if <neg> <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "If there is no situation in which you can write off your debts without incurring moral hazard, then slavery may plausibly occur.",
+                         "slavery has a negative consequence.",
+                         "there is no situation in which you can write off your debts without incurring moral hazard should not occur."
+                    ],
+                    "instantiated_cqs": [
+                         "If there is no situation in which you can write off your debts without incurring moral hazard, will slavery occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if not there is no situation in which you can write off your debts without incurring moral hazard?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "CF: \"But I think you can be in a situation where you say, \u201cWe will let you write off your debts, without incurring moral hazard. But you have to have-\u201d\n...\nBecause bankruptcy used to be shameful. And I do think there is something in it\nOtherwise you\u2019ve got slavery.\nI mean, if you get into debt, and you can never get out of it, that\u2019s slavery\nYou\u2019ve got to be able to start again.\n But you start again with some very strict rules and a stigma.\nAnd being bankrupt wasn\u2019t something \u2013 now, kind of, it\u2019s almost as though people won\u2019t take account of the fact they\u2019ve got absolutely no money, and they're in debt, and they don\u2019t want to pay it\nWhereas I do feel a country can even say, \u201cWe\u2019re going to go bankrupt. It\u2019s humiliating. We\u2019ll do it. We\u2019ll start again. We\u2019ll grow\nOne of my concerns is this demoralisation question\nIn this debate it seems to me, and actually the way Mr Cameron posed it, was you got a choice of being mollycoddled at home by your mum and dad, or you demand that you\u2019re sustained by the State.\nDon\u2019t you think that we need to encourage young people to see a third way, an alternative to that?\""
+     },
+     "MB_59": {
+          "id": "MB_59",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "How?",
+          "SENTENCES": [],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"How?\""
+     },
+     "CF_60": {
+          "id": "CF_60",
+          "IDS": [],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "",
+          "SENTENCES": [],
+          "comment": {
+               "added": [],
+               "went_to": "CF_58"
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "CF: \"\""
+     },
+     "RS_61": {
+          "id": "RS_61",
+          "IDS": [
+               "35537"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": " I just don\u2019t think that we have the social circumstances to provide that for our young people.",
+          "SENTENCES": [
+               " I just don\u2019t think that we have the social circumstances to provide that for our young people."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "RS: \" I just don\u2019t think that we have the social circumstances to provide that for our young people.\""
+     },
+     "CF_62": {
+          "id": "CF_62",
+          "IDS": [
+               "35545",
+               "35546",
+               "35547",
+               "35548"
+          ],
+          "SCHEMES": [
+               "SignFromOtherEvents"
+          ],
+          "ARGS": [
+               "35547_35545"
+          ],
+          "INTERVENTION": "RS: Provide that for our young people\n These are young adults; you\u2019re kind of treating them as though they\u2019re passive recipients of something.\n And I suppose that\u2019s my concern; how do we encourage the young?\nIt\u2019s not beyond the imagination to imagine the young might get up and go and do something about this, other than kind of sit and wait to be handed something.\nNow you\u2019re saying \u201cProvide that for our young people\u201d, and in a way that\u2019s where I\u2019m going.",
+          "SENTENCES": [
+               "RS: Provide that for our young people",
+               " These are young adults; you\u2019re kind of treating them as though they\u2019re passive recipients of something.",
+               " And I suppose that\u2019s my concern; how do we encourage the young?",
+               "It\u2019s not beyond the imagination to imagine the young might get up and go and do something about this, other than kind of sit and wait to be handed something."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "35547_35545",
+                    "scheme": "SignFromOtherEvents",
+                    "propositions": [
+                         "how do we encourage the young?",
+                         "Provide that for our young people"
+                    ],
+                    "premises": [
+                         "<eventA> is true in this situation.",
+                         "<eventA> is often a sign of situations in which <eventB> is true.",
+                         "<eventB> might be true in this situation."
+                    ],
+                    "cqs": [
+                         "Is there a proved relation between '<eventB>' and '<eventA>'?",
+                         "Are there any events other than <eventB> that would more reliably account for <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "we need to provide that for young people is true in this situation.",
+                         "we need to provide that for young people is often a sign of situations in which young people need to be encouraged is true.",
+                         "young people need to be encouraged might be true in this situation."
+                    ],
+                    "instantiated_cqs": [
+                         "Is there a proved relation between 'young people need to be encouraged' and 'we need to provide that for young people'?",
+                         "Are there any events other than young people need to be encouraged that would more reliably account for we need to provide that for young people?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "CF: \"RS: Provide that for our young people\n These are young adults; you\u2019re kind of treating them as though they\u2019re passive recipients of something.\n And I suppose that\u2019s my concern; how do we encourage the young?\nIt\u2019s not beyond the imagination to imagine the young might get up and go and do something about this, other than kind of sit and wait to be handed something.\nNow you\u2019re saying \u201cProvide that for our young people\u201d, and in a way that\u2019s where I\u2019m going.\""
+     },
+     "RS_63": {
+          "id": "RS_63",
+          "IDS": [
+               "35565",
+               "35566",
+               "35567",
+               "35568",
+               "35569"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Well I think what we need to look at is we need to look at other ways of incentivising\n making work pay\n Looking at the barriers that exist for young people to get into work\nYoung people nowadays, you know who have just sat their GCSEs or just sat their A Levels, have far fewer opportunities than their parents generations.\nThere\u2019s no free education, there\u2019s no affordable housing.",
+          "SENTENCES": [
+               "Well I think what we need to look at is we need to look at other ways of incentivising",
+               " making work pay",
+               " Looking at the barriers that exist for young people to get into work",
+               "Young people nowadays, you know who have just sat their GCSEs or just sat their A Levels, have far fewer opportunities than their parents generations.",
+               "There\u2019s no free education, there\u2019s no affordable housing."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "RS: \"Well I think what we need to look at is we need to look at other ways of incentivising\n making work pay\n Looking at the barriers that exist for young people to get into work\nYoung people nowadays, you know who have just sat their GCSEs or just sat their A Levels, have far fewer opportunities than their parents generations.\nThere\u2019s no free education, there\u2019s no affordable housing.\""
+     },
+     "Melanie_64": {
+          "id": "Melanie_64",
+          "IDS": [
+               "37411",
+               "37414",
+               "37420",
+               "37426",
+               "37432",
+               "37438"
+          ],
+          "SCHEMES": [
+               "NegativeConsequences"
+          ],
+          "ARGS": [
+               "37420_37411"
+          ],
+          "INTERVENTION": "Well the State has taken a moral position\nthat position was non-judgmentalism\nand terrible harm it\u2019s done\nIt\u2019s created a lot of victims who now need help themselves, and who sometimes go on to create other victims through crime\n I think they do need help\nbut that help should be very carefully calibrated, to restore the capacity for independence and personal responsibility",
+          "SENTENCES": [
+               "Well the State has taken a moral position",
+               "that position was non-judgmentalism",
+               "and terrible harm it\u2019s done",
+               "It\u2019s created a lot of victims who now need help themselves, and who sometimes go on to create other victims through crime",
+               " I think they do need help",
+               "but that help should be very carefully calibrated, to restore the capacity for independence and personal responsibility"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "37420_37411",
+                    "scheme": "NegativeConsequences",
+                    "propositions": [
+                         "and terrible harm it\u2019s done",
+                         "the State has taken a moral position"
+                    ],
+                    "premises": [
+                         "If <eventA>, then <eventB> may plausibly occur.",
+                         "<eventB> has a <direction> consequence.",
+                         "<eventA> should <neg> occur."
+                    ],
+                    "cqs": [
+                         "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if <neg> <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "If the State has taken a moral position, then terrible harm it's done may plausibly occur.",
+                         "terrible harm it's done has a negative consequence.",
+                         "the State has taken a moral position should not occur."
+                    ],
+                    "instantiated_cqs": [
+                         "If the State has taken a moral position, will terrible harm it's done occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if not the State has taken a moral position?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "Melanie: \"Well the State has taken a moral position\nthat position was non-judgmentalism\nand terrible harm it\u2019s done\nIt\u2019s created a lot of victims who now need help themselves, and who sometimes go on to create other victims through crime\n I think they do need help\nbut that help should be very carefully calibrated, to restore the capacity for independence and personal responsibility\""
+     },
+     "Kenan_65": {
+          "id": "Kenan_65",
+          "IDS": [
+               "38912"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Is it your view that what we have here is a group of people who can\u2019t impose moral standards on their own lives, and need help to impose those standards on their lives?",
+          "SENTENCES": [
+               "Is it your view that what we have here is a group of people who can\u2019t impose moral standards on their own lives, and need help to impose those standards on their lives?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "Kenan: \"Is it your view that what we have here is a group of people who can\u2019t impose moral standards on their own lives, and need help to impose those standards on their lives?\""
+     },
+     "Helen__66": {
+          "id": "Helen__66",
+          "IDS": [
+               "37647",
+               "38919",
+               "37662",
+               "37668",
+               "37674"
+          ],
+          "SCHEMES": [
+               "PositiveConsequences",
+               "Example"
+          ],
+          "ARGS": [
+               "37674_37668",
+               "38919_37647"
+          ],
+          "INTERVENTION": "they\u2019re not able to impose the right sort of levels\nand within that bracket I would certainly put families who are living with very high levels of aggression and violence, who are terrorising communities\nSo, yes I\u2019d agree with that\nBut I would also say that there are other families, where actually they do need a great deal of help\nit\u2019s right to intervene\nand actually you can help them get back on their feet and able to parent their children effectively",
+          "SENTENCES": [
+               "they\u2019re not able to impose the right sort of levels",
+               "and within that bracket I would certainly put families who are living with very high levels of aggression and violence, who are terrorising communities",
+               "But I would also say that there are other families, where actually they do need a great deal of help",
+               "it\u2019s right to intervene",
+               "and actually you can help them get back on their feet and able to parent their children effectively"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "37674_37668",
+                    "scheme": "PositiveConsequences",
+                    "propositions": [
+                         "you can help them get back on their feet and able to parent their children effectively",
+                         "it\u2019s right to intervene"
+                    ],
+                    "premises": [
+                         "If <eventA>, then <eventB> may plausibly occur.",
+                         "<eventB> has a <direction> consequence.",
+                         "<eventA> should <neg> occur."
+                    ],
+                    "cqs": [
+                         "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if <neg> <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "If you intervene, then you can help families get back on their feet and able to parent their children may plausibly occur.",
+                         "you can help families get back on their feet and able to parent their children has a positive consequence.",
+                         "you intervene should  occur."
+                    ],
+                    "instantiated_cqs": [
+                         "If you intervene, will you can help families get back on their feet and able to parent their children occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if  you intervene?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "38919_37647",
+                    "scheme": "Example",
+                    "propositions": [
+                         "within that bracket Helen would certainly put families who are living with very high levels of aggression and violence, who are terrorising communities",
+                         "they\u2019re not able to impose the right sort of levels"
+                    ],
+                    "premises": [
+                         "In this particular case, <subjecta> <featF> and also <featG>.",
+                         "Therefore, other <subjectx> that <featF>, might also <featG>."
+                    ],
+                    "cqs": [
+                         "Is it actually the case that <subjecta> <featF> and <featG>? Is there evidence on this claim?",
+                         "Is <subjecta> actually a typical case of other <subjectx> that <featF>? How widely applicable is the generalisation?",
+                         "Are there special circumstances pertaining to <subjecta> that undermine its generalisability to other <subjectx> that <featF>?"
+                    ],
+                    "instantiated_premises": "",
+                    "instantiated_cqs": "",
+                    "comment": "lack of context"
+               }
+          ],
+          "VISUAL_INTERVENTION": "Helen: \"they\u2019re not able to impose the right sort of levels\nand within that bracket I would certainly put families who are living with very high levels of aggression and violence, who are terrorising communities\nSo, yes I\u2019d agree with that\nBut I would also say that there are other families, where actually they do need a great deal of help\nit\u2019s right to intervene\nand actually you can help them get back on their feet and able to parent their children effectively\""
+     },
+     "MB_67": {
+          "id": "MB_67",
+          "IDS": [
+               "46572"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Christian Guy, thanks very much indeed.\nOur last witness is Alexander Brown, who\u2019s a senior lecturer in Contemporary Social and Political Thought, at the University of East Anglia, and who\u2019s author of \u2018Personal Responsibility: Why It Matters\u2019.\nI suppose the big issue here is where the boundary should lie between the family and the State; how much the State should be allowed to, well interfere I suppose is value laden, intervene.",
+          "SENTENCES": [
+               "I suppose the big issue here is where the boundary should lie between the family and the State; how much the State should be allowed to, well interfere I suppose is value laden, intervene."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MB: \"Christian Guy, thanks very much indeed.\nOur last witness is Alexander Brown, who\u2019s a senior lecturer in Contemporary Social and Political Thought, at the University of East Anglia, and who\u2019s author of \u2018Personal Responsibility: Why It Matters\u2019.\nI suppose the big issue here is where the boundary should lie between the family and the State; how much the State should be allowed to, well interfere I suppose is value laden, intervene.\""
+     },
+     "AB_68": {
+          "id": "AB_68",
+          "IDS": [
+               "46579",
+               "46580",
+               "46581",
+               "46582",
+               "46583"
+          ],
+          "SCHEMES": [
+               "Analogy"
+          ],
+          "ARGS": [
+               "46580_46581"
+          ],
+          "INTERVENTION": "Indeed.\n I think there should be a careful balancing act of freedom.\nLiberal societies have often known that the family can be a nexus for forms of unequal opportunity, but we don\u2019t abolish the family.\nFor the same reasons we should be very circumspect in the way we intervene in families,\n if you would like to consider the concept of non domination, freedom as non domination \u2013 the non interference on arbitrary grounds in people\u2019s important decisions \u2013 then we have to be careful that when we do intervene it\u2019s to increase total non domination.\nWhich would mean not interfering simply because people are mad, sad and bad, but because they are imposing domination on their neighbours.",
+          "SENTENCES": [
+               " I think there should be a careful balancing act of freedom.",
+               "Liberal societies have often known that the family can be a nexus for forms of unequal opportunity, but we don\u2019t abolish the family.",
+               "For the same reasons we should be very circumspect in the way we intervene in families,",
+               " if you would like to consider the concept of non domination, freedom as non domination \u2013 the non interference on arbitrary grounds in people\u2019s important decisions \u2013 then we have to be careful that when we do intervene it\u2019s to increase total non domination.",
+               "Which would mean not interfering simply because people are mad, sad and bad, but because they are imposing domination on their neighbours."
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "46580_46581",
+                    "scheme": "Analogy",
+                    "propositions": [
+                         "Liberal societies have often known that the family can be a nexus for forms of unequal opportunity, but we don\u2019t abolish the family.",
+                         "we should be very circumspect in the way we intervene in families,"
+                    ],
+                    "premises": [
+                         "Generally, the situation in <C2> is similar to the situation in <C1>.",
+                         "<eventA> is true in <C1>.",
+                         "<eventA> is true in <C2>."
+                    ],
+                    "cqs": [
+                         "Are <C1> and <C2> similar in the respect cited?",
+                         "Is <eventA> true in <C1>?",
+                         "Are there differences between <C1> and <C2> that would tend to undermine the force of the similarity cited?",
+                         "Is there some other case that is also similar to <C1>, but in which <eventA> is false?"
+                    ],
+                    "instantiated_premises": [
+                         "Generally, the situation in the intervention of the State can be the origin of unequal opportunities is similar to the situation in the intervention of the family can be the origin of unequal opportunities.",
+                         "we don't abolish it is true in the intervention of the family can be the origin of unequal opportunities.",
+                         "we don't abolish it is true in the intervention of the State can be the origin of unequal opportunities."
+                    ],
+                    "instantiated_cqs": [
+                         "Are the intervention of the family can be the origin of unequal opportunities and the intervention of the State can be the origin of unequal opportunities similar in the respect cited?",
+                         "Is we don't abolish it true in the intervention of the family can be the origin of unequal opportunities?",
+                         "Are there differences between the intervention of the family can be the origin of unequal opportunities and the intervention of the State can be the origin of unequal opportunities that would tend to undermine the force of the similarity cited?",
+                         "Is there some other case that is also similar to the intervention of the family can be the origin of unequal opportunities, but in which we don't abolish it is false?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "AB: \"Indeed.\n I think there should be a careful balancing act of freedom.\nLiberal societies have often known that the family can be a nexus for forms of unequal opportunity, but we don\u2019t abolish the family.\nFor the same reasons we should be very circumspect in the way we intervene in families,\n if you would like to consider the concept of non domination, freedom as non domination \u2013 the non interference on arbitrary grounds in people\u2019s important decisions \u2013 then we have to be careful that when we do intervene it\u2019s to increase total non domination.\nWhich would mean not interfering simply because people are mad, sad and bad, but because they are imposing domination on their neighbours.\""
+     },
+     "JL_69": {
+          "id": "JL_69",
+          "IDS": [
+               "30677",
+               "30680",
+               "30684",
+               "30688",
+               "30694",
+               "30697",
+               "30703",
+               "30706",
+               "30715",
+               "30721"
+          ],
+          "SCHEMES": [
+               "PositiveConsequences",
+               "PositiveConsequences",
+               "PositiveConsequences",
+               "PositiveConsequences",
+               "PositiveConsequences",
+               "PositiveConsequences"
+          ],
+          "ARGS": [
+               "30688_30684",
+               "30721_30715"
+          ],
+          "INTERVENTION": "So, if I want a washing machine, I have to go to the launderette every week at the moment and spend several pounds in the launderette.\nBut, if I buy the washing machine, on credit, I can have my own washing machine, for pretty much the same amount of money that I'm spending in the launderette\nThat seems to me to be beneficial\nIt raises living standards\nAnd this idea of usury has been \u2013 well, it\u2019s been fiddled, hasn\u2019t it, over the years?\nBecause why did we have money lenders from one religious persuasion unable to lend to their own persuasion, but happily would lend to those of another religious persuasion?\n I don\u2019t buy that at all\nI think that credit raises living standards\nIt\u2019s beneficial to people\nbecause it allows them to fund today\u2019s purchases out of their future income",
+          "SENTENCES": [
+               "So, if I want a washing machine, I have to go to the launderette every week at the moment and spend several pounds in the launderette.",
+               "But, if I buy the washing machine, on credit, I can have my own washing machine, for pretty much the same amount of money that I'm spending in the launderette",
+               "That seems to me to be beneficial",
+               "It raises living standards",
+               "And this idea of usury has been \u2013 well, it\u2019s been fiddled, hasn\u2019t it, over the years?",
+               "Because why did we have money lenders from one religious persuasion unable to lend to their own persuasion, but happily would lend to those of another religious persuasion?",
+               " I don\u2019t buy that at all",
+               "I think that credit raises living standards",
+               "It\u2019s beneficial to people",
+               "because it allows them to fund today\u2019s purchases out of their future income"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [
+               {
+                    "id": "30688_30684",
+                    "scheme": "PositiveConsequences",
+                    "propositions": [
+                         "It raises living standards",
+                         "That seems to JL to be beneficial"
+                    ],
+                    "premises": [
+                         "If <eventA>, then <eventB> may plausibly occur.",
+                         "<eventB> has a <direction> consequence.",
+                         "<eventA> should <neg> occur."
+                    ],
+                    "cqs": [
+                         "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if <neg> <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "If buying a washing machine on credit, then living standards would raise may plausibly occur.",
+                         "living standards would raise has a positive consequence.",
+                         "buying a washing machine on credit should  occur."
+                    ],
+                    "instantiated_cqs": [
+                         "If buying a washing machine on credit, will living standards would raise occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if  buying a washing machine on credit?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "30688_30684",
+                    "scheme": "PositiveConsequences",
+                    "propositions": [
+                         "It raises living standards",
+                         "That seems to JL to be beneficial"
+                    ],
+                    "premises": [
+                         "If <eventA>, then <eventB> may plausibly occur.",
+                         "<eventB> has a <direction> consequence.",
+                         "<eventA> should <neg> occur."
+                    ],
+                    "cqs": [
+                         "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if <neg> <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "If buying a washing machine on credit, then living standards would raise may plausibly occur.",
+                         "living standards would raise has a positive consequence.",
+                         "buying a washing machine on credit should  occur."
+                    ],
+                    "instantiated_cqs": [
+                         "If buying a washing machine on credit, will living standards would raise occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if  buying a washing machine on credit?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "30688_30684",
+                    "scheme": "PositiveConsequences",
+                    "propositions": [
+                         "It raises living standards",
+                         "That seems to JL to be beneficial"
+                    ],
+                    "premises": [
+                         "If <eventA>, then <eventB> may plausibly occur.",
+                         "<eventB> has a <direction> consequence.",
+                         "<eventA> should <neg> occur."
+                    ],
+                    "cqs": [
+                         "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if <neg> <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "If buying a washing machine on credit, then living standards would raise may plausibly occur.",
+                         "living standards would raise has a positive consequence.",
+                         "buying a washing machine on credit should  occur."
+                    ],
+                    "instantiated_cqs": [
+                         "If buying a washing machine on credit, will living standards would raise occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if  buying a washing machine on credit?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "30721_30715",
+                    "scheme": "PositiveConsequences",
+                    "propositions": [
+                         "it allows them to fund today\u2019s purchases out of their future income",
+                         "It\u2019s beneficial to people"
+                    ],
+                    "premises": [
+                         "If <eventA>, then <eventB> may plausibly occur.",
+                         "<eventB> has a <direction> consequence.",
+                         "<eventA> should <neg> occur."
+                    ],
+                    "cqs": [
+                         "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if <neg> <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "If people can fund today's purchases out of their future income, then people can benefit from it may plausibly occur.",
+                         "people can benefit from it has a positive consequence.",
+                         "people can fund today's purchases out of their future income should  occur."
+                    ],
+                    "instantiated_cqs": [
+                         "If people can fund today's purchases out of their future income, will people can benefit from it occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if  people can fund today's purchases out of their future income?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "30721_30715",
+                    "scheme": "PositiveConsequences",
+                    "propositions": [
+                         "it allows them to fund today\u2019s purchases out of their future income",
+                         "It\u2019s beneficial to people"
+                    ],
+                    "premises": [
+                         "If <eventA>, then <eventB> may plausibly occur.",
+                         "<eventB> has a <direction> consequence.",
+                         "<eventA> should <neg> occur."
+                    ],
+                    "cqs": [
+                         "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if <neg> <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "If people can fund today's purchases out of their future income, then people can benefit from it may plausibly occur.",
+                         "people can benefit from it has a positive consequence.",
+                         "people can fund today's purchases out of their future income should  occur."
+                    ],
+                    "instantiated_cqs": [
+                         "If people can fund today's purchases out of their future income, will people can benefit from it occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if  people can fund today's purchases out of their future income?"
+                    ],
+                    "comment": ""
+               },
+               {
+                    "id": "30721_30715",
+                    "scheme": "PositiveConsequences",
+                    "propositions": [
+                         "it allows them to fund today\u2019s purchases out of their future income",
+                         "It\u2019s beneficial to people"
+                    ],
+                    "premises": [
+                         "If <eventA>, then <eventB> may plausibly occur.",
+                         "<eventB> has a <direction> consequence.",
+                         "<eventA> should <neg> occur."
+                    ],
+                    "cqs": [
+                         "If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if <neg> <eventA>?"
+                    ],
+                    "instantiated_premises": [
+                         "If people can fund today's purchases out of their future income, then people can benefit from it may plausibly occur.",
+                         "people can benefit from it has a positive consequence.",
+                         "people can fund today's purchases out of their future income should  occur."
+                    ],
+                    "instantiated_cqs": [
+                         "If people can fund today's purchases out of their future income, will people can benefit from it occur? What evidence supports this claim? How likely are the consequences?",
+                         "What other consequences should also be taken into account if  people can fund today's purchases out of their future income?"
+                    ],
+                    "comment": ""
+               }
+          ],
+          "VISUAL_INTERVENTION": "JL: \"So, if I want a washing machine, I have to go to the launderette every week at the moment and spend several pounds in the launderette.\nBut, if I buy the washing machine, on credit, I can have my own washing machine, for pretty much the same amount of money that I'm spending in the launderette\nThat seems to me to be beneficial\nIt raises living standards\nAnd this idea of usury has been \u2013 well, it\u2019s been fiddled, hasn\u2019t it, over the years?\nBecause why did we have money lenders from one religious persuasion unable to lend to their own persuasion, but happily would lend to those of another religious persuasion?\n I don\u2019t buy that at all\nI think that credit raises living standards\nIt\u2019s beneficial to people\nbecause it allows them to fund today\u2019s purchases out of their future income\""
+     },
+     "MT_70": {
+          "id": "MT_70",
+          "IDS": [
+               "30971",
+               "30974"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Do you think that these companies, in their marketing departments, sit down and say to themselves, \u201cWhen we\u2019re advertising our products, we should make sure that consumers really, really, really understand what they\u2019re getting in for\u201d? Or do you think they sit down and think, \u201cHow can we get customers to buy our products, by putting in the shop window the most generous possible figures in the hope that they won\u2019t understand that that\u2019s just an offer to lure them in\u201d?\nWhat do you think is the nature of the conversation in the marketing departments?",
+          "SENTENCES": [
+               "Do you think that these companies, in their marketing departments, sit down and say to themselves, \u201cWhen we\u2019re advertising our products, we should make sure that consumers really, really, really understand what they\u2019re getting in for\u201d? Or do you think they sit down and think, \u201cHow can we get customers to buy our products, by putting in the shop window the most generous possible figures in the hope that they won\u2019t understand that that\u2019s just an offer to lure them in\u201d?",
+               "What do you think is the nature of the conversation in the marketing departments?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MT: \"Do you think that these companies, in their marketing departments, sit down and say to themselves, \u201cWhen we\u2019re advertising our products, we should make sure that consumers really, really, really understand what they\u2019re getting in for\u201d? Or do you think they sit down and think, \u201cHow can we get customers to buy our products, by putting in the shop window the most generous possible figures in the hope that they won\u2019t understand that that\u2019s just an offer to lure them in\u201d?\nWhat do you think is the nature of the conversation in the marketing departments?\""
+     },
+     "JL_71": {
+          "id": "JL_71",
+          "IDS": [
+               "30980"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "Well, I think the main conversation ",
+          "SENTENCES": [
+               "Well, I think the main conversation is, \u201cHow do we do compliant adverts?\u201d"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "JL: \"Well, I think the main conversation \""
+     },
+     "MT_72": {
+          "id": "MT_72",
+          "IDS": [
+               "30984"
+          ],
+          "SCHEMES": [],
+          "ARGS": [],
+          "INTERVENTION": "In the marketing department?",
+          "SENTENCES": [
+               "In the marketing department?"
+          ],
+          "comment": {
+               "added": []
+          },
+          "FULL_ARGS": [],
+          "VISUAL_INTERVENTION": "MT: \"In the marketing department?\""
+     }
+}

@@ -1,0 +1,8 @@
+interventions in trial: 20
+dataset count_interventions count_theory_cqs count_llm_cqs ratio_theory_cqs ratio_llm_cqs
+moral_maze_schemes 18 74 428 4.11 23.78
+US2016 79 827 1697 10.47 21.48
+us2016reddit 6 27 235 4.5 39.17
+rrd 42 226 1374 5.38 32.71
+all cqs: 4888
+cqs without trial interventions: 4480

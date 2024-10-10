@@ -1,0 +1,10 @@
+scripts/utils/config.yaml
+logs
+*.slurm
+data/llm_generation/
+env
+project*
+scripts/evaluations/usefulness/
+data/annotated/
+data/to_annotate/
+data/originals/tacl_arg_rel

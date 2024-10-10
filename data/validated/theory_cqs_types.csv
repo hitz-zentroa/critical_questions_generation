@@ -1,0 +1,184 @@
+NAME,PREMISES,CQ,MY taxonomy,BOOK taxonomy,Burden of proof taxonomy,"(1) premise: premise acceptability
+(2) link: acceptability of the link, relative to some given standard of evidence
+(3) other considerations: whether there are other relevant considerations which would count against the claim at issue
+(4) specific: directed specifically towards features of particular relevance to individual argumentation scheme","Walton, 2005 citing Pinto, Blaiur, Parr 1993"
+Sign,"<eventA> is true in this situation.
+<eventA> is often a sign of situations in which <eventB> is true.
+<eventB> might be true in this situation.",Is there a proved relation between '<eventB>' and '<eventA>'?,relation,premise,arguer,"(1) burden-of-proof to questioner
+(2) burden-of-proof to arguer
+(3) no burden-of-proof",
+Sign,"<eventA> is true in this situation.
+<eventA> is often a sign of situations in which <eventB> is true.
+<eventB> might be true in this situation.",Are there any events other than <eventB> that would more reliably account for <eventA>?,alternative,other considerations,questioner,,
+Example,"In this particular case, <subjecta> <featF> and also <featG>.
+Therefore, other <subjectx> that <featF>, might also <featG>.",Is it actually the case that <subjecta> <featF> <featG>? Is there evidence on this claim?,evidence,premise & link,arguer,,
+Example,"In this particular case, <subjecta> <featF> and also <featG>.
+Therefore, other <subjectx> that <featF>, might also <featG>.",Is <subjecta> actually a typical case of other <subjectx> that <featF>? How widely applicable is the generalisation?,relation,link,arguer,,
+Example,"In this particular case, <subjecta> <featF> and also <featG>.
+Therefore, other <subjectx> that <featF>, might also <featG>.",Are there special circumstances pertaining to <subjecta> that undermine its generalisability to other <subjectx> that <featF>?,exception,other considerations,questioner,,
+VerbalClassification,"Generally, if <subjectx> <featF>, then it can be the case that <featG>.
+<subjecta> <featF>.
+Therefore, <subjecta> <featG>.","Is it the case that <subjecta> <featF>, or is there room for doubt?",evidence,premise,questioner,,
+VerbalClassification,"Generally, if <subjectx> <featF>, then it can be the case that <featG>.
+<subjecta> <featF>.
+Therefore, <subjecta> <featG>.","Is there a proved relation between situations in which ""<featF>"" and situations in which ""<featG>""?",relation,link,arguer,,
+VerbalClassification,"Generally, if <subjectx> <featF>, then it can be the case that <featG>.
+<subjecta> <featF>.
+Therefore, <subjecta> <featG>.",Is it possible for the particular case of <subjecta> that <featG> is not the case?,exception,other considerations,questioner,,
+PositionToKnow,"<subjecta> is in a position to know whether it is the case that <eventA>.
+<subjecta> asserts that it is the case that <eventA>.
+<eventA> is the case.",Is <subjecta> in a position to know whether <eventA>?,source,premise,questioner,,
+PositionToKnow,"<subjecta> is in a position to know whether it is the case that <eventA>.
+<subjecta> asserts that it is the case that <eventA>.
+<eventA> is the case.","Is <subjecta> an honest (trustworthy, reliable) source?",source,specific,,,
+PositionToKnow,"<subjecta> is in a position to know whether it is the case that <eventA>.
+<subjecta> asserts that it is the case that <eventA>.
+<eventA> is the case.",Did <subjecta> assert that <eventA>?,evidence,premise,,,
+ExpertOpinion,"<expertE> is an expert in domain <domainD>.
+<expertE> asserts that <eventA> is known to be true.
+<eventA> is within <domainD>.
+<eventA> may plausibly be taken to be true.",Is <expertE> a genuine expert in <domainD>?,source,specific,,,
+ExpertOpinion,"<expertE> is an expert in domain <domainD>.
+<expertE> asserts that <eventA> is known to be true.
+<eventA> is within <domainD>.
+<eventA> may plausibly be taken to be true.",Did <expertE> really assert that <eventA>?,evidence,premise,,,
+ExpertOpinion,"<expertE> is an expert in domain <domainD>.
+<expertE> asserts that <eventA> is known to be true.
+<eventA> is within <domainD>.
+<eventA> may plausibly be taken to be true.","Is <expertE>'s pronouncement directly quoted? If not, is a reference to the original source given? Can it be checked?",evidence,specific,no,,
+ExpertOpinion,"<expertE> is an expert in domain <domainD>.
+<expertE> asserts that <eventA> is known to be true.
+<eventA> is within <domainD>.
+<eventA> may plausibly be taken to be true.","If <expertE>'s advice is not quoted, does it look like important information or qualifications may have been left out?",-,specific,no,,
+ExpertOpinion,"<expertE> is an expert in domain <domainD>.
+<expertE> asserts that <eventA> is known to be true.
+<eventA> is within <domainD>.
+<eventA> may plausibly be taken to be true.",Is what <expertE> said clear? Are there technical terms used that are not explained clearly?,-,specific,no,,
+ExpertOpinion,"<expertE> is an expert in domain <domainD>.
+<expertE> asserts that <eventA> is known to be true.
+<eventA> is within <domainD>.
+<eventA> may plausibly be taken to be true.",Is <eventA> relevant to domain <domainD>?,relation,specific,no,,
+ExpertOpinion,"<expertE> is an expert in domain <domainD>.
+<expertE> asserts that <eventA> is known to be true.
+<eventA> is within <domainD>.
+<eventA> may plausibly be taken to be true.",Is <eventA> consistent with what other experts in <domainD> say?,source,specific,questioner,,
+ExpertOpinion,"<expertE> is an expert in domain <domainD>.
+<expertE> asserts that <eventA> is known to be true.
+<eventA> is within <domainD>.
+<eventA> may plausibly be taken to be true.",Is <eventA> consistent with known evidence in <domainD>?,evidence,specific,,,
+CauseToEffect,"Generally, if <eventA>, then <eventB> might occur.
+In this case, <eventA>.
+In this case, <eventB> might occur.",How strong is the generalisation that if <eventA> then <eventB>?,relation,link,,,
+CauseToEffect,"Generally, if <eventA>, then <eventB> might occur.
+In this case, <eventA>.
+In this case, <eventB> might occur.",Are there other factors in this particular case that could have interfered with the event of '<eventB>'?,exception,other considerations,,,
+Consequences,"If <eventA>, then <eventB> may plausibly occur.
+<eventB> has a <direction> consequence.
+<eventA> should <neg> occur.","If <eventA>, will <eventB> occur? What evidence supports this claim? How likely are the consequences?",evidence,premise & link,,,
+Consequences,"If <eventA>, then <eventB> may plausibly occur.
+<eventB> has a <direction> consequence.
+<eventA> should <neg> occur.",What other consequences should also be taken into account if <neg> <eventA>?,consequences,other considerations,,,
+Analogy,"Generally, the situation in <C2> is similar to the situation in <C1>.
+<eventA> is true in <C1>.
+<eventA> is true in <C2>.",Are <C1> and <C2> similar in the respect cited?,relation,premise,,,
+Analogy,"Generally, the situation in <C2> is similar to the situation in <C1>.
+<eventA> is true in <C1>.
+<eventA> is true in <C2>.",Is <eventA> true in <C1>?,evidence,premise,,,
+Analogy,"Generally, the situation in <C2> is similar to the situation in <C1>.
+<eventA> is true in <C1>.
+<eventA> is true in <C2>.",Are there differences between <C1> and <C2> that would tend to undermine the force of the similarity cited?,exception,link,,,
+Analogy,"Generally, the situation in <C2> is similar to the situation in <C1>.
+<eventA> is true in <C1>.
+<eventA> is true in <C2>.","Is there some other case that is also similar to <C1>, but in which <eventA> is false?",exception,other considerations,,,
+PopularOpinion,"If <large_majority> accept <eventA> as true, then there exists a presumption in favour of <eventA>.
+<large_majority> accept <eventA> as true.
+There exists a presumption in favour of <eventA>.",What evidence supports that <eventA> is generally accepted as true?,evidence,link,,,
+PopularOpinion,"If <large_majority> accept <eventA> as true, then there exists a presumption in favour of <eventA>.
+<large_majority> accept <eventA> as true.
+There exists a presumption in favour of <eventA>.","Even if <eventA> is generally accepted as true, are there any good reasons for doubting that it is true?",exception,other considerations,,,
+PopularPractice,"If <large_majority> acts as though <eventA> is the right thing to do, then <eventA> is a prudent course of action.
+<large_majority> acts as though <eventA> is the right thing to do.
+<eventA> is a prudent course of action.",What actions or other indications show that <large_majority> accept that <eventA> is the right thing to do?,evidence,link,,,
+PopularPractice,"If <large_majority> acts as though <eventA> is the right thing to do, then <eventA> is a prudent course of action.
+<large_majority> acts as though <eventA> is the right thing to do.
+<eventA> is a prudent course of action.","Even if <large_majority> accepts <eventA> is the right thing to do, are there grounds for thinking they are justified in accepting it as a prudent course of action?",exception,other considerations,,,
+Bias,"<subjecta> is <subejctx>.
+<subjectx> are biased regarding the matter of <eventA>
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at <eventA>.
+It is less likely that <subjecta> has taken the evidence on both sides of the issue into account.",What evidence is there that <subjecta> is <subjectx>? Could <subjecta> have taken evidence on many sides even if <subjecta> is <subjectx>?,evidence,link & other considerations,,,
+Bias,"<subjecta> is <subejctx>.
+<subjectx> are biased regarding the matter of <eventA>
+If someone is biased, then it is less likely that they have taken the evidence on both sides of the issue into account in arriving at <eventA>.
+It is less likely that <subjecta> has taken the evidence on both sides of the issue into account.",Does the matter of <eventA> require <subjecta> to take evidence on many sides?,other,specific,,,
+GenericAdHominem,"If <subjecta> <eventA>, it does not make sense that <subjecta> <eventB>.
+Therefore, arguments from <subjecta> can't be trusted.",How does the allegation made affect the reliability of <subjecta>?,source,link,,,
+GenericAdHominem,"If <subjecta> <eventA>, it does not make sense that <subjecta> <eventB>.
+Therefore, arguments from <subjecta> can't be trusted.",Is the reliability of <subjecta> relevant in the current dialogue?,source,specific,,,
+PracticalReasoning,"There is the goal of <goalG>.
+Carrying out the action of <eventA> is a means to realize <goalG>.
+Therefore, <eventA> ought to occur.",Are there other relevant goals that conflict with <goalG>?,relation,other considerations,,,
+PracticalReasoning,"There is the goal of <goalG>.
+Carrying out the action of <eventA> is a means to realize <goalG>.
+Therefore, <eventA> ought to occur.","Are there alternative actions to <eventA> to achieve <goalG>? If so, which is the most efficient action?",alternative,other considerations,,,
+PracticalReasoning,"There is the goal of <goalG>.
+Carrying out the action of <eventA> is a means to realize <goalG>.
+Therefore, <eventA> ought to occur.",Could <eventA> have consequences that we should take into account? Is it practically possible?,consequences,other considerations,,,
+Alternatives,"Either <eventA> or <eventB> can be the case.
+<eventA> is plausibly not the case.
+<eventB> is plausably the case.",Can <eventB> happen even if <eventA> is the case?,exception,premise,,,
+Alternatives,"Either <eventA> or <eventB> can be the case.
+<eventA> is plausibly not the case.
+<eventB> is plausably the case.",Is <eventA> plausibly not the case? What evidence supports this claim?,evidence,premise & link,,,
+DangerAppeal,"If <eventA>, then <eventB>.
+<eventB> is a danger.
+Therefore, <eventA> should not occur.","If <eventA>, will <eventB> occur? What evidence supports this claim?",evidence,premise & link,,,
+DangerAppeal,"If <eventA>, then <eventB>.
+<eventB> is a danger.
+Therefore, <eventA> should not occur.",Why is <eventB> a danger? To whom is <eventB> a danger?,premise questioning,specific,,,
+DangerAppeal,"If <eventA>, then <eventB>.
+<eventB> is a danger.
+Therefore, <eventA> should not occur.",Is there a way of preventing <eventA>?,alternative,specific,,,
+DangerAppeal,"If <eventA>, then <eventB>.
+<eventB> is a danger.
+Therefore, <eventA> should not occur.",Are there other consequences of preventing <eventA> that we should take into account?,consequences,other considerations,,,
+Values,"<valueV> is <direction> as judged by <subjecta>.
+The fact that <valueV> is <direction> affects tha interpretation and therefore the evaluation of <goalG> of <subjecta>.
+<valueV> is a reason for retaining (or retracting) commitment to <goalG>.",Is <valueV> seen as <direction> for most people?,evidence,link,,,
+Values,"<valueV> is <direction> as judged by <subjecta>.
+The fact that <valueV> is <direction> affects tha interpretation and therefore the evaluation of <goalG> of <subjecta>.
+<valueV> is a reason for retaining (or retracting) commitment to <goalG>.",Are there reasons to believe that <valueV> is not <direction> in this situation?,exception,link,,,
+Values,"<valueV> is <direction> as judged by <subjecta>.
+The fact that <valueV> is <direction> affects tha interpretation and therefore the evaluation of <goalG> of <subjecta>.
+<valueV> is a reason for retaining (or retracting) commitment to <goalG>.","Will a subject that sees <valueV> as not <direction> agree with retaining commitment to ""<goalG>""?",other,specific,,,
+FearAppeal,"If not <eventA>, then <eventB>.
+<eventB> is bad.
+Therefore, <eventB> ought to be prevented if possible.
+But the only way to prevent <eventB> is <eventA>.
+Therefore, <eventA> ought to occur.",Is <eventB> bad? Why and to whom is it bad?,evidence,premise,,,
+FearAppeal,"If not <eventA>, then <eventB>.
+<eventB> is bad.
+Therefore, <eventB> ought to be prevented if possible.
+But the only way to prevent <eventB> is <eventA>.
+Therefore, <eventA> ought to occur.",Is <eventA> a way to prevent <eventB>?,relation,premise,,,
+FearAppeal,"If not <eventA>, then <eventB>.
+<eventB> is bad.
+Therefore, <eventB> ought to be prevented if possible.
+But the only way to prevent <eventB> is <eventA>.
+Therefore, <eventA> ought to occur.",Is it practically possible for <eventA> to happen?,other,link,,,
+FearAppeal,"If not <eventA>, then <eventB>.
+<eventB> is bad.
+Therefore, <eventB> ought to be prevented if possible.
+But the only way to prevent <eventB> is <eventA>.
+Therefore, <eventA> ought to occur.",Are there other consequences from <eventA>?,consequences,other considerations,,,
+CircumstantialAdHominem,"<subjecta> advocates for <argument1>, which implies <eventA>.
+<subjecta> is personally committed to the opposite of <eventA>, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+<subjecta>',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of <subjecta>'s argument is decreased or destroyed.",Does <argument1> imply <eventA>?,relation,premise,no,,
+CircumstantialAdHominem,"<subjecta> advocates for <argument1>, which implies <eventA>.
+<subjecta> is personally committed to the opposite of <eventA>, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+<subjecta>',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of <subjecta>'s argument is decreased or destroyed.","Can the practical inconsistency between <subjecta>'s commitments and ""<eventA>"" be identified? Can it be shown by evidence? Could it be explained by further dialogue?",relation,link & other considerations,,,
+CircumstantialAdHominem,"<subjecta> advocates for <argument1>, which implies <eventA>.
+<subjecta> is personally committed to the opposite of <eventA>, as shown by the commitments expressed in their personal actions or personal circumstances expressing such commitments.
+<subjecta>',s credibility as a sincere person who believes in their own argument has been put into question.
+The plausibility of <subjecta>'s argument is decreased or destroyed.","Does the inconsistency between <subjecta>'s commitments and ""<eventA>"" result in a decrease of credibility for <subjecta>? Does <subjecta>'s argument depend in its credibility in this context?",relation,link & specific,no,,
